@@ -1,0 +1,16 @@
+* text=auto
+*.kicad_pro text
+*.kicad_sch text
+*.kicad_pcb text
+*.kicad_mod text
+*.kicad_sym text
+*.kicad_dru text
+*.md text
+*.csv text
+*.step binary
+*.stp binary
+*.wrl binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary

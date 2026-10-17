@@ -14,3 +14,6 @@ checkpoints/
 Thumbs.db
 .DS_Store
 __pycache__/
+.history/
+models3d/YD-ESP32-S3.step
+models3d/PCM5102-I2S.step

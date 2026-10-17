@@ -1,0 +1,9 @@
+# Pochodzenie i licencje
+
+- [shkuznetsov/YD-ESP32-S3](https://github.com/shkuznetsov/YD-ESP32-S3), commit bb410449c3d5ee20096ff273d6c1081c5dd6228f: MIT według repozytorium; README zachowuje autorstwo modelu STEP David Scambell / GrabCAD. Źródła i licencja zachowane.
+- [besi/kicad-esp32-wemos-d1-mini](https://github.com/besi/kicad-esp32-wemos-d1-mini), commit ff133298b64dd4bfacdf1072c177d96808e52ed5: brak jednoznacznej licencji. Tylko analiza pinoutu i faktów geometrycznych; plików forka i jego STEP nie rozpowszechniono.
+- [r0oland/ESP32_mini_KiCad_Library](https://github.com/r0oland/ESP32_mini_KiCad_Library), commit 52eb9406af7e24e37ef1f6066a2b917f8618d1f5: Apache-2.0. Licencjonowany upstream o identycznych wszystkich 40 współrzędnych padów. Zmiany M1: tylko wewnętrzne listwy, nowa numeracja1–10, podstawki, obrysy, opisy i modele gniazd. Zapisane oryginały, README i LICENSE w external_sources.
+- [sstojos/zynthian-miniature](https://github.com/sstojos/zynthian-miniature), commit 872788b6b438185327aa1d910883230fe8f35ef5: GPL-3.0. Oryginalny GY-PCM5102.kicad_mod, legacy gy-pcm5102.lib, STEP i tekst licencji zachowane. Modyfikacje w edytowalnej lokalnej bibliotece: numeracja A/B, gniazda żeńskie, courtyard i adnotacje PROVISIONAL. STEP odłączony po kontroli dopasowania.
+- Standardowe footprinty i modele KiCad: CC-BY-SA-4.0 + wyjątek KiCad; teksty licencji dołączone, nazwy i pochodzenie zachowane. Nie wprowadzano bibliotek globalnych.
+
+Wszystkie aktywne modele używają `${KIPRJMOD}/models3d/...`. Lokalne biblioteki wskazuje fp-lib-table. Dokładne oryginalne ścieżki, hashe i deklaracje: reports/FP2_MODEL_SOURCES.json, reports/FP2_ASSET_LICENSES.json oraz external_sources/*/SOURCE_AUDIT.json. Pliki zmienione nie są przedstawiane jako oryginały autorów. Użycie nie stanowi potwierdzenia mechaniki konkretnego klona.

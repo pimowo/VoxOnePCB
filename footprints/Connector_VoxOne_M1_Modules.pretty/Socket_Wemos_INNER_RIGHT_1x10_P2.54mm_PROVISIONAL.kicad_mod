@@ -1,0 +1,74 @@
+(footprint "Socket_Wemos_INNER_RIGHT_1x10_P2.54mm_PROVISIONAL"
+  (layer F.Cu)
+  (pad "1" thru_hole circle
+    (at 11.43 -11.43 270)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "2" thru_hole circle
+    (at 11.43 -8.89 270)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "3" thru_hole circle
+    (at 11.43 -6.35 270)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "4" thru_hole circle
+    (at 11.43 -3.81 270)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "5" thru_hole circle
+    (at 11.43 -1.27 270)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "6" thru_hole circle
+    (at 11.43 1.27 270)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "7" thru_hole circle
+    (at 11.43 3.81 270)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "8" thru_hole circle
+    (at 11.43 6.35 270)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "9" thru_hole circle
+    (at 11.43 8.89 270)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "10" thru_hole circle
+    (at 11.43 11.43 270)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (fp_rect
+    (start 10.03 -12.83)
+    (end 12.83 12.83)
+    (stroke
+      (width 0.05)
+      (type default))
+    (fill none)
+    (layer "F.CrtYd"))
+  (model "${KIPRJMOD}/models3d/Connector_PinSocket_2.54mm__PinSocket_1x10_P2.54mm_Vertical.step"
+    (offset
+      (xyz 11.43 11.43 0))
+    (scale
+      (xyz 1 1 1))
+    (rotate
+      (xyz 0 0 0)))
+  (fp_text user "ANTENNA - PROVISIONAL"
+    (at 0 -17 0)
+    (layer "Dwgs.User")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12)))))

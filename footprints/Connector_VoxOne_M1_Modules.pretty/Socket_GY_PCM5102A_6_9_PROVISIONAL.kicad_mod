@@ -1,0 +1,320 @@
+(footprint "Socket_GY_PCM5102A_6_9_PROVISIONAL"
+  (layer F.Cu)
+  (fp_text reference REF**
+    (at -8 -3)
+    (layer "Dwgs.User")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15))))
+  (fp_text value GY-PCM5102
+    (at 0.3 -0.5)
+    (layer F.Fab)
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15))))
+  (fp_line
+    (start 12.9 8.5)
+    (end 12.9 10)
+    (layer F.Fab)
+    (width 0.12))
+  (fp_line
+    (start 12.9 8.5)
+    (end 14.3 8.5)
+    (layer F.Fab)
+    (width 0.12))
+  (fp_line
+    (start 15.8 7)
+    (end 15.8 -7)
+    (layer F.Fab)
+    (width 0.12))
+  (fp_line
+    (start 8.2 8.5)
+    (end -14.3 8.5)
+    (layer F.Fab)
+    (width 0.12))
+  (fp_line
+    (start -15.8 -7)
+    (end -15.8 7)
+    (layer F.Fab)
+    (width 0.12))
+  (fp_line
+    (start 12.9 10)
+    (end 8.2 10)
+    (layer F.Fab)
+    (width 0.12))
+  (fp_line
+    (start 8.2 10)
+    (end 8.2 8.5)
+    (layer F.Fab)
+    (width 0.12))
+  (fp_line
+    (start 14.3 -8.5)
+    (end -14.3 -8.5)
+    (layer F.Fab)
+    (width 0.12))
+  (fp_line
+    (start 8.2 8.5)
+    (end -14.3 8.5)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_line
+    (start 12.9 8.5)
+    (end 14.3 8.5)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_line
+    (start 12.9 8.5)
+    (end 12.9 10)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_line
+    (start 8.2 10)
+    (end 8.2 8.5)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_line
+    (start 15.8 7)
+    (end 15.8 -7)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_line
+    (start 12.9 10)
+    (end 8.2 10)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_line
+    (start -15.8 -7)
+    (end -15.8 7)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_line
+    (start 14.3 -8.5)
+    (end -14.3 -8.5)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_line
+    (start 12.9 -4)
+    (end 12.9 10)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_line
+    (start 8.2 -4)
+    (end 12.9 -4)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_line
+    (start 8.2 10)
+    (end 8.2 -4)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_line
+    (start 12.9 10)
+    (end 8.2 10)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_line
+    (start 15.8 7)
+    (end 15.8 -7)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_line
+    (start -14.3 8.5)
+    (end 14.3 8.5)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_line
+    (start -15.8 -7)
+    (end -15.8 7)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_line
+    (start 14.3 -8.5)
+    (end -14.3 -8.5)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_arc
+    (start 14.3 -7)
+    (end 15.8 -7)
+    (angle -90)
+    (layer F.Fab)
+    (width 0.12))
+  (fp_arc
+    (start -14.3 -7)
+    (end -14.3 -8.5)
+    (angle -90)
+    (layer F.Fab)
+    (width 0.12))
+  (fp_arc
+    (start 14.3 7)
+    (end 14.3 8.5)
+    (angle -90)
+    (layer F.Fab)
+    (width 0.12))
+  (fp_arc
+    (start -14.3 7)
+    (end -15.8 7)
+    (angle -90)
+    (layer F.Fab)
+    (width 0.12))
+  (fp_arc
+    (start -14.3 7)
+    (end -15.8 7)
+    (angle -90)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_arc
+    (start 14.3 7)
+    (end 14.3 8.5)
+    (angle -90)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_arc
+    (start 14.3 -7)
+    (end 15.8 -7)
+    (angle -90)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_arc
+    (start -14.3 -7)
+    (end -14.3 -8.5)
+    (angle -90)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_arc
+    (start 14.3 -7)
+    (end 15.8 -7)
+    (angle -90)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_arc
+    (start 14.3 7)
+    (end 14.3 8.5)
+    (angle -90)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_arc
+    (start -14.3 7)
+    (end -15.8 7)
+    (angle -90)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (fp_arc
+    (start -14.3 -7)
+    (end -14.3 -8.5)
+    (angle -90)
+    (layer "Dwgs.User")
+    (width 0.12))
+  (pad "B1" thru_hole circle
+    (at -7.955 -6.985)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "B2" thru_hole circle
+    (at -5.415 -6.985)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "B3" thru_hole circle
+    (at -2.875 -6.985)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "B4" thru_hole circle
+    (at -0.335 -6.985)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "B5" thru_hole circle
+    (at 2.205 -6.985)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "B6" thru_hole circle
+    (at 4.745 -6.985)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "B7" thru_hole circle
+    (at 7.285 -6.985)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "B8" thru_hole circle
+    (at 9.825 -6.985)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "B9" thru_hole circle
+    (at 12.365 -6.985)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "A1" thru_hole circle
+    (at -14.305 -6.35)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "A2" thru_hole circle
+    (at -14.305 -3.81)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "A3" thru_hole circle
+    (at -14.305 -1.27)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "A4" thru_hole circle
+    (at -14.305 1.27)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "A5" thru_hole circle
+    (at -14.305 3.81)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (pad "A6" thru_hole circle
+    (at -14.305 6.35)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu *.Mask))
+  (fp_rect
+    (start -15.705 -7.75)
+    (end -12.905 7.75)
+    (stroke
+      (width 0.05)
+      (type default))
+    (fill none)
+    (layer "F.CrtYd"))
+  (fp_rect
+    (start -9.355 -8.385)
+    (end 13.765 -5.585)
+    (stroke
+      (width 0.05)
+      (type default))
+    (fill none)
+    (layer "F.CrtYd"))
+  (model "${KIPRJMOD}/models3d/Connector_PinSocket_2.54mm__PinSocket_1x06_P2.54mm_Vertical.step"
+    (offset
+      (xyz -14.305 6.35 0))
+    (scale
+      (xyz 1 1 1))
+    (rotate
+      (xyz 0 0 0)))
+  (model "${KIPRJMOD}/models3d/Connector_PinSocket_2.54mm__PinSocket_1x09_P2.54mm_Vertical.step"
+    (offset
+      (xyz -7.955 6.985 0))
+    (scale
+      (xyz 1 1 1))
+    (rotate
+      (xyz 0 0 -90)))
+  (fp_text user "DAC PROVISIONAL / H1-H4 ACCESS"
+    (at 0 10 0)
+    (layer "Dwgs.User")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12)))))

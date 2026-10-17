@@ -1,0 +1,16 @@
+# KiCad temporary files
+*.kicad_prl
+*.lck
+fp-info-cache
+*-backups/
+*.bak
+.autosave-*
+# Local checkpoints
+checkpoints/
+*.zip
+*.7z
+*.rar
+# System cache
+Thumbs.db
+.DS_Store
+__pycache__/

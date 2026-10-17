@@ -5,13 +5,13 @@
 **Projekt:** VoxOne_M1 — samodzielna rewizja sprzętowa M1  
 **Środowisko:** Windows 10 (laptop), KiCad 10.0.4, lokalny Codex CLI + KiCad Copilot MCP  
 **Ostatni etap wykonany przez Codexa:** `FOOTPRINT-2 + PCB-PREVIEW-1`  
-**Bieżące źródła CAD (lokalny laptop; jeszcze niezaimportowane do repo):** `%USERPROFILE%\Documents\VoxOne_M1_FOOTPRINT-2`  
+**Bieżące źródła CAD:** GitHub `pimowo/VoxOnePCB`, `main`, bazowy commit `8d90e6df444f770a445944372fa62b5ebb39af9` (KiCad + biblioteki). Archiwalna kopia ostatniej rewizji pozostaje lokalnie w `%USERPROFILE%\Documents\VoxOne_M1_FOOTPRINT-2`.  
 **Kanoniczne dokumenty projektu:** `TODO.md` i `AGENTS.md` w głównym katalogu `pimowo/VoxOnePCB` na gałęzi `main`.  
 **Stan:** schemat zatwierdzony na potrzeby wstępnego PCB; pierwsze rozmieszczenie PCB **ODRZUCONE ESTETYCZNIE I FUNKCJONALNIE**; **NIE WOLNO** trasować ani produkować PCB bez kolejnego zatwierdzenia.
 
 > **To jest kanoniczna lista decyzji, zadań, ryzyk i wytycznych VoxOne_M1.** Nie mylić z `docs/TODO.md` repozytorium firmware VoxOne — to osobny projekt. Nie wykreślać pomysłów bez decyzji użytkownika. Nie traktować założeń referencyjnych jako pomiarów rzeczywistego sprzętu.
 >
-> **Aktualnie użytkownik nie ma dostępu do laptopa. Nie przygotowywać nowych promptów dla Codexa ani nie uruchamiać kolejnej rewizji, dopóki sam o to nie poprosi.**
+> **Nie przygotowywać nowych promptów dla Codexa ani nie uruchamiać kolejnej rewizji/layoutu/trasowania, dopóki użytkownik sam o to nie poprosi.**
 
 ## 0. Jak korzystać z notatnika (użytkownik, ChatGPT, Codex)
 
@@ -205,9 +205,9 @@
 - [x] **M1-GIT-01 [DONE]** — Użytkownik utworzył publiczne repozytorium `https://github.com/pimowo/VoxOnePCB` z gałęzią `main`.
 - [x] **M1-GIT-02 [APPROVED]** — Przechowywać również edytowalne źródła KiCad (`.kicad_pro`, `.kicad_sch`, `.kicad_pcb`, biblioteki symboli/footprintów, lokalne dozwolone modele 3D) w tym repozytorium.
 - [x] **M1-GIT-03 [DONE]** — Po instalacji ChatGPT Codex Connector zapis do GitHub został potwierdzony. Opublikowano README, TODO, AGENTS i `.gitignore` na `main`; udokumentowanie pełnego importu CAD pozostaje osobnym zadaniem M1-GIT-04.
-- [ ] **M1-GIT-04 [TODO]** — Na laptopie sklonować `pimowo/VoxOnePCB`, skopiować z katalogu lokalnego najnowszą zweryfikowaną rewizję KiCad bez nadpisywania/niszczenia istniejących źródeł; wykonać kontrolę ERC/DRC/netlist po imporcie.
-- [ ] **M1-GIT-05 [TODO]** — Przejrzeć licencje wszystkich zewnętrznych footprintów i modeli 3D przed dodaniem do PUBLICZNEGO repo. Szczególnie rozdzielić dane na legalne do redystrybucji i tylko lokalne.
-- [ ] **M1-GIT-06 [TODO]** — Git commit/push dopiero po weryfikacji zawartości, rozmiarów plików i usunięciu danych wrażliwych. Nie commitować plików ZIP, cache, `.kicad_prl`, plików tymczasowych i wcześniejszych zduplikowanych pełnych projektów.
+- [ ] **M1-GIT-04 [IN PROGRESS]** — Sklonowano repo na laptopie, skopiowano aktualne pliki KiCad i biblioteki, otwarto widok 3D, a następnie opublikowano commit `8d90e6d` na `main`. Pozostaje **niezależne ponowne sprawdzenie ERC/DRC/netlist i modeli z czystego klonu**; nie oznaczać kontroli jako wykonanych bez wyników.
+- [ ] **M1-GIT-05 [IN PROGRESS]** — Wstępnie sprawdzono licencje i dodano teksty MIT, Apache-2.0, GPL-3.0, KiCad CC-BY-SA z wyjątkiem. Modele `YD-ESP32-S3.step` (autorstwo GrabCAD) oraz `PCM5102-I2S.step` (odłączony, GPL-3.0) wyłączono z publikacji. Przed wydaniem produkcyjnym sprawdzić warunki redystrybucji zmodyfikowanego footprintu DAC i wymagane informacje o autorstwie/zmianach.
+- [x] **M1-GIT-06 [DONE]** — Użytkownik wykonał `git diff --cached --check` (brak błędów), commit/push 60 plików, commit `8d90e6d`, a następnie powtórny `git push` potwierdził `Everything up-to-date`. Nie opublikowano checkpointów ZIP ani dwóch wstrzymanych modeli STEP.
 - [ ] **M1-GIT-07 [TODO]** — Po imporcie zweryfikować, że Codex startuje w katalogu sklonowanego repo i czyta root `AGENTS.md` oraz `TODO.md`; dalej prowadzić **jeden** kanoniczny rejestr decyzji.
 - [ ] **M1-GIT-08 [TODO]** — Osobno ustalić licencję i zasady publikacji własnej dokumentacji/PCB; samo publiczne repozytorium nie przyznaje automatycznie licencji na wykorzystywanie projektu.
 
@@ -220,6 +220,7 @@
 | 2026-10-17 | Potwierdzono wszystkie elementy **tylko TOP**, ścieżki na **2 warstwach miedzi**. | Użytkownik |
 | 2026-10-17 | Założono kanoniczny notatnik `TODO.md` i plik wskazówek `AGENTS.md` dla Codexa; brak zgody na nowy prompt na tym etapie. | Użytkownik / przygotowanie notatnika |
 | 2026-10-17 | Utworzono publiczne repozytorium `pimowo/VoxOnePCB`. Pierwszy zapis był blokowany HTTP 403; po instalacji ChatGPT Codex Connector zapis działa. Dokumenty TODO, AGENTS, README i `.gitignore` publikowane na `main`. Źródła KiCad pozostają na laptopie do osobnego importu. | Użytkownik / ChatGPT |
+| 2026-10-17 | Użytkownik wykonał pierwszą publikację KiCad na GitHub: 60 plików, commit `8d90e6d`, push do `main`, lokalnie czyste drzewo. Model YD-ESP32-S3.step i PCM5102-I2S.step wyłączono. | Użytkownik / ChatGPT |
 
 ### Miejsce na nowe pomysły
 
@@ -227,4 +228,4 @@
 
 ---
 
-**Synchronizacja GitHub:** kanoniczną wersją TODO ma być `https://github.com/pimowo/VoxOnePCB/blob/main/TODO.md`. Repozytorium jest **publiczne**; nie dodawać haseł, tokenów, prywatnych danych i obcych modeli/bibliotek bez przeglądu licencji. Pliki CAD z `%USERPROFILE%\Documents\VoxOne_M1_FOOTPRINT-2` są nadal na laptopie i wymagają osobnego importu do repo. Lokalny Codex może pracować na TODO/AGENTS po sklonowaniu repo; aktualizacja GitHub wymaga `commit` oraz `push` i nie dzieje się automatycznie.
+**Synchronizacja GitHub:** kanoniczną wersją TODO ma być `https://github.com/pimowo/VoxOnePCB/blob/main/TODO.md`. Repozytorium jest **publiczne**; nie dodawać haseł, tokenów, prywatnych danych i obcych modeli/bibliotek bez przeglądu licencji. Pliki CAD są już zapisane na GitHubie w commicie `8d90e6d`; lokalna kopia historycznej rewizji pozostaje na laptopie. Po zdalnych zmianach w TODO przed dalszą pracą lokalną wymagany jest `git pull --ff-only` na czystym drzewie. Lokalny Codex może pracować na TODO/AGENTS po sklonowaniu repo; aktualizacja GitHub wymaga `commit` oraz `push` i nie dzieje się automatycznie.

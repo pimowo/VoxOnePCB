@@ -18,9 +18,9 @@ Repozytorium projektu płytki **VoxOne_M1** (KiCad 10.0.4). Oddzielone od firmwa
 
 ## Stan projektu
 
-Ostatnia lokalna rewizja: **FOOTPRINT-2 + PCB-PREVIEW-1**. Według raportu Codexa: ERC 0 błędów i 0 ostrzeżeń; wstępne PCB 100 × 100 mm bez trasowania. **Rozmieszczenie PREVIEW-1 zostało odrzucone.** Nie tworzyć Gerberów ani nie trasować tej wersji. Geometrie trzech dużych modułów są referencyjne (PROVISIONAL), niepotwierdzone na fizycznych egzemplarzach.
+Ostatnia importowana rewizja: **FOOTPRINT-2 + PCB-PREVIEW-1**. Według raportu Codexa: ERC 0 błędów i 0 ostrzeżeń; wstępne PCB 100 × 100 mm bez trasowania. **Rozmieszczenie PREVIEW-1 zostało odrzucone.** Nie tworzyć Gerberów ani nie trasować tej wersji. Geometrie trzech dużych modułów są referencyjne (PROVISIONAL), niepotwierdzone na fizycznych egzemplarzach.
 
-**Pliki źródłowe `.kicad_pro`, `.kicad_sch`, `.kicad_pcb` i lokalne biblioteki są na razie wyłącznie na laptopie użytkownika, nie w tym pakiecie dokumentacyjnym.** Ich import jest osobnym etapem po powrocie do laptopa i sprawdzeniu licencji.
+**Źródła projektu KiCad i biblioteki są już opublikowane w repozytorium**, od bazowego commita [`8d90e6d`](https://github.com/pimowo/VoxOnePCB/commit/8d90e6df444f770a445944372fa62b5ebb39af9). W repo znajdują się pliki `.kicad_pro`, `.kicad_sch`, `.kicad_pcb`, projektowe biblioteki footprintów/symboli i wybrane modele 3D. Z publikacji wyłączono modele `YD-ESP32-S3.step` i `PCM5102-I2S.step` do dalszej weryfikacji praw. Po imporcie projekt otwarto w KiCad 3D, ale **należy ponownie wykonać ERC/DRC/netlist na czystym klonie**. Wersja jest PROVISIONAL i nie jest zatwierdzona do produkcji.
 
 ## Dostęp i prawa
 

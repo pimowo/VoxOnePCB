@@ -1,0 +1,17 @@
+{
+  "args": [
+    "pcb",
+    "drc",
+    "--format",
+    "json",
+    "--severity-all",
+    "--schematic-parity",
+    "--exit-code-violations",
+    "-o",
+    "C:\\Users\\piotrek\\Documents\\VoxOnePCB\\docs\\PCB-LAYOUT-3\\FINAL_DRC.json",
+    "C:\\Users\\piotrek\\Documents\\VoxOnePCB\\VoxOne_M1.kicad_pcb"
+  ],
+  "exit_code": 5,
+  "stdout": "Znaleziono 0 narusze�\r\nZnaleziono 173 niepo��czonych element�w\r\nZnaleziono 0 problem�w ze sparowaniem schematu\r\nZapisano plik raportu DRC do C:/Users/piotrek/Documents/VoxOnePCB/docs/PCB-LAYOUT-3/FINAL_DRC.json\r\n",
+  "stderr": ""
+}

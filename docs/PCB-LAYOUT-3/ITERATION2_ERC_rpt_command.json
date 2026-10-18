@@ -1,0 +1,16 @@
+{
+  "args": [
+    "sch",
+    "erc",
+    "--format",
+    "report",
+    "--severity-all",
+    "--exit-code-violations",
+    "-o",
+    "C:\\Users\\piotrek\\Documents\\VoxOnePCB\\docs\\PCB-LAYOUT-3\\ITERATION2_ERC.rpt",
+    "C:\\Users\\piotrek\\Documents\\VoxOnePCB\\VoxOne_M1.kicad_sch"
+  ],
+  "exit_code": 0,
+  "stdout": "Znaleziono 0 narusze�\r\nZapisano plik raportu ERC do C:/Users/piotrek/Documents/VoxOnePCB/docs/PCB-LAYOUT-3/ITERATION2_ERC.rpt\r\n",
+  "stderr": ""
+}

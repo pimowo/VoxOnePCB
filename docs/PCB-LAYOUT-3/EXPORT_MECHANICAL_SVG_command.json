@@ -1,0 +1,18 @@
+{
+  "args": [
+    "pcb",
+    "export",
+    "svg",
+    "--mode-single",
+    "--layers",
+    "F.Cu,F.SilkS,Dwgs.User,Cmts.User,Edge.Cuts",
+    "--fit-page-to-board",
+    "--exclude-drawing-sheet",
+    "-o",
+    "C:\\Users\\piotrek\\Documents\\VoxOnePCB\\docs\\PCB-LAYOUT-3\\previews\\PCB-LAYOUT-3_MECHANICAL.svg",
+    "C:\\Users\\piotrek\\Documents\\VoxOnePCB\\VoxOne_M1.kicad_pcb"
+  ],
+  "exit_code": 0,
+  "stdout": "Narysowano w 'C:\\Users\\piotrek\\Documents\\VoxOnePCB\\docs\\PCB-LAYOUT-3\\previews\\PCB-LAYOUT-3_MECHANICAL.svg'.\r\nGotowe.\r\n",
+  "stderr": ""
+}

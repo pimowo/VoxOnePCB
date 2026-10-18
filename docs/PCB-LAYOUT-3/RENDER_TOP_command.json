@@ -1,0 +1,24 @@
+{
+  "args": [
+    "pcb",
+    "render",
+    "--output",
+    "C:\\Users\\piotrek\\Documents\\VoxOnePCB\\docs\\PCB-LAYOUT-3\\previews\\PCB-LAYOUT-3_3D_TOP.png",
+    "--width",
+    "1800",
+    "--height",
+    "1800",
+    "--quality",
+    "basic",
+    "--background",
+    "opaque",
+    "--zoom",
+    "0.9",
+    "--side",
+    "top",
+    "C:\\Users\\piotrek\\Documents\\VoxOnePCB\\VoxOne_M1.kicad_pcb"
+  ],
+  "exit_code": 0,
+  "stdout": "Wczytywanie...\r\nBudowanie obrysu p�ytki\r\n\r\nTworzenie warstw\r\nTworzenie �cie�ek i przelotek\r\nTworzenie wype�nionych stref\r\nBudowanie warstw technicznych\r\nBudowanie warstwy technicznej 11\r\nBudowanie warstwy technicznej 9\r\nBudowanie warstwy technicznej 15\r\nBudowanie warstwy technicznej 13\r\nBudowanie warstwy technicznej 7\r\nBudowanie warstwy technicznej 5\r\nBudowanie warstwy technicznej 3\r\nBudowanie warstwy technicznej 1\r\nBudowanie warstwy technicznej 17\r\nBudowanie warstwy technicznej 19\r\nBudowanie warstwy technicznej 21\r\nBudowanie warstwy technicznej 23\r\nBudowanie warstwy technicznej 39\r\nBudowanie warstwy technicznej 41\r\nBudowanie warstwy technicznej 43\r\nBudowanie warstwy technicznej 45\r\nBudowanie warstwy technicznej 47\r\nBudowanie warstwy technicznej 49\r\nBudowanie warstwy technicznej 51\r\nBudowanie warstwy technicznej 53\r\nBudowanie warstwy technicznej 55\r\nBudowanie warstwy technicznej 57\r\nBudowanie warstwy technicznej 59\r\nBudowanie warstwy technicznej 61\r\nBudowanie warstwy technicznej 63\r\nBudowanie warstwy technicznej 65\r\nBudowanie warstwy technicznej 67\r\nBudowanie warstwy technicznej 69\r\nBudowanie warstwy technicznej 71\r\nBudowanie warstwy technicznej 73\r\nBudowanie warstwy technicznej 75\r\nBudowanie warstwy technicznej 77\r\nBudowanie warstwy technicznej 79\r\nBudowanie warstwy technicznej 81\r\nBudowanie warstwy technicznej 83\r\nBudowanie warstwy technicznej 85\r\nBudowanie warstwy technicznej 87\r\nBudowanie warstwy technicznej 89\r\nBudowanie warstwy technicznej 91\r\nBudowanie warstwy technicznej 93\r\nBudowanie warstwy technicznej 95\r\nBudowanie warstwy technicznej 97\r\nBudowanie warstwy technicznej 99\r\nBudowanie warstwy technicznej 101\r\nBudowanie warstwy technicznej 103\r\nBudowanie warstwy technicznej 105\r\nBudowanie warstwy technicznej 107\r\nBudowanie warstwy technicznej 109\r\nBudowanie warstwy technicznej 111\r\nBudowanie warstwy technicznej 113\r\nBudowanie warstwy technicznej 115\r\nBudowanie warstwy technicznej 117\r\nBudowanie warstwy technicznej 119\r\nBudowanie warstwy technicznej 121\r\nBudowanie warstwy technicznej 123\r\nBudowanie warstwy technicznej 125\r\nBudowanie warstwy technicznej 127\r\nUpraszczanie poligon�w na warstwach miedzi\r\nObliczanie powierzchni pokrytej\r\nUpraszczanie kontur�w otwor�w\r\nTworzenie BVH dla otwor�w i przelotek\r\n�adowanie raytraceingu: p�ytka\r\n�adowanie raytraceingu: warstwy\r\n�adowanie modeli 3D...\r\nCzas prze�adowania 12,373 s\r\nRenderowanie: 9 \r\nRenderowanie: 17 \r\nRenderowanie: 23 \r\nRenderowanie: 29 \r\nRenderowanie: 38 \r\nRenderowanie: 48 \r\nRenderowanie: 56 \r\nRenderowanie: 61 \r\nRenderowanie: 70 \r\nRenderowanie: 81 \r\nRenderowanie: 88 \r\nRenderowanie: 98 \r\nRenderowanie: 100 \r\nCzas renderowania 9,228 s\r\nPomy�lnie utworzono obraz z wyrenderowanym 3D\r\n",
+  "stderr": ""
+}

@@ -1,0 +1,12 @@
+{
+  "all_3D": "kicad-cli pcb render 10.0.4",
+  "2D": "kicad-cli pcb export pdf 10.0.4, rasterized by Windows.Data.Pdf at width5000",
+  "PNG_processing": "crop only; no invented electronic bodies, no AI render",
+  "native_board_edge_pixels": [
+    841,
+    841,
+    2525,
+    2524
+  ],
+  "pixels_per_mm": 16.84
+}

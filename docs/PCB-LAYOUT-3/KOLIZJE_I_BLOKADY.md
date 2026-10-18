@@ -1,0 +1,19 @@
+# Kolizje, kompromisy i blokady
+
+## Wykryte i poprawione
+
+Usunięto kolizje pierwszych iteracji z modułami i korytarzami kabli. Rzeczywisty DRC wykazał i po poprawkach zamknął: C301 za blisko krawędzi, C402 przyM3, zbyt mały tekst i nakładające się pomocnicze oznaczenia zworek. Nie zmieniono reguł ani list ignorowania. Oryginalną geometrię złączaAMP przywrócono; zamiast skracać grafikę footprintu przesunięto całe złącze. Końcowo0 naruszeń courtyard/edge/pad/silk,0 mismatch/parity,173 niepołączenia wynikające z braku tras.
+
+## Nierozstrzygnięte — nie oznaczać jako zatwierdzone
+
+1. **PENDING użytkownika — wygląd i kompromisy rozmieszczenia.** Kompozycja jest bliższa referencji w krytycznych kierunkachMAIN/DAC i odstępachRTC, ale nie jest jej wierną kopią. JP601 jest około32mm odJ601; C303 jest około20,5mm odVIN DAC; część sterowaniaDISPLAY/BT w górnej strefie, a nie przy dolnych gniazdach. Nie deklaruje się spełnienia wszystkich życzeń bliskości. Powodem są prawdziwe obrysy,15mm bufor innych części przyBT i dwa wolne korytarzeUSB MAIN. Nie zmieniono wartości ani architektury.
+2. **PENDING — alternatywa do decyzji, nie fikcyjny drugiPCB.** Dalsze zbliżenie JP601 doINPUT wymaga przeniesienia INPUT bardziej ku środkowi i odstąpienia od jednego poziomego szeregu złączy (np. pionowy/staggeredSPI), albo zmiany układu modułów. Zbliżenie całej grupyDAC wymaga przesunięciaBT i ponownego sprawdzenia jego wystawania, portu i dolnych złączy. Nie przedstawiono takiego wariantu jako zweryfikowanego; zachowano pojedynczy wynikA i wszystkie ograniczenia. Użytkownik powinien zdecydować, czy obecna kompozycja/kompromisy są akceptowalne. Żaden z tych punktów nie upoważnia do routingu.
+3. **BLOCKED P1 — rzeczywiste klony MAIN/BT/DAC/RTC.** Potrzebne zdjęcia obu stron i z boku z suwmiarką: rozstawy rzędów/raster, pin1, pełne obrysy, pozycje anten i gniazd, elementy spodnie, wysokości. MAIN2×22/25,40mm, BTwewnętrzne2×10/22,86mm, DACprostopadłe6+9 iH1–H4. Nie zgadywano nowych wymiarów.
+4. **BLOCKED P1 — kable i prześwityZ.** Wybrane oba wtykiUSB-C, USBWemosa, jack3,5mm, kablegoldpinowe, faktyczne żeńskie listwy i ich wysokości. Potwierdzić odgiętki/średnicę4mm, wkładanie USBMAIN w36,1mm korytarzu i chwytanie dolnych złączy bliskoBT. Nie ma dowodu, że każda dostępna obudowa wtyku pasuje.
+5. **PENDING mechaniki obudowy — M3 i wystawanie.** H901/H904 zmieniły położenie. Układ montażowy wymaga akceptacji i sprawdzenia z obudową. BTUSBhousing referencyjnie wystaje1,68mm; zewnętrzne wtyki także wystają. Łby maxØ7mm. Nie zwiększono laminatu.
+6. **BLOCKED walidacjaRF — materiał pod antenami i obudowa.** Dwie strefy zakazu miedzi zachowano i przesunięto z modułami; inne części≥15mm. Nie wykonano testówRF, wycięćFR4 ani projektu docelowej masy. Zgodność konkretnych anten i obudowy pozostaje niepotwierdzona; sam brak kolizji2D nie stanowi walidacji radiowej.
+7. **BLOCKED modele i licencje.** Brak pełnychBT/RTC/DAC/F101, lokalny MAIN niepublikowany, C101 modelH16 zamiastH12,5. Nie przywracano błędnego STEP DAC. Nierozstrzygniętych praw do MAIN/DAC nie uznano automatycznie za dopuszczenie publikacji. Zachowano istniejące licencje i nie dodano nowego modelu.
+8. Siedem referencji montażowych tylkoF.Fab: D101,R101,C105,U101,C401,C402,R602. Wszystkie istnieją, tabela77części iF.Fab są dostępne. To jawne ograniczenie nadruku do oceny, nie wyłączenieDRC.
+9. Wszystkie wcześniejszeP1 elektryczne/pomiarowe zTODO pozostają: zasilanieUSB+VCC, realne mostkiDAC, BL/RESET/AMP, stabilizator/termika, dobór rzeczywistych kondensatorówTHT i dostępnośćEOL. Ten etap ich nie zamyka ani nie zmienia schematu.
+
+**Nie ma wykrytej kolizji referencyjnej2D ani nowego błędu elektrycznego. Nie jest to zatwierdzona mechanika produkcyjna ani deklaracja pełnego spełnienia wszystkich preferencji. Akceptacja wyglądu i kompromisów PENDING; produkcja/routing nadal niedozwolone.**

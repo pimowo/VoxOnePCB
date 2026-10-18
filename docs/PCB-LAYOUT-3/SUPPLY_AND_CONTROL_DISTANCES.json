@@ -1,0 +1,51 @@
+{
+  "C301": {
+    "positive_pad_1_xy_mm": [
+      145.925,
+      93.2
+    ],
+    "DAC_VIN_A6_xy_mm": [
+      146.35,
+      89.305
+    ],
+    "straight_line_pad_distance_mm": 3.918118,
+    "trace_length": "not routed; actual route would be longer"
+  },
+  "C302": {
+    "positive_pad_1_xy_mm": [
+      127.025,
+      82.0
+    ],
+    "DAC_VIN_A6_xy_mm": [
+      146.35,
+      89.305
+    ],
+    "straight_line_pad_distance_mm": 20.65959,
+    "trace_length": "not routed; actual route would be longer"
+  },
+  "C303": {
+    "positive_pad_1_xy_mm": [
+      126.0,
+      87.3
+    ],
+    "DAC_VIN_A6_xy_mm": [
+      146.35,
+      89.305
+    ],
+    "straight_line_pad_distance_mm": 20.448534,
+    "trace_length": "not routed; actual route would be longer"
+  },
+  "JP601_to_J601": {
+    "centers_mm": [
+      [
+        104.47000000000001,
+        139.04
+      ],
+      [
+        135.21,
+        147.0
+      ]
+    ],
+    "distance_mm": 31.753884801705755
+  }
+}

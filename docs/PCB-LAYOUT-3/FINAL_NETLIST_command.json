@@ -1,0 +1,15 @@
+{
+  "args": [
+    "sch",
+    "export",
+    "netlist",
+    "--format",
+    "kicadxml",
+    "-o",
+    "C:\\Users\\piotrek\\Documents\\VoxOnePCB\\docs\\PCB-LAYOUT-3\\FINAL.net.xml",
+    "C:\\Users\\piotrek\\Documents\\VoxOnePCB\\VoxOne_M1.kicad_sch"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": ""
+}

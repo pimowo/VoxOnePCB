@@ -1,0 +1,69 @@
+# Pliki etapu PCB-LAYOUT-3
+
+Projekt: `C:\Users\piotrek\Documents\VoxOnePCB`
+
+| Plik względny | Bajty |
+|---|---|
+| docs/PCB-LAYOUT-3/ANALIZA_REFERENCJI.md | 2962 |
+| docs/PCB-LAYOUT-3/BASELINE.md | 2469 |
+| docs/PCB-LAYOUT-3/BASELINE.net.xml | 153078 |
+| docs/PCB-LAYOUT-3/BASELINE_DRC.json | 143055 |
+| docs/PCB-LAYOUT-3/BASELINE_DRC.rpt | 36744 |
+| docs/PCB-LAYOUT-3/BASELINE_DRC_json_command.json | 613 |
+| docs/PCB-LAYOUT-3/BASELINE_DRC_rpt_command.json | 613 |
+| docs/PCB-LAYOUT-3/BASELINE_ERC.json | 1040 |
+| docs/PCB-LAYOUT-3/BASELINE_ERC.rpt | 369 |
+| docs/PCB-LAYOUT-3/BASELINE_ERC_json_command.json | 485 |
+| docs/PCB-LAYOUT-3/BASELINE_ERC_rpt_command.json | 485 |
+| docs/PCB-LAYOUT-3/BASELINE_MANIFEST.json | 14444 |
+| docs/PCB-LAYOUT-3/BASELINE_NETLIST_command.json | 321 |
+| docs/PCB-LAYOUT-3/BASELINE_STATE.json | 44341 |
+| docs/PCB-LAYOUT-3/EXPORT_MECHANICAL_SVG_command.json | 584 |
+| docs/PCB-LAYOUT-3/EXPORT_pdf_command.json | 550 |
+| docs/PCB-LAYOUT-3/EXPORT_svg_command.json | 560 |
+| docs/PCB-LAYOUT-3/FINAL.net.xml | 153078 |
+| docs/PCB-LAYOUT-3/FINAL_DRC.json | 143040 |
+| docs/PCB-LAYOUT-3/FINAL_DRC.rpt | 36772 |
+| docs/PCB-LAYOUT-3/FINAL_DRC_json_command.json | 607 |
+| docs/PCB-LAYOUT-3/FINAL_DRC_rpt_command.json | 607 |
+| docs/PCB-LAYOUT-3/FINAL_ERC.json | 1040 |
+| docs/PCB-LAYOUT-3/FINAL_ERC.rpt | 369 |
+| docs/PCB-LAYOUT-3/FINAL_ERC_DRC.md | 2282 |
+| docs/PCB-LAYOUT-3/FINAL_ERC_json_command.json | 479 |
+| docs/PCB-LAYOUT-3/FINAL_ERC_rpt_command.json | 479 |
+| docs/PCB-LAYOUT-3/FINAL_NETLIST_command.json | 318 |
+| docs/PCB-LAYOUT-3/FINAL_STATE.json | 44344 |
+| docs/PCB-LAYOUT-3/ITERATION2.net.xml | 153078 |
+| docs/PCB-LAYOUT-3/ITERATION2_DRC.json | 202246 |
+| docs/PCB-LAYOUT-3/ITERATION2_DRC.rpt | 63710 |
+| docs/PCB-LAYOUT-3/ITERATION2_DRC_json_command.json | 618 |
+| docs/PCB-LAYOUT-3/ITERATION2_DRC_rpt_command.json | 618 |
+| docs/PCB-LAYOUT-3/ITERATION2_ERC.json | 1040 |
+| docs/PCB-LAYOUT-3/ITERATION2_ERC.rpt | 369 |
+| docs/PCB-LAYOUT-3/ITERATION2_ERC_json_command.json | 489 |
+| docs/PCB-LAYOUT-3/ITERATION2_ERC_rpt_command.json | 489 |
+| docs/PCB-LAYOUT-3/ITERATION2_NETLIST_command.json | 323 |
+| docs/PCB-LAYOUT-3/KOLIZJE_I_BLOKADY.md | 4056 |
+| docs/PCB-LAYOUT-3/MECHANICAL_CHECK.json | 42392 |
+| docs/PCB-LAYOUT-3/MECHANICAL_ITERATION.json | 20935 |
+| docs/PCB-LAYOUT-3/MECHANIKA_I_ODSTEPY.md | 4346 |
+| docs/PCB-LAYOUT-3/NETLIST_COMPARISON.md | 6997 |
+| docs/PCB-LAYOUT-3/PCB-LAYOUT-2_vs_3.md | 3076 |
+| docs/PCB-LAYOUT-3/PLACEMENT.json | 6205 |
+| docs/PCB-LAYOUT-3/PREVIEW_PROVENANCE.json | 324 |
+| docs/PCB-LAYOUT-3/previews/PCB-LAYOUT-3_2D.pdf | 120640 |
+| docs/PCB-LAYOUT-3/previews/PCB-LAYOUT-3_3D_ANGLE.png | 593515 |
+| docs/PCB-LAYOUT-3/previews/PCB-LAYOUT-3_3D_BOTTOM.png | 115028 |
+| docs/PCB-LAYOUT-3/previews/PCB-LAYOUT-3_3D_TOP.png | 253416 |
+| docs/PCB-LAYOUT-3/previews/PCB-LAYOUT-3_DAC.png | 48660 |
+| docs/PCB-LAYOUT-3/previews/PCB-LAYOUT-3_DOLNE_ZLACZA.png | 136337 |
+| docs/PCB-LAYOUT-3/previews/PCB-LAYOUT-3_MAIN_ANTENNA.png | 25061 |
+| docs/PCB-LAYOUT-3/previews/PCB-LAYOUT-3_MECHANICAL.svg | 536464 |
+| docs/PCB-LAYOUT-3/previews/PCB-LAYOUT-3_RTC_ODSTEPY.png | 30015 |
+| docs/PCB-LAYOUT-3/previews/PCB-LAYOUT-3_TOP.png | 381319 |
+| docs/PCB-LAYOUT-3/previews/PCB-LAYOUT-3_TOP.svg | 500124 |
+| docs/PCB-LAYOUT-3/RENDER_ANGLE_command.json | 3233 |
+| docs/PCB-LAYOUT-3/RENDER_BOTTOM_command.json | 3325 |
+| docs/PCB-LAYOUT-3/RENDER_TOP_command.json | 3363 |
+| docs/PCB-LAYOUT-3/ROZMIESZCZENIE.md | 8034 |
+| docs/PCB-LAYOUT-3/SILK_LAYOUT.json | 19564 |

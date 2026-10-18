@@ -4,7 +4,7 @@
 **Utworzono:** 2026-10-17  
 **Projekt:** VoxOne_M1 — samodzielna rewizja sprzętowa M1  
 **Środowisko:** Windows 10 (laptop), KiCad 10.0.4, lokalny Codex CLI + KiCad Copilot MCP  
-**Ostatni etap wykonany przez Codexa:** `FOOTPRINT-2 + PCB-PREVIEW-1`  
+**Ostatni etap wykonany przez Codexa:** `PCB-LAYOUT-2` — propozycja na gałęzi `pcb-layout-2`, bez zatwierdzenia użytkownika
 **Bieżące źródła CAD:** GitHub `pimowo/VoxOnePCB`, `main`, bazowy commit `8d90e6df444f770a445944372fa62b5ebb39af9` (KiCad + biblioteki). Archiwalna kopia ostatniej rewizji pozostaje lokalnie w `%USERPROFILE%\Documents\VoxOne_M1_FOOTPRINT-2`.  
 **Kanoniczne dokumenty projektu:** `TODO.md` i `AGENTS.md` w głównym katalogu `pimowo/VoxOnePCB` na gałęzi `main`.  
 **Stan:** schemat zatwierdzony na potrzeby wstępnego PCB; pierwsze rozmieszczenie PCB **ODRZUCONE ESTETYCZNIE I FUNKCJONALNIE**; **NIE WOLNO** trasować ani produkować PCB bez kolejnego zatwierdzenia.
@@ -43,20 +43,20 @@
 
 ### P0 — następna rewizja rozmieszczenia (dopiero na polecenie użytkownika)
 
-- [ ] **M1-P0-01** — Utworzyć nowy katalog rewizji z checkpointem `VoxOne_M1_FOOTPRINT-2`; zachować kopię `TODO.md`, `AGENTS.md` i raport stanu. Nie naruszyć wcześniejszych rewizji.
-- [ ] **M1-P0-02** — Zaprojektować od nowa **rozmieszczenie** 100 × 100 mm, wizualnie bliższe zaakceptowanej koncepcji (MAIN lewa/pionowo, DAC górna prawa, BT prawa, RTC środek, rząd złączy u dołu, ARK lewa krawędź). Rozmieszczenie musi wynikać z rzeczywistych padów, obrysów i stref funkcjonalnych, nie z grafiki koncepcyjnej.
-- [ ] **M1-P0-03** — Przenieść **wszystkie 11 elementów SMD z BOTTOM na TOP**, zachowując ich wartości, sieci, orientację funkcjonalną i sprawdzając footprinty. Po zakończeniu liczba elementów BOTTOM **0**.
-- [ ] **M1-P0-04** — Wszystkie pozostałe elementy sprawdzić po stronie TOP; preferować brak elementów pod gniazdami MAIN, BT i DAC. Jeśli nie da się uniknąć czegoś pod modułem, przedstawić to użytkownikowi do osobnej zgody.
-- [ ] **M1-P0-05** — MAIN: zapewnić dostęp do obu gniazd USB-C od krawędzi lub rzeczywistym wolnym korytarzem, możliwość wyjęcia modułu i odpowiednie miejsce dla anteny. Nie akceptować obecnego położenia wyłącznie dlatego, że padami mieści się w PCB.
-- [ ] **M1-P0-06** — VoxOneBT: po prawej stronie, **płasko nad PCB**, dwie *wewnętrzne* listwy 1×10, antena z wolną przestrzenią, port USB dostępny, brak zamiany pinów lewej/prawej listwy.
-- [ ] **M1-P0-07** — DAC PCM5102A: górna prawa strefa, jack osiągalny z zewnątrz, dostęp do H1–H4, gniazdo audio L/GND/R sensownie położone. Uzgodnić obrys rzeczywistego modułu i wtyczki.
-- [ ] **M1-P0-08** — Złącza I2C, SPI, INPUT, AMP i zworki uporządkować i czytelnie oznaczyć na dolnej krawędzi lub w łatwo dostępnej strefie. Wyjście audio i zasilanie w logicznych miejscach.
-- [ ] **M1-P0-09** — Uporządkować grupowanie kondensatorów blisko wejść zasilania modułów, rezystory przy właściwych pinach, analogowe AUDIO poza zakłócającymi sekcjami (RF, BL, zasilanie).
-- [ ] **M1-P0-10** — Zweryfikować cztery otwory M3, odstępy pod podkładki/łby, strefy anten, USB/jack + obrysy podłączonych wtyków, zworki i dostęp do montażu. Zgłosić wszystkie wyjątki od 100 × 100 mm (np. wystająca antena modułu) użytkownikowi.
-- [ ] **M1-P0-11** — Uporządkować silkscreen: sekcje, `VoxOne_M1`, opis zasilania, numerację i funkcje złączy, JP501/JP502, JP601, JP602, logo, czytelny pin1; usunąć kolizje napisów.
-- [ ] **M1-P0-12** — Przygotować faktyczny KiCad `.kicad_pcb`, widok 2D z góry, 3D z góry/pod kątem/z dołu (jeśli model dostępny); wyraźnie ujawnić brakujące / tymczasowe modele 3D. Nie przedstawiać grafiki AI jako dowodu technicznego.
-- [ ] **M1-P0-13** — Zrobić ERC, DRC, porównanie netlisty oraz osobne zestawienie niepołączeń. Nie deklarować DRC PASS, dopóki płytka nie jest trasowana. **Bez ścieżek i Gerberów do akceptacji rozmieszczenia.**
-- [ ] **M1-P0-14** — Pokazać użytkownikowi rezultat i **poczekać na wyraźną akceptację nowego rozmieszczenia** przed trasowaniem.
+- [x] **M1-P0-01 [DONE — kontrola referencyjna]** — Utworzyć nowy katalog rewizji z checkpointem `VoxOne_M1_FOOTPRINT-2`; zachować kopię `TODO.md`, `AGENTS.md` i raport stanu. Nie naruszyć wcześniejszych rewizji. **2026-10-18 PCB-LAYOUT-2:** Checkpoint poza Git, czysty main, pull ff-only i gałąź pcb-layout-2.
+- [x] **M1-P0-02 [DONE — kontrola referencyjna]** — Zaprojektować od nowa **rozmieszczenie** 100 × 100 mm, wizualnie bliższe zaakceptowanej koncepcji (MAIN lewa/pionowo, DAC górna prawa, BT prawa, RTC środek, rząd złączy u dołu, ARK lewa krawędź). Rozmieszczenie musi wynikać z rzeczywistych padów, obrysów i stref funkcjonalnych, nie z grafiki koncepcyjnej. **2026-10-18 PCB-LAYOUT-2:** WariantA: MAIN pionowo lewa, DAC górna prawa, BT prawa płasko, RTC strefa środkowa, dolny rząd złączy. GeometriaPROVISIONAL.
+- [x] **M1-P0-03 [DONE — kontrola referencyjna]** — Przenieść **wszystkie 11 elementów SMD z BOTTOM na TOP**, zachowując ich wartości, sieci, orientację funkcjonalną i sprawdzając footprinty. Po zakończeniu liczba elementów BOTTOM **0**. **2026-10-18 PCB-LAYOUT-2:** Przeniesiono wszystkie11 BOTTOM; TOP77/BOTTOM0.
+- [x] **M1-P0-04 [DONE — kontrola referencyjna]** — Wszystkie pozostałe elementy sprawdzić po stronie TOP; preferować brak elementów pod gniazdami MAIN, BT i DAC. Jeśli nie da się uniknąć czegoś pod modułem, przedstawić to użytkownikowi do osobnej zgody. **2026-10-18 PCB-LAYOUT-2:** 77/77 TOP, brak drobnicy pod pełnymi obrysami modułów; własne podstawki są częścią montażu.
+- [x] **M1-P0-05 [DONE — kontrola referencyjna]** — MAIN: zapewnić dostęp do obu gniazd USB-C od krawędzi lub rzeczywistym wolnym korytarzem, możliwość wyjęcia modułu i odpowiednie miejsce dla anteny. Nie akceptować obecnego położenia wyłącznie dlatego, że padami mieści się w PCB. **2026-10-18 PCB-LAYOUT-2:** Dwa USB-C skierowane ku górze; antenaMAIN w dół, moduł referencyjnie w obrysie. PomiaryP1 pozostają.
+- [x] **M1-P0-06 [DONE — kontrola referencyjna]** — VoxOneBT: po prawej stronie, **płasko nad PCB**, dwie *wewnętrzne* listwy 1×10, antena z wolną przestrzenią, port USB dostępny, brak zamiany pinów lewej/prawej listwy. **2026-10-18 PCB-LAYOUT-2:** BTprawa, wspólny obrót/punkt wewnętrznych listew, USBdół, antenagóra; VCC i wszystkie sieci bez zmian.
+- [x] **M1-P0-07 [DONE — kontrola referencyjna]** — DAC PCM5102A: górna prawa strefa, jack osiągalny z zewnątrz, dostęp do H1–H4, gniazdo audio L/GND/R sensownie położone. Uzgodnić obrys rzeczywistego modułu i wtyczki. **2026-10-18 PCB-LAYOUT-2:** DAC180° z jackiem ku górnej krawędzi wg rysunku footprintu; STEP nadal odłączony. Rzeczywista geometriaP1BLOCKED.
+- [x] **M1-P0-08 [DONE — kontrola referencyjna]** — Złącza I2C, SPI, INPUT, AMP i zworki uporządkować i czytelnie oznaczyć na dolnej krawędzi lub w łatwo dostępnej strefie. Wyjście audio i zasilanie w logicznych miejscach. **2026-10-18 PCB-LAYOUT-2:** Dolny rząd I2C/SPI/INPUT/AMP; opisano zworki i prawidłowe paryJP6021–2/3–4.
+- [x] **M1-P0-09 [DONE — kontrola referencyjna]** — Uporządkować grupowanie kondensatorów blisko wejść zasilania modułów, rezystory przy właściwych pinach, analogowe AUDIO poza zakłócającymi sekcjami (RF, BL, zasilanie). **2026-10-18 PCB-LAYOUT-2:** Przegrupowano zasilanie, DAC, MAIN, BT i sterowanie poza obszaramiRF; przyszła ocena trasI2S/33Ω po akceptacji, bez routingu.
+- [x] **M1-P0-10 [DONE — kontrola referencyjna]** — Zweryfikować cztery otwory M3, odstępy pod podkładki/łby, strefy anten, USB/jack + obrysy podłączonych wtyków, zworki i dostęp do montażu. Zgłosić wszystkie wyjątki od 100 × 100 mm (np. wystająca antena modułu) użytkownikowi. **2026-10-18 PCB-LAYOUT-2:** Referencyjna analizaM3Ø7, obrysów, kabli i anten; minimum15,105mm dla innych części. Wysokości/wyjmowanie nadalP1BLOCKED.
+- [x] **M1-P0-11 [DONE — kontrola referencyjna]** — Uporządkować silkscreen: sekcje, `VoxOne_M1`, opis zasilania, numerację i funkcje złączy, JP501/JP502, JP601, JP602, logo, czytelny pin1; usunąć kolizje napisów. **2026-10-18 PCB-LAYOUT-2:** Nowy czytelny nadruk, sekcje/napięcia/zwory; końcowy DRC0 ostrzeżeń nadruku, bez zmiany reguł.
+- [x] **M1-P0-12 [DONE — kontrola referencyjna]** — Przygotować faktyczny KiCad `.kicad_pcb`, widok 2D z góry, 3D z góry/pod kątem/z dołu (jeśli model dostępny); wyraźnie ujawnić brakujące / tymczasowe modele 3D. Nie przedstawiać grafiki AI jako dowodu technicznego. **2026-10-18 PCB-LAYOUT-2:** PrawdziwePCB, natywne2D/3D TOP/ANGLE/BOTTOM. BrakiBT/DAC/RTC/F101 i lokalny niepublikowanySTEPMAIN jawne.
+- [x] **M1-P0-13 [DONE — kontrola referencyjna]** — Zrobić ERC, DRC, porównanie netlisty oraz osobne zestawienie niepołączeń. Nie deklarować DRC PASS, dopóki płytka nie jest trasowana. **Bez ścieżek i Gerberów do akceptacji rozmieszczenia.** **2026-10-18 PCB-LAYOUT-2:** ERC0/0; DRC173 niepołączenia,0 innych naruszeń,0 ostrzeżeń,0 wykluczeń;258 przypisań identycznych. Nie jest DRC PASS.
+- [ ] **M1-P0-14 [TODO — OCZEKUJE NA AKCEPTACJĘ UŻYTKOWNIKA]** — Pokazać użytkownikowi rezultat i **poczekać na wyraźną akceptację nowego rozmieszczenia** przed trasowaniem.
 
 ### P1 — do zamknięcia przed zamawianiem / produkcją PCB
 
@@ -205,10 +205,10 @@
 - [x] **M1-GIT-01 [DONE]** — Użytkownik utworzył publiczne repozytorium `https://github.com/pimowo/VoxOnePCB` z gałęzią `main`.
 - [x] **M1-GIT-02 [APPROVED]** — Przechowywać również edytowalne źródła KiCad (`.kicad_pro`, `.kicad_sch`, `.kicad_pcb`, biblioteki symboli/footprintów, lokalne dozwolone modele 3D) w tym repozytorium.
 - [x] **M1-GIT-03 [DONE]** — Po instalacji ChatGPT Codex Connector zapis do GitHub został potwierdzony. Opublikowano README, TODO, AGENTS i `.gitignore` na `main`; udokumentowanie pełnego importu CAD pozostaje osobnym zadaniem M1-GIT-04.
-- [ ] **M1-GIT-04 [IN PROGRESS]** — Sklonowano repo na laptopie, skopiowano aktualne pliki KiCad i biblioteki, otwarto widok 3D, a następnie opublikowano commit `8d90e6d` na `main`. Pozostaje **niezależne ponowne sprawdzenie ERC/DRC/netlist i modeli z czystego klonu**; nie oznaczać kontroli jako wykonanych bez wyników.
+- [ ] **M1-GIT-04 [IN PROGRESS — ERC/DRC/netlista zweryfikowane 2026-10-18; model MAIN nieprzenośny]** — Sklonowano repo na laptopie, skopiowano aktualne pliki KiCad i biblioteki, otwarto widok 3D, a następnie opublikowano commit `8d90e6d` na `main`. Pozostaje **niezależne ponowne sprawdzenie ERC/DRC/netlist i modeli z czystego klonu**; nie oznaczać kontroli jako wykonanych bez wyników.
 - [ ] **M1-GIT-05 [IN PROGRESS]** — Wstępnie sprawdzono licencje i dodano teksty MIT, Apache-2.0, GPL-3.0, KiCad CC-BY-SA z wyjątkiem. Modele `YD-ESP32-S3.step` (autorstwo GrabCAD) oraz `PCM5102-I2S.step` (odłączony, GPL-3.0) wyłączono z publikacji. Przed wydaniem produkcyjnym sprawdzić warunki redystrybucji zmodyfikowanego footprintu DAC i wymagane informacje o autorstwie/zmianach.
 - [x] **M1-GIT-06 [DONE]** — Użytkownik wykonał `git diff --cached --check` (brak błędów), commit/push 60 plików, commit `8d90e6d`, a następnie powtórny `git push` potwierdził `Everything up-to-date`. Nie opublikowano checkpointów ZIP ani dwóch wstrzymanych modeli STEP.
-- [ ] **M1-GIT-07 [TODO]** — Po imporcie zweryfikować, że Codex startuje w katalogu sklonowanego repo i czyta root `AGENTS.md` oraz `TODO.md`; dalej prowadzić **jeden** kanoniczny rejestr decyzji.
+- [x] **M1-GIT-07 [DONE]** — Po imporcie zweryfikować, że Codex startuje w katalogu sklonowanego repo i czyta root `AGENTS.md` oraz `TODO.md`; dalej prowadzić **jeden** kanoniczny rejestr decyzji.
 - [ ] **M1-GIT-08 [TODO]** — Osobno ustalić licencję i zasady publikacji własnej dokumentacji/PCB; samo publiczne repozytorium nie przyznaje automatycznie licencji na wykorzystywanie projektu.
 
 ## 8. Historia i nowe notatki — dopisywać, nie kasować
@@ -229,3 +229,13 @@
 ---
 
 **Synchronizacja GitHub:** kanoniczną wersją TODO ma być `https://github.com/pimowo/VoxOnePCB/blob/main/TODO.md`. Repozytorium jest **publiczne**; nie dodawać haseł, tokenów, prywatnych danych i obcych modeli/bibliotek bez przeglądu licencji. Pliki CAD są już zapisane na GitHubie w commicie `8d90e6d`; lokalna kopia historycznej rewizji pozostaje na laptopie. Po zdalnych zmianach w TODO przed dalszą pracą lokalną wymagany jest `git pull --ff-only` na czystym drzewie. Lokalny Codex może pracować na TODO/AGENTS po sklonowaniu repo; aktualizacja GitHub wymaga `commit` oraz `push` i nie dzieje się automatycznie.
+
+## PCB-LAYOUT-2 — wykonanie 2026-10-18
+
+Użytkownik wyraźnie zatwierdził nowe rozmieszczenie i publikację osobnej gałęzi, zastępując wcześniejsze oczekiwanie na polecenie. Nie zatwierdził routingu, Gerberów ani produkcji. Źródło main: `1ca3e40e3600f005977bc504b272e34483b30150`. Main pozostaje niezmienionym checkpointem zatwierdzonym; TODO na gałęzi propozycji nie stanowi drugiego niezależnego rejestru.
+
+WariantA, PCB100×100, dwie warstwy, TOP77/BOTTOM0,4M3,0ścieżek/0przelotek/0pól. ERC0/0; DRC173 niepołączenia i0 pozostałych naruszeń,0 ostrzeżeń nadruku; wszystkie kontrole włączone.77 części,86 sieci,258 przypisań pin–sieć zachowane; schemat/biblioteki/modele/wartości/UUID bez zmian. Pełne obrysy modułów bez drobnicy pod nimi; odstęp innych części od referencyjnych anten≥15,105mm.
+
+Dokumenty i rzeczywiste podglądy w `docs/PCB-LAYOUT-2/`. Wszystkie P1 dotyczące fizycznych wariantów, wyjmowania/7mm łbów/8,5mm podstawek, modeli, licencji, pomiarów i produkcji pozostają otwarte. P1-16: ostrzeżenia nadruku84→0 w placement;173 niepołączenia pozostaje do osobno zatwierdzonego etapu. Nie przywrócono STEP DAC ani nie opublikowano ignorowanych modeliMAIN/DAC.
+
+M1-P0-14 pozostaje TODO: użytkownik ma ocenić nowe rozmieszczenie; nie jest to zgoda na trasowanie. Ewentualna zmiana fizycznych wymiarów/obrysu modułów wymaga ponownej kontroli i decyzji. Commit i bezpieczny push pcb-layout-2 dokumentuje końcowy raport.

@@ -1,0 +1,3996 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-18T10:03:19",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.4",
+    "schematic_parity": [],
+    "source": "VoxOne_M1.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 1 [/5V_IN] na F101",
+                    "pos": {
+                        "x": 54.5,
+                        "y": 77.5
+                    },
+                    "uuid": "008559d5-94ef-424d-9313-bb0afd745350"
+                },
+                {
+                    "description": "Pole PTH 1 [/5V_IN] na J101",
+                    "pos": {
+                        "x": 57.0,
+                        "y": 90.7
+                    },
+                    "uuid": "fa146d99-6666-4ac9-95f8-bfbb2f392553"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/5V_FUSED] z Q101 na F.Cu",
+                    "pos": {
+                        "x": 56.786,
+                        "y": 62.6
+                    },
+                    "uuid": "6b493ac9-d184-41f7-9029-e199a54bb4ad"
+                },
+                {
+                    "description": "Pole PTH 2 [/5V_FUSED] na F101",
+                    "pos": {
+                        "x": 59.58,
+                        "y": 77.5
+                    },
+                    "uuid": "6cdadf70-5840-4d52-a384-e22d57d4516b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/3V3_MAIN] z R605 na F.Cu",
+                    "pos": {
+                        "x": 53.0375,
+                        "y": 126.5
+                    },
+                    "uuid": "ef8d296c-b291-4d0e-a4c9-845d622aa339"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/3V3_MAIN] z D501 na F.Cu",
+                    "pos": {
+                        "x": 92.35,
+                        "y": 132.0
+                    },
+                    "uuid": "d61c24dc-1045-42a7-9dd8-4a02f9f0745f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/3V3_MAIN] z R205 na F.Cu",
+                    "pos": {
+                        "x": 62.15,
+                        "y": 67.4625
+                    },
+                    "uuid": "02eb0f2e-ca9d-4209-a063-e8dfe27185b3"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/3V3_MAIN] z C508 na F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 90.475
+                    },
+                    "uuid": "e5f00e85-7859-465a-8e5a-8392fb22d436"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH J1.2 [/3V3_MAIN] na U201",
+                    "pos": {
+                        "x": 90.7,
+                        "y": 105.55
+                    },
+                    "uuid": "9777846c-869d-4820-a87e-52181c77a1bc"
+                },
+                {
+                    "description": "Pole PTH J1.1 [/3V3_MAIN] na U201",
+                    "pos": {
+                        "x": 90.7,
+                        "y": 108.09
+                    },
+                    "uuid": "7cffc5a0-ca1d-4d36-b72f-292d2d2d4dbe"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH J1.1 [/3V3_MAIN] na U201",
+                    "pos": {
+                        "x": 90.7,
+                        "y": 108.09
+                    },
+                    "uuid": "7cffc5a0-ca1d-4d36-b72f-292d2d2d4dbe"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/3V3_MAIN] z D501 na F.Cu",
+                    "pos": {
+                        "x": 92.35,
+                        "y": 132.0
+                    },
+                    "uuid": "d61c24dc-1045-42a7-9dd8-4a02f9f0745f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/3V3_MAIN] z D501 na F.Cu",
+                    "pos": {
+                        "x": 92.35,
+                        "y": 132.0
+                    },
+                    "uuid": "d61c24dc-1045-42a7-9dd8-4a02f9f0745f"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/3V3_MAIN] z R602 na F.Cu",
+                    "pos": {
+                        "x": 98.0375,
+                        "y": 132.0
+                    },
+                    "uuid": "7b410197-460f-46ab-afae-27655ee24466"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/3V3_MAIN] z C508 na F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 90.475
+                    },
+                    "uuid": "e5f00e85-7859-465a-8e5a-8392fb22d436"
+                },
+                {
+                    "description": "Pole PTH J1.2 [/3V3_MAIN] na U201",
+                    "pos": {
+                        "x": 90.7,
+                        "y": 105.55
+                    },
+                    "uuid": "9777846c-869d-4820-a87e-52181c77a1bc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 5 [/3V3_MAIN] z U501 na F.Cu",
+                    "pos": {
+                        "x": 100.1375,
+                        "y": 90.55
+                    },
+                    "uuid": "907b0348-325b-4857-bce3-621a49ab6164"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/3V3_MAIN] z C508 na F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 90.475
+                    },
+                    "uuid": "e5f00e85-7859-465a-8e5a-8392fb22d436"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/3V3_MAIN] z R601 na F.Cu",
+                    "pos": {
+                        "x": 103.5375,
+                        "y": 132.0
+                    },
+                    "uuid": "1296c2db-35b2-42bb-9702-863fa22c8930"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/3V3_MAIN] z R602 na F.Cu",
+                    "pos": {
+                        "x": 98.0375,
+                        "y": 132.0
+                    },
+                    "uuid": "7b410197-460f-46ab-afae-27655ee24466"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/3V3_MAIN] z R603 na F.Cu",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 138.9625
+                    },
+                    "uuid": "3775be4e-b3e3-40c8-8b88-84bd4d69a62b"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/3V3_MAIN] z R604 na F.Cu",
+                    "pos": {
+                        "x": 110.0375,
+                        "y": 143.5
+                    },
+                    "uuid": "e1b1ed2b-b3b1-41d0-a7c8-267015fff43f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/3V3_MAIN] z R603 na F.Cu",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 138.9625
+                    },
+                    "uuid": "3775be4e-b3e3-40c8-8b88-84bd4d69a62b"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/3V3_MAIN] z R601 na F.Cu",
+                    "pos": {
+                        "x": 103.5375,
+                        "y": 132.0
+                    },
+                    "uuid": "1296c2db-35b2-42bb-9702-863fa22c8930"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/3V3_MAIN] z R505 na F.Cu",
+                    "pos": {
+                        "x": 117.5375,
+                        "y": 75.5
+                    },
+                    "uuid": "303a5436-5a2c-40a4-b5ce-375e16f9ec3c"
+                },
+                {
+                    "description": "Pole lutownicze 5 [/3V3_MAIN] z U501 na F.Cu",
+                    "pos": {
+                        "x": 100.1375,
+                        "y": 90.55
+                    },
+                    "uuid": "907b0348-325b-4857-bce3-621a49ab6164"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/3V3_MAIN] z R503 na F.Cu",
+                    "pos": {
+                        "x": 129.5,
+                        "y": 81.9625
+                    },
+                    "uuid": "7ef529c7-e77e-4736-8d91-2636ce65a77c"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/3V3_MAIN] z R505 na F.Cu",
+                    "pos": {
+                        "x": 117.5375,
+                        "y": 75.5
+                    },
+                    "uuid": "303a5436-5a2c-40a4-b5ce-375e16f9ec3c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z R607 na F.Cu",
+                    "pos": {
+                        "x": 52.5,
+                        "y": 108.0375
+                    },
+                    "uuid": "54a4030c-7f64-4f91-ac21-3aed7f291bae"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z R609 na F.Cu",
+                    "pos": {
+                        "x": 52.5,
+                        "y": 113.5375
+                    },
+                    "uuid": "1f53062f-6de4-49d7-8b41-06e0ad58b051"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z R609 na F.Cu",
+                    "pos": {
+                        "x": 52.5,
+                        "y": 113.5375
+                    },
+                    "uuid": "1f53062f-6de4-49d7-8b41-06e0ad58b051"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z R101 na F.Cu",
+                    "pos": {
+                        "x": 65.9625,
+                        "y": 132.5
+                    },
+                    "uuid": "c560c238-9014-44bb-88a4-4f141f5814ce"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z D101 na F.Cu",
+                    "pos": {
+                        "x": 53.5,
+                        "y": 96.35
+                    },
+                    "uuid": "848b5369-71dd-4e52-a4ad-07ddd7b593c1"
+                },
+                {
+                    "description": "Pole PTH 2 [/GND] na J101",
+                    "pos": {
+                        "x": 57.0,
+                        "y": 85.62
+                    },
+                    "uuid": "5fac3f39-659b-4e7c-8dc1-cad125d7a192"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z D101 na F.Cu",
+                    "pos": {
+                        "x": 53.5,
+                        "y": 96.35
+                    },
+                    "uuid": "848b5369-71dd-4e52-a4ad-07ddd7b593c1"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z R607 na F.Cu",
+                    "pos": {
+                        "x": 52.5,
+                        "y": 108.0375
+                    },
+                    "uuid": "54a4030c-7f64-4f91-ac21-3aed7f291bae"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 2 [/GND] na J101",
+                    "pos": {
+                        "x": 57.0,
+                        "y": 85.62
+                    },
+                    "uuid": "5fac3f39-659b-4e7c-8dc1-cad125d7a192"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/GND] z Q101 na F.Cu",
+                    "pos": {
+                        "x": 54.5,
+                        "y": 69.0
+                    },
+                    "uuid": "7a824e73-ed08-4bcf-b9ca-aaab171a091e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C201 na F.Cu",
+                    "pos": {
+                        "x": 61.0,
+                        "y": 54.525
+                    },
+                    "uuid": "bad14297-e14e-4098-8a6f-6b9557386cc4"
+                },
+                {
+                    "description": "Pole PTH J3.22 [/GND] na U201",
+                    "pos": {
+                        "x": 65.3,
+                        "y": 54.75
+                    },
+                    "uuid": "eddb167f-4395-4894-8dc5-ca1d116f402b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C201 na F.Cu",
+                    "pos": {
+                        "x": 61.0,
+                        "y": 54.525
+                    },
+                    "uuid": "bad14297-e14e-4098-8a6f-6b9557386cc4"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/GND] z Q101 na F.Cu",
+                    "pos": {
+                        "x": 54.5,
+                        "y": 69.0
+                    },
+                    "uuid": "7a824e73-ed08-4bcf-b9ca-aaab171a091e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 2 [/GND] na J501",
+                    "pos": {
+                        "x": 63.54,
+                        "y": 147.8
+                    },
+                    "uuid": "733b61d7-b1ec-44af-8dde-ff74f4005b80"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C104 na F.Cu",
+                    "pos": {
+                        "x": 67.574999,
+                        "y": 143.0
+                    },
+                    "uuid": "d7b60ee2-842a-4a06-9dc3-365d7d781389"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 2 [/GND] na C503",
+                    "pos": {
+                        "x": 65.0,
+                        "y": 137.0
+                    },
+                    "uuid": "88dde348-8ddc-4f8a-884d-dfa9b8867b4f"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C104 na F.Cu",
+                    "pos": {
+                        "x": 67.574999,
+                        "y": 143.0
+                    },
+                    "uuid": "d7b60ee2-842a-4a06-9dc3-365d7d781389"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH J3.21 [/GND] na U201",
+                    "pos": {
+                        "x": 65.3,
+                        "y": 57.29
+                    },
+                    "uuid": "aea9213c-78f2-42eb-bf81-993d2b83a220"
+                },
+                {
+                    "description": "Pole PTH J3.22 [/GND] na U201",
+                    "pos": {
+                        "x": 65.3,
+                        "y": 54.75
+                    },
+                    "uuid": "eddb167f-4395-4894-8dc5-ca1d116f402b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH J3.1 [/GND] na U201",
+                    "pos": {
+                        "x": 65.3,
+                        "y": 108.09
+                    },
+                    "uuid": "ed4d0591-8cc3-4b12-9fb5-8e46729f5bc5"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z R607 na F.Cu",
+                    "pos": {
+                        "x": 52.5,
+                        "y": 108.0375
+                    },
+                    "uuid": "54a4030c-7f64-4f91-ac21-3aed7f291bae"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z R101 na F.Cu",
+                    "pos": {
+                        "x": 65.9625,
+                        "y": 132.5
+                    },
+                    "uuid": "c560c238-9014-44bb-88a4-4f141f5814ce"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/GND] z U101 na F.Cu",
+                    "pos": {
+                        "x": 69.85,
+                        "y": 133.7
+                    },
+                    "uuid": "0240b194-510d-445d-b5d0-6ec8f731a2eb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z R101 na F.Cu",
+                    "pos": {
+                        "x": 65.9625,
+                        "y": 132.5
+                    },
+                    "uuid": "c560c238-9014-44bb-88a4-4f141f5814ce"
+                },
+                {
+                    "description": "Pole PTH 2 [/GND] na C503",
+                    "pos": {
+                        "x": 65.0,
+                        "y": 137.0
+                    },
+                    "uuid": "88dde348-8ddc-4f8a-884d-dfa9b8867b4f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/GND] z U101 na F.Cu",
+                    "pos": {
+                        "x": 69.85,
+                        "y": 133.7
+                    },
+                    "uuid": "0240b194-510d-445d-b5d0-6ec8f731a2eb"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C106 na F.Cu",
+                    "pos": {
+                        "x": 79.5,
+                        "y": 132.525
+                    },
+                    "uuid": "0f0b178a-029c-4097-9835-e5db8ed7ee6b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C106 na F.Cu",
+                    "pos": {
+                        "x": 79.5,
+                        "y": 132.525
+                    },
+                    "uuid": "0f0b178a-029c-4097-9835-e5db8ed7ee6b"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z Q602 na F.Cu",
+                    "pos": {
+                        "x": 80.5625,
+                        "y": 140.95
+                    },
+                    "uuid": "2825e968-3089-4001-b51c-c7bf43566775"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z Q602 na F.Cu",
+                    "pos": {
+                        "x": 80.5625,
+                        "y": 140.95
+                    },
+                    "uuid": "2825e968-3089-4001-b51c-c7bf43566775"
+                },
+                {
+                    "description": "Pole PTH 2 [/GND] na C506",
+                    "pos": {
+                        "x": 88.0,
+                        "y": 141.0
+                    },
+                    "uuid": "80a89186-ed2c-4373-bb1d-e5e944f43e1c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z Q602 na F.Cu",
+                    "pos": {
+                        "x": 80.5625,
+                        "y": 140.95
+                    },
+                    "uuid": "2825e968-3089-4001-b51c-c7bf43566775"
+                },
+                {
+                    "description": "Pole PTH 2 [/GND] na J502",
+                    "pos": {
+                        "x": 76.54,
+                        "y": 147.8
+                    },
+                    "uuid": "30ce53ea-fda8-44cb-9664-2f5ce9397131"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C105 na F.Cu",
+                    "pos": {
+                        "x": 89.2075,
+                        "y": 134.0
+                    },
+                    "uuid": "c49709d3-4d81-41e3-b0f1-2fc58d958ce3"
+                },
+                {
+                    "description": "Pole PTH 2 [/GND] na C506",
+                    "pos": {
+                        "x": 88.0,
+                        "y": 141.0
+                    },
+                    "uuid": "80a89186-ed2c-4373-bb1d-e5e944f43e1c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C105 na F.Cu",
+                    "pos": {
+                        "x": 89.2075,
+                        "y": 134.0
+                    },
+                    "uuid": "c49709d3-4d81-41e3-b0f1-2fc58d958ce3"
+                },
+                {
+                    "description": "Pole PTH 2 [/GND] na C103",
+                    "pos": {
+                        "x": 97.0,
+                        "y": 137.0
+                    },
+                    "uuid": "632cc8ff-590e-4386-aef2-319ec3b247e7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH J1.22 [/GND] na U201",
+                    "pos": {
+                        "x": 90.70368,
+                        "y": 54.75272
+                    },
+                    "uuid": "e0fe830e-dd10-4677-9b1d-96a0fe45dfcc"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C202 na F.Cu",
+                    "pos": {
+                        "x": 97.475,
+                        "y": 53.0
+                    },
+                    "uuid": "ddb2ef66-074a-40d9-a11b-70741050253e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH J1.22 [/GND] na U201",
+                    "pos": {
+                        "x": 90.70368,
+                        "y": 54.75272
+                    },
+                    "uuid": "e0fe830e-dd10-4677-9b1d-96a0fe45dfcc"
+                },
+                {
+                    "description": "Pole PTH J3.22 [/GND] na U201",
+                    "pos": {
+                        "x": 65.3,
+                        "y": 54.75
+                    },
+                    "uuid": "eddb167f-4395-4894-8dc5-ca1d116f402b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C504 na F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 76.525
+                    },
+                    "uuid": "6f6a96ed-b7b4-4b00-8890-80f277d40f24"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C505 na F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 82.025
+                    },
+                    "uuid": "207a6774-3edc-499f-8d12-b79b60fc4756"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C505 na F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 82.025
+                    },
+                    "uuid": "207a6774-3edc-499f-8d12-b79b60fc4756"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C508 na F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 87.525
+                    },
+                    "uuid": "c06cde1e-7cad-4508-ad54-fb0824f17edf"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C508 na F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 87.525
+                    },
+                    "uuid": "c06cde1e-7cad-4508-ad54-fb0824f17edf"
+                },
+                {
+                    "description": "Pole lutownicze 3 [/GND] z U501 na F.Cu",
+                    "pos": {
+                        "x": 97.8625,
+                        "y": 92.45
+                    },
+                    "uuid": "ac9bb210-6037-4ccd-8319-6d8655abecb7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C202 na F.Cu",
+                    "pos": {
+                        "x": 97.475,
+                        "y": 53.0
+                    },
+                    "uuid": "ddb2ef66-074a-40d9-a11b-70741050253e"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C102 na F.Cu",
+                    "pos": {
+                        "x": 97.475,
+                        "y": 57.0
+                    },
+                    "uuid": "6de64268-917f-40b8-971a-02f14c019d73"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C102 na F.Cu",
+                    "pos": {
+                        "x": 97.475,
+                        "y": 57.0
+                    },
+                    "uuid": "6de64268-917f-40b8-971a-02f14c019d73"
+                },
+                {
+                    "description": "Pole PTH 2 [/GND] na J301",
+                    "pos": {
+                        "x": 103.04,
+                        "y": 55.5
+                    },
+                    "uuid": "c278a48a-16dd-453b-8e42-c9fec1233ed0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z Q503 na F.Cu",
+                    "pos": {
+                        "x": 102.95,
+                        "y": 143.4375
+                    },
+                    "uuid": "26d00c39-10b1-431c-a88b-b2db64cf073b"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z Q601 na F.Cu",
+                    "pos": {
+                        "x": 105.5625,
+                        "y": 143.45
+                    },
+                    "uuid": "e9885034-6f05-4149-8a50-3baa286972a8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z Q503 na F.Cu",
+                    "pos": {
+                        "x": 102.95,
+                        "y": 143.4375
+                    },
+                    "uuid": "26d00c39-10b1-431c-a88b-b2db64cf073b"
+                },
+                {
+                    "description": "Pole PTH 2 [/GND] na C103",
+                    "pos": {
+                        "x": 97.0,
+                        "y": 137.0
+                    },
+                    "uuid": "632cc8ff-590e-4386-aef2-319ec3b247e7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 5 [/GND] na U601",
+                    "pos": {
+                        "x": 103.5,
+                        "y": 87.76
+                    },
+                    "uuid": "26bac58e-7003-4f23-9d16-0803efc3905b"
+                },
+                {
+                    "description": "Pole lutownicze 3 [/GND] z U501 na F.Cu",
+                    "pos": {
+                        "x": 97.8625,
+                        "y": 92.45
+                    },
+                    "uuid": "ac9bb210-6037-4ccd-8319-6d8655abecb7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 2 [/GND] na C101",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 64.0
+                    },
+                    "uuid": "01ae6125-8018-4f23-9263-cc41b41e52c7"
+                },
+                {
+                    "description": "Pole PTH 2 [/GND] na J301",
+                    "pos": {
+                        "x": 103.04,
+                        "y": 55.5
+                    },
+                    "uuid": "c278a48a-16dd-453b-8e42-c9fec1233ed0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 2 [/GND] na C203",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 72.8
+                    },
+                    "uuid": "fee9ac32-2cd0-4315-8d18-c04db1c23fea"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C501 na F.Cu",
+                    "pos": {
+                        "x": 111.5,
+                        "y": 74.525
+                    },
+                    "uuid": "df375463-7aa6-4a8f-921f-759bd8656354"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 2 [/GND] na C203",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 72.8
+                    },
+                    "uuid": "fee9ac32-2cd0-4315-8d18-c04db1c23fea"
+                },
+                {
+                    "description": "Pole PTH 2 [/GND] na C101",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 64.0
+                    },
+                    "uuid": "01ae6125-8018-4f23-9263-cc41b41e52c7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 2 [/GND] na C203",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 72.8
+                    },
+                    "uuid": "fee9ac32-2cd0-4315-8d18-c04db1c23fea"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C504 na F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 76.525
+                    },
+                    "uuid": "6f6a96ed-b7b4-4b00-8890-80f277d40f24"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 4 [/GND] na J601",
+                    "pos": {
+                        "x": 105.62,
+                        "y": 147.8
+                    },
+                    "uuid": "2fe2f72d-2142-4d18-8a2a-0384301bbf17"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z Q601 na F.Cu",
+                    "pos": {
+                        "x": 105.5625,
+                        "y": 143.45
+                    },
+                    "uuid": "e9885034-6f05-4149-8a50-3baa286972a8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 4 [/GND] na J601",
+                    "pos": {
+                        "x": 105.62,
+                        "y": 147.8
+                    },
+                    "uuid": "2fe2f72d-2142-4d18-8a2a-0384301bbf17"
+                },
+                {
+                    "description": "Pole PTH 3 [/GND] na J603",
+                    "pos": {
+                        "x": 117.08,
+                        "y": 147.8
+                    },
+                    "uuid": "6a41c4b6-88e1-4176-be58-c55bb2c2b8fd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C501 na F.Cu",
+                    "pos": {
+                        "x": 111.5,
+                        "y": 74.525
+                    },
+                    "uuid": "df375463-7aa6-4a8f-921f-759bd8656354"
+                },
+                {
+                    "description": "Pole PTH B8 [/GND] na U301",
+                    "pos": {
+                        "x": 114.675,
+                        "y": 70.985
+                    },
+                    "uuid": "1f0a01c9-9ebe-4e9c-927b-42c6ae2e4859"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C502 na F.Cu",
+                    "pos": {
+                        "x": 111.5,
+                        "y": 80.025
+                    },
+                    "uuid": "2c5912e0-31e7-4b49-a2b7-463abb9b1c40"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C501 na F.Cu",
+                    "pos": {
+                        "x": 111.5,
+                        "y": 74.525
+                    },
+                    "uuid": "df375463-7aa6-4a8f-921f-759bd8656354"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C502 na F.Cu",
+                    "pos": {
+                        "x": 111.5,
+                        "y": 80.025
+                    },
+                    "uuid": "2c5912e0-31e7-4b49-a2b7-463abb9b1c40"
+                },
+                {
+                    "description": "Pole PTH 2 [/GND] na C603",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 80.0
+                    },
+                    "uuid": "799efe1c-9661-4ef4-90f6-49fd99dd25d3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH B8 [/GND] na U301",
+                    "pos": {
+                        "x": 114.675,
+                        "y": 70.985
+                    },
+                    "uuid": "1f0a01c9-9ebe-4e9c-927b-42c6ae2e4859"
+                },
+                {
+                    "description": "Pole PTH B6 [/GND] na U301",
+                    "pos": {
+                        "x": 119.755,
+                        "y": 70.985
+                    },
+                    "uuid": "c5c307c5-4942-43ae-aead-c186dc209932"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C601 na F.Cu",
+                    "pos": {
+                        "x": 114.975,
+                        "y": 86.0
+                    },
+                    "uuid": "01d717fa-8360-4eca-8d3e-88d3696ee1fc"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C602 na F.Cu",
+                    "pos": {
+                        "x": 120.475,
+                        "y": 86.0
+                    },
+                    "uuid": "d7574fda-8051-4ec0-a0db-08016edb0417"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 3 [/GND] na J603",
+                    "pos": {
+                        "x": 117.08,
+                        "y": 147.8
+                    },
+                    "uuid": "6a41c4b6-88e1-4176-be58-c55bb2c2b8fd"
+                },
+                {
+                    "description": "Pole PTH 7 [/GND] na J402",
+                    "pos": {
+                        "x": 137.43,
+                        "y": 127.86
+                    },
+                    "uuid": "203886ad-cefa-4336-b6b1-a18a87eafba9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 2 [/GND] na C603",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 80.0
+                    },
+                    "uuid": "799efe1c-9661-4ef4-90f6-49fd99dd25d3"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C602 na F.Cu",
+                    "pos": {
+                        "x": 120.475,
+                        "y": 86.0
+                    },
+                    "uuid": "d7574fda-8051-4ec0-a0db-08016edb0417"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH B6 [/GND] na U301",
+                    "pos": {
+                        "x": 119.755,
+                        "y": 70.985
+                    },
+                    "uuid": "c5c307c5-4942-43ae-aead-c186dc209932"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C507 na F.Cu",
+                    "pos": {
+                        "x": 125.475,
+                        "y": 74.0
+                    },
+                    "uuid": "275fc73a-192f-4fcb-ac5c-5718aeae95c2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C507 na F.Cu",
+                    "pos": {
+                        "x": 125.475,
+                        "y": 74.0
+                    },
+                    "uuid": "275fc73a-192f-4fcb-ac5c-5718aeae95c2"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z R301 na F.Cu",
+                    "pos": {
+                        "x": 126.4625,
+                        "y": 77.0
+                    },
+                    "uuid": "4666ef26-c946-4fd0-838c-998075cce483"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z R508 na F.Cu",
+                    "pos": {
+                        "x": 136.0,
+                        "y": 86.0375
+                    },
+                    "uuid": "b7d5d8a6-2800-4e40-abeb-f4d07849945c"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z R402 na F.Cu",
+                    "pos": {
+                        "x": 143.0,
+                        "y": 86.0375
+                    },
+                    "uuid": "1b87e329-bcd6-4c65-a471-8cc1fc9e143b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z R508 na F.Cu",
+                    "pos": {
+                        "x": 136.0,
+                        "y": 86.0375
+                    },
+                    "uuid": "b7d5d8a6-2800-4e40-abeb-f4d07849945c"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z R301 na F.Cu",
+                    "pos": {
+                        "x": 126.4625,
+                        "y": 77.0
+                    },
+                    "uuid": "4666ef26-c946-4fd0-838c-998075cce483"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 7 [/GND] na J402",
+                    "pos": {
+                        "x": 137.43,
+                        "y": 127.86
+                    },
+                    "uuid": "203886ad-cefa-4336-b6b1-a18a87eafba9"
+                },
+                {
+                    "description": "Pole PTH 2 [/GND] na C403",
+                    "pos": {
+                        "x": 148.0,
+                        "y": 130.0
+                    },
+                    "uuid": "b9922e49-f4df-452d-9ba9-382933177dc7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH A1 [/GND] na U301",
+                    "pos": {
+                        "x": 138.805,
+                        "y": 70.35
+                    },
+                    "uuid": "2ec71b9d-d7f7-4052-9c87-b34887eb9ee6"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C302 na F.Cu",
+                    "pos": {
+                        "x": 147.475,
+                        "y": 70.0
+                    },
+                    "uuid": "4f4f2ac5-7070-4322-a355-7f74fa429eb2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH A1 [/GND] na U301",
+                    "pos": {
+                        "x": 138.805,
+                        "y": 70.35
+                    },
+                    "uuid": "2ec71b9d-d7f7-4052-9c87-b34887eb9ee6"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C507 na F.Cu",
+                    "pos": {
+                        "x": 125.475,
+                        "y": 74.0
+                    },
+                    "uuid": "275fc73a-192f-4fcb-ac5c-5718aeae95c2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z Q401 na F.Cu",
+                    "pos": {
+                        "x": 146.0625,
+                        "y": 89.45
+                    },
+                    "uuid": "c272cf3a-7df7-4da0-a55a-3de9563f4e52"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z R402 na F.Cu",
+                    "pos": {
+                        "x": 143.0,
+                        "y": 86.0375
+                    },
+                    "uuid": "1b87e329-bcd6-4c65-a471-8cc1fc9e143b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C301 na F.Cu",
+                    "pos": {
+                        "x": 146.975,
+                        "y": 59.8
+                    },
+                    "uuid": "24a42c7d-331b-4f5f-8d95-d2a5d99c40fc"
+                },
+                {
+                    "description": "Pole PTH A5 [/GND] na U301",
+                    "pos": {
+                        "x": 138.805,
+                        "y": 60.19
+                    },
+                    "uuid": "5bf24130-0a83-4c5d-ab66-b79535fa865f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C302 na F.Cu",
+                    "pos": {
+                        "x": 147.475,
+                        "y": 70.0
+                    },
+                    "uuid": "4f4f2ac5-7070-4322-a355-7f74fa429eb2"
+                },
+                {
+                    "description": "Pole PTH 2 [/GND] na C303",
+                    "pos": {
+                        "x": 148.0,
+                        "y": 65.0
+                    },
+                    "uuid": "5a7e5444-5d0e-4ea4-b099-4a9c89b639ec"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C402 na F.Cu",
+                    "pos": {
+                        "x": 147.975,
+                        "y": 139.0
+                    },
+                    "uuid": "1aa76dfc-c7f9-4bc0-89f1-4ab6ff516c64"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C401 na F.Cu",
+                    "pos": {
+                        "x": 147.275,
+                        "y": 136.0
+                    },
+                    "uuid": "180c9105-a036-4ff9-af5b-28bf6d6c9eac"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 2 [/GND] na C303",
+                    "pos": {
+                        "x": 148.0,
+                        "y": 65.0
+                    },
+                    "uuid": "5a7e5444-5d0e-4ea4-b099-4a9c89b639ec"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C301 na F.Cu",
+                    "pos": {
+                        "x": 146.975,
+                        "y": 59.8
+                    },
+                    "uuid": "24a42c7d-331b-4f5f-8d95-d2a5d99c40fc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 2 [/GND] na C403",
+                    "pos": {
+                        "x": 148.0,
+                        "y": 130.0
+                    },
+                    "uuid": "b9922e49-f4df-452d-9ba9-382933177dc7"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/GND] z C401 na F.Cu",
+                    "pos": {
+                        "x": 147.275,
+                        "y": 136.0
+                    },
+                    "uuid": "180c9105-a036-4ff9-af5b-28bf6d6c9eac"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/DAC_XSMT] z R204 na F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 59.5375
+                    },
+                    "uuid": "c6143b6f-4b00-40ca-8755-8451d4d55c4f"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/DAC_XSMT] z R301 na F.Cu",
+                    "pos": {
+                        "x": 123.5375,
+                        "y": 77.0
+                    },
+                    "uuid": "31ec72eb-634e-4194-b81d-0fdb1613e1a0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/DAC_XSMT] z R301 na F.Cu",
+                    "pos": {
+                        "x": 123.5375,
+                        "y": 77.0
+                    },
+                    "uuid": "31ec72eb-634e-4194-b81d-0fdb1613e1a0"
+                },
+                {
+                    "description": "Pole PTH B3 [/DAC_XSMT] na U301",
+                    "pos": {
+                        "x": 127.375,
+                        "y": 70.985
+                    },
+                    "uuid": "990f00e7-c83a-4c43-b4db-b0bb7c4ddceb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 1 [/VCC_DISP_SPI] na J502",
+                    "pos": {
+                        "x": 74.0,
+                        "y": 147.8
+                    },
+                    "uuid": "d395d424-738a-4880-9d5f-59e3d6793311"
+                },
+                {
+                    "description": "Pole PTH 1 [/VCC_DISP_SPI] na C506",
+                    "pos": {
+                        "x": 86.0,
+                        "y": 141.0
+                    },
+                    "uuid": "0c45e701-a539-4e97-bb08-8f84a187fade"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 1 [/VCC_DISP_SPI] na C506",
+                    "pos": {
+                        "x": 86.0,
+                        "y": 141.0
+                    },
+                    "uuid": "0c45e701-a539-4e97-bb08-8f84a187fade"
+                },
+                {
+                    "description": "Pole PTH 2 [/VCC_DISP_SPI] na JP502",
+                    "pos": {
+                        "x": 102.54,
+                        "y": 128.5
+                    },
+                    "uuid": "35a1c819-d57b-4e37-a1bc-e2491f27825b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/VCC_DISP_SPI] z C505 na F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 84.975
+                    },
+                    "uuid": "e57db078-9dc2-40a9-85e8-c9e3207eb3f0"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/VCC_DISP_SPI] z C504 na F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 79.475
+                    },
+                    "uuid": "888d8459-45f2-4c55-ba00-6a55d55a6910"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/VCC_DISP_SPI] z Q504 na F.Cu",
+                    "pos": {
+                        "x": 95.45,
+                        "y": 94.9375
+                    },
+                    "uuid": "81728be3-7b1e-437e-a9d1-50f30ed2da8c"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/VCC_DISP_SPI] z C505 na F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 84.975
+                    },
+                    "uuid": "e57db078-9dc2-40a9-85e8-c9e3207eb3f0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 2 [/VCC_DISP_SPI] na JP502",
+                    "pos": {
+                        "x": 102.54,
+                        "y": 128.5
+                    },
+                    "uuid": "35a1c819-d57b-4e37-a1bc-e2491f27825b"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/VCC_DISP_SPI] z Q504 na F.Cu",
+                    "pos": {
+                        "x": 95.45,
+                        "y": 94.9375
+                    },
+                    "uuid": "81728be3-7b1e-437e-a9d1-50f30ed2da8c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/VCC_DISP_SPI] z R506 na F.Cu",
+                    "pos": {
+                        "x": 133.0,
+                        "y": 83.4625
+                    },
+                    "uuid": "5e120e83-297a-4092-b327-5e3a694ea66b"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/VCC_DISP_SPI] z C505 na F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 84.975
+                    },
+                    "uuid": "e57db078-9dc2-40a9-85e8-c9e3207eb3f0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/3V3_AUX] z R101 na F.Cu",
+                    "pos": {
+                        "x": 63.0375,
+                        "y": 132.5
+                    },
+                    "uuid": "6ccc50ef-2f27-4a20-a872-dc6dfaaaefc7"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/3V3_AUX] z U101 na F.Cu",
+                    "pos": {
+                        "x": 69.85,
+                        "y": 136.0
+                    },
+                    "uuid": "51ff75f4-1525-4576-9d77-927828e6c14a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/3V3_AUX] z U101 na F.Cu",
+                    "pos": {
+                        "x": 69.85,
+                        "y": 136.0
+                    },
+                    "uuid": "51ff75f4-1525-4576-9d77-927828e6c14a"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/3V3_AUX] z U101 na F.Cu",
+                    "pos": {
+                        "x": 76.15,
+                        "y": 136.0
+                    },
+                    "uuid": "460468ed-8bb7-4311-bef8-2462bf3a8321"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/3V3_AUX] z U101 na F.Cu",
+                    "pos": {
+                        "x": 76.15,
+                        "y": 136.0
+                    },
+                    "uuid": "460468ed-8bb7-4311-bef8-2462bf3a8321"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/3V3_AUX] z C106 na F.Cu",
+                    "pos": {
+                        "x": 79.5,
+                        "y": 135.475
+                    },
+                    "uuid": "82ce162e-d8e3-4bc2-9f55-c370a0a6d329"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/3V3_AUX] z C106 na F.Cu",
+                    "pos": {
+                        "x": 79.5,
+                        "y": 135.475
+                    },
+                    "uuid": "82ce162e-d8e3-4bc2-9f55-c370a0a6d329"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/3V3_AUX] z C105 na F.Cu",
+                    "pos": {
+                        "x": 82.7925,
+                        "y": 134.0
+                    },
+                    "uuid": "5cbdf8ac-f412-463b-9b00-e198d63f1191"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/3V3_AUX] z C105 na F.Cu",
+                    "pos": {
+                        "x": 82.7925,
+                        "y": 134.0
+                    },
+                    "uuid": "5cbdf8ac-f412-463b-9b00-e198d63f1191"
+                },
+                {
+                    "description": "Pole PTH 1 [/3V3_AUX] na JP501",
+                    "pos": {
+                        "x": 92.5,
+                        "y": 142.5
+                    },
+                    "uuid": "b79e2498-1f87-4f5d-a9a9-c6d0312ed7fc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 1 [/3V3_AUX] na JP501",
+                    "pos": {
+                        "x": 92.5,
+                        "y": 142.5
+                    },
+                    "uuid": "b79e2498-1f87-4f5d-a9a9-c6d0312ed7fc"
+                },
+                {
+                    "description": "Pole PTH 1 [/3V3_AUX] na JP502",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 128.5
+                    },
+                    "uuid": "e45547d3-b590-484b-b70f-147413918151"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/3V3_AUX] z C601 na F.Cu",
+                    "pos": {
+                        "x": 112.025,
+                        "y": 86.0
+                    },
+                    "uuid": "4c91416b-0ac4-47e3-a7e3-774bb6303690"
+                },
+                {
+                    "description": "Pole PTH 1 [/3V3_AUX] na U601",
+                    "pos": {
+                        "x": 103.5,
+                        "y": 77.6
+                    },
+                    "uuid": "64d203d6-2b2b-45ea-9e08-701f67ebf3ac"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/3V3_AUX] z C601 na F.Cu",
+                    "pos": {
+                        "x": 112.025,
+                        "y": 86.0
+                    },
+                    "uuid": "4c91416b-0ac4-47e3-a7e3-774bb6303690"
+                },
+                {
+                    "description": "Pole PTH 1 [/3V3_AUX] na JP502",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 128.5
+                    },
+                    "uuid": "e45547d3-b590-484b-b70f-147413918151"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/3V3_AUX] z C602 na F.Cu",
+                    "pos": {
+                        "x": 117.525,
+                        "y": 86.0
+                    },
+                    "uuid": "9fba03a9-68e0-4818-99fc-363f973a42f7"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/3V3_AUX] z C601 na F.Cu",
+                    "pos": {
+                        "x": 112.025,
+                        "y": 86.0
+                    },
+                    "uuid": "4c91416b-0ac4-47e3-a7e3-774bb6303690"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/3V3_AUX] z C602 na F.Cu",
+                    "pos": {
+                        "x": 117.525,
+                        "y": 86.0
+                    },
+                    "uuid": "9fba03a9-68e0-4818-99fc-363f973a42f7"
+                },
+                {
+                    "description": "Pole PTH 1 [/3V3_AUX] na C603",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 80.0
+                    },
+                    "uuid": "33e86375-b5d9-4bd2-ad3d-1b94d12f67c1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 3 [/I2C_SDA] na J501",
+                    "pos": {
+                        "x": 66.08,
+                        "y": 147.8
+                    },
+                    "uuid": "088066e2-adf2-464f-ae81-f44e947bcb5e"
+                },
+                {
+                    "description": "Pole PTH 2 [/I2C_SDA] na JP602",
+                    "pos": {
+                        "x": 101.0,
+                        "y": 135.46
+                    },
+                    "uuid": "c9d92192-bf7c-41f7-9c0f-2059bb9a6dd6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 2 [/I2C_SDA] na JP602",
+                    "pos": {
+                        "x": 101.0,
+                        "y": 135.46
+                    },
+                    "uuid": "c9d92192-bf7c-41f7-9c0f-2059bb9a6dd6"
+                },
+                {
+                    "description": "Pole PTH 2 [/I2C_SDA] na U601",
+                    "pos": {
+                        "x": 103.5,
+                        "y": 80.14
+                    },
+                    "uuid": "01c2c52b-2174-4e30-97a6-4487f8e201e3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 2 [/I2C_SDA] na U601",
+                    "pos": {
+                        "x": 103.5,
+                        "y": 80.14
+                    },
+                    "uuid": "01c2c52b-2174-4e30-97a6-4487f8e201e3"
+                },
+                {
+                    "description": "Pole PTH J1.12 [/I2C_SDA] na U201",
+                    "pos": {
+                        "x": 90.7,
+                        "y": 80.15
+                    },
+                    "uuid": "8ca8c9fd-1657-4274-be7d-c8b0a62beefa"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 4 [/I2C_SCL] na J501",
+                    "pos": {
+                        "x": 68.62,
+                        "y": 147.8
+                    },
+                    "uuid": "99941ffa-7c2e-46d1-9f3f-e497e99ecff7"
+                },
+                {
+                    "description": "Pole PTH 4 [/I2C_SCL] na JP602",
+                    "pos": {
+                        "x": 103.54,
+                        "y": 135.46
+                    },
+                    "uuid": "c340f0ed-25e8-4f17-8f60-83069103dec4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 3 [/I2C_SCL] na U601",
+                    "pos": {
+                        "x": 103.5,
+                        "y": 82.68
+                    },
+                    "uuid": "9dfdbc30-3f00-4530-8ec7-886799b3d42b"
+                },
+                {
+                    "description": "Pole PTH J1.15 [/I2C_SCL] na U201",
+                    "pos": {
+                        "x": 90.7,
+                        "y": 72.53
+                    },
+                    "uuid": "d8e607ed-d8d4-4850-9368-4c09a2ce126a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 4 [/I2C_SCL] na JP602",
+                    "pos": {
+                        "x": 103.54,
+                        "y": 135.46
+                    },
+                    "uuid": "c340f0ed-25e8-4f17-8f60-83069103dec4"
+                },
+                {
+                    "description": "Pole PTH 3 [/I2C_SCL] na U601",
+                    "pos": {
+                        "x": 103.5,
+                        "y": 82.68
+                    },
+                    "uuid": "9dfdbc30-3f00-4530-8ec7-886799b3d42b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/DAC_BCLK] z R201 na F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 64.5375
+                    },
+                    "uuid": "df9c6238-bd4e-4ddd-939b-7f7f05a47da3"
+                },
+                {
+                    "description": "Pole PTH A2 [/DAC_BCLK] na U301",
+                    "pos": {
+                        "x": 138.805,
+                        "y": 67.81
+                    },
+                    "uuid": "8d16fffe-1a00-4e13-9c75-283a568a8252"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/DAC_DOUT] z R203 na F.Cu",
+                    "pos": {
+                        "x": 99.4625,
+                        "y": 73.5
+                    },
+                    "uuid": "a9f5e5d8-8c60-447d-8a6b-a0827bb0aba3"
+                },
+                {
+                    "description": "Pole PTH A3 [/DAC_DOUT] na U301",
+                    "pos": {
+                        "x": 138.805,
+                        "y": 65.27
+                    },
+                    "uuid": "9d83cbec-5217-4872-82e3-bc7363aa0e54"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/DAC_LRCK] z R202 na F.Cu",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 69.5375
+                    },
+                    "uuid": "45e11917-464a-4bc8-bf63-869d6d4fe3c4"
+                },
+                {
+                    "description": "Pole PTH A4 [/DAC_LRCK] na U301",
+                    "pos": {
+                        "x": 138.805,
+                        "y": 62.73
+                    },
+                    "uuid": "0e7451d0-8515-4da7-86ba-741a298574da"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/5V_DAC] z C301 na F.Cu",
+                    "pos": {
+                        "x": 144.025,
+                        "y": 59.8
+                    },
+                    "uuid": "9bf3b560-2c68-4469-97da-60d0d371b158"
+                },
+                {
+                    "description": "Pole PTH A6 [/5V_DAC] na U301",
+                    "pos": {
+                        "x": 138.805,
+                        "y": 57.65
+                    },
+                    "uuid": "2d4486e8-b21e-4139-adf4-d90ed7e1ee21"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/5V_DAC] z C302 na F.Cu",
+                    "pos": {
+                        "x": 144.525,
+                        "y": 70.0
+                    },
+                    "uuid": "feaa1ef9-e483-45d4-9210-1776d6d37f66"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/5V_DAC] z FB301 na F.Cu",
+                    "pos": {
+                        "x": 147.575,
+                        "y": 74.0
+                    },
+                    "uuid": "95c24c6d-fd6c-45b7-818c-fac8c725e783"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 1 [/5V_DAC] na C303",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 65.0
+                    },
+                    "uuid": "6e99c886-2957-485c-a910-759460b4f94e"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/5V_DAC] z C302 na F.Cu",
+                    "pos": {
+                        "x": 144.525,
+                        "y": 70.0
+                    },
+                    "uuid": "feaa1ef9-e483-45d4-9210-1776d6d37f66"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 1 [/5V_DAC] na C303",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 65.0
+                    },
+                    "uuid": "6e99c886-2957-485c-a910-759460b4f94e"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/5V_DAC] z C301 na F.Cu",
+                    "pos": {
+                        "x": 144.025,
+                        "y": 59.8
+                    },
+                    "uuid": "9bf3b560-2c68-4469-97da-60d0d371b158"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 3 [/AUDIO_R] na J301",
+                    "pos": {
+                        "x": 105.58,
+                        "y": 55.5
+                    },
+                    "uuid": "2b2d0176-6548-494a-b0cc-7586b95deb0f"
+                },
+                {
+                    "description": "Pole PTH B7 [/AUDIO_R] na U301",
+                    "pos": {
+                        "x": 117.215,
+                        "y": 70.985
+                    },
+                    "uuid": "9989683c-79d8-4e69-97b1-c06cfdde3d4b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 1 [/AUDIO_L] na J301",
+                    "pos": {
+                        "x": 100.5,
+                        "y": 55.5
+                    },
+                    "uuid": "c764b7bd-d718-48f5-8e8d-6766b27be834"
+                },
+                {
+                    "description": "Pole PTH B9 [/AUDIO_L] na U301",
+                    "pos": {
+                        "x": 112.135,
+                        "y": 70.985
+                    },
+                    "uuid": "dedc2eef-b2ac-48f6-9496-d7240f88874d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 1 [/VCC_DISP_I2C] na C503",
+                    "pos": {
+                        "x": 63.0,
+                        "y": 137.0
+                    },
+                    "uuid": "09f8513c-72a5-4ff2-a5ed-9659e5a273aa"
+                },
+                {
+                    "description": "Pole PTH 1 [/VCC_DISP_I2C] na J501",
+                    "pos": {
+                        "x": 61.0,
+                        "y": 147.8
+                    },
+                    "uuid": "1c27badc-62a8-4e3c-a517-31cbb8c8a13e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 2 [/VCC_DISP_I2C] na JP501",
+                    "pos": {
+                        "x": 95.04,
+                        "y": 142.5
+                    },
+                    "uuid": "7c69c5c7-157a-4aa7-8eef-1cfa231dba2f"
+                },
+                {
+                    "description": "Pole PTH 1 [/VCC_DISP_I2C] na C503",
+                    "pos": {
+                        "x": 63.0,
+                        "y": 137.0
+                    },
+                    "uuid": "09f8513c-72a5-4ff2-a5ed-9659e5a273aa"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 2 [/VCC_DISP_I2C] na JP501",
+                    "pos": {
+                        "x": 95.04,
+                        "y": 142.5
+                    },
+                    "uuid": "7c69c5c7-157a-4aa7-8eef-1cfa231dba2f"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/VCC_DISP_I2C] z C502 na F.Cu",
+                    "pos": {
+                        "x": 111.5,
+                        "y": 82.975
+                    },
+                    "uuid": "4da67419-39c8-41b7-b936-5b7a81e93658"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/VCC_DISP_I2C] z C502 na F.Cu",
+                    "pos": {
+                        "x": 111.5,
+                        "y": 82.975
+                    },
+                    "uuid": "4da67419-39c8-41b7-b936-5b7a81e93658"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/VCC_DISP_I2C] z C501 na F.Cu",
+                    "pos": {
+                        "x": 111.5,
+                        "y": 77.475
+                    },
+                    "uuid": "d654b3f7-66e0-4992-8615-ac1b08effbb5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/5V_SYS] z D101 na F.Cu",
+                    "pos": {
+                        "x": 53.5,
+                        "y": 100.65
+                    },
+                    "uuid": "f762bb19-99a6-45a3-90fe-186ef0b8f9de"
+                },
+                {
+                    "description": "Pole lutownicze 3 [/5V_SYS] z U101 na F.Cu",
+                    "pos": {
+                        "x": 69.85,
+                        "y": 138.3
+                    },
+                    "uuid": "892198ac-93d1-4d8a-b27a-1b72bedec243"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 3 [/5V_SYS] z Q101 na F.Cu",
+                    "pos": {
+                        "x": 59.072,
+                        "y": 69.0
+                    },
+                    "uuid": "8da00226-81d1-42e9-90ef-f244051a70e9"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/5V_SYS] z D101 na F.Cu",
+                    "pos": {
+                        "x": 53.5,
+                        "y": 100.65
+                    },
+                    "uuid": "f762bb19-99a6-45a3-90fe-186ef0b8f9de"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/5V_SYS] z C201 na F.Cu",
+                    "pos": {
+                        "x": 61.0,
+                        "y": 57.475
+                    },
+                    "uuid": "7fe30033-81a9-4f0d-9080-1fe47c74c3ad"
+                },
+                {
+                    "description": "Pole lutownicze 3 [/5V_SYS] z Q101 na F.Cu",
+                    "pos": {
+                        "x": 59.072,
+                        "y": 69.0
+                    },
+                    "uuid": "8da00226-81d1-42e9-90ef-f244051a70e9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/5V_SYS] z C201 na F.Cu",
+                    "pos": {
+                        "x": 61.0,
+                        "y": 57.475
+                    },
+                    "uuid": "7fe30033-81a9-4f0d-9080-1fe47c74c3ad"
+                },
+                {
+                    "description": "Pole PTH J1.21 [/5V_SYS] na U201",
+                    "pos": {
+                        "x": 90.70368,
+                        "y": 57.29272
+                    },
+                    "uuid": "b16a3ad0-633a-46e5-9387-576100b48252"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 3 [/5V_SYS] z U101 na F.Cu",
+                    "pos": {
+                        "x": 69.85,
+                        "y": 138.3
+                    },
+                    "uuid": "892198ac-93d1-4d8a-b27a-1b72bedec243"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/5V_SYS] z C104 na F.Cu",
+                    "pos": {
+                        "x": 64.624999,
+                        "y": 143.0
+                    },
+                    "uuid": "9ee3eb60-e97b-471e-95d0-4456a33cc7f3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 3 [/5V_SYS] z U101 na F.Cu",
+                    "pos": {
+                        "x": 69.85,
+                        "y": 138.3
+                    },
+                    "uuid": "892198ac-93d1-4d8a-b27a-1b72bedec243"
+                },
+                {
+                    "description": "Pole PTH 1 [/5V_SYS] na C103",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 137.0
+                    },
+                    "uuid": "a367791c-8442-491e-8edb-b41fc7cbb7b4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/5V_SYS] z C102 na F.Cu",
+                    "pos": {
+                        "x": 94.525,
+                        "y": 57.0
+                    },
+                    "uuid": "3b1f49b8-0f99-4e93-81d4-a2c9dccb2c5d"
+                },
+                {
+                    "description": "Pole PTH J1.21 [/5V_SYS] na U201",
+                    "pos": {
+                        "x": 90.70368,
+                        "y": 57.29272
+                    },
+                    "uuid": "b16a3ad0-633a-46e5-9387-576100b48252"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/5V_SYS] z C102 na F.Cu",
+                    "pos": {
+                        "x": 94.525,
+                        "y": 57.0
+                    },
+                    "uuid": "3b1f49b8-0f99-4e93-81d4-a2c9dccb2c5d"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/5V_SYS] z C202 na F.Cu",
+                    "pos": {
+                        "x": 94.525,
+                        "y": 53.0
+                    },
+                    "uuid": "b244eb35-a96d-4d0f-8c2b-782d0a635243"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 1 [/5V_SYS] na C103",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 137.0
+                    },
+                    "uuid": "a367791c-8442-491e-8edb-b41fc7cbb7b4"
+                },
+                {
+                    "description": "Pole PTH 3 [/5V_SYS] na JP501",
+                    "pos": {
+                        "x": 97.58,
+                        "y": 142.5
+                    },
+                    "uuid": "db4fe438-2486-4ec6-a9a3-17bed5ae4d96"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 1 [/5V_SYS] na C103",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 137.0
+                    },
+                    "uuid": "a367791c-8442-491e-8edb-b41fc7cbb7b4"
+                },
+                {
+                    "description": "Pole PTH 3 [/5V_SYS] na JP502",
+                    "pos": {
+                        "x": 105.08,
+                        "y": 128.5
+                    },
+                    "uuid": "3bc443a2-8cb9-4d51-a273-04de78e79e4f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 1 [/5V_SYS] na C101",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 64.0
+                    },
+                    "uuid": "7c5af6b3-f361-4101-aa1f-820961ef7ab8"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/5V_SYS] z C102 na F.Cu",
+                    "pos": {
+                        "x": 94.525,
+                        "y": 57.0
+                    },
+                    "uuid": "3b1f49b8-0f99-4e93-81d4-a2c9dccb2c5d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 1 [/5V_SYS] na C101",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 64.0
+                    },
+                    "uuid": "7c5af6b3-f361-4101-aa1f-820961ef7ab8"
+                },
+                {
+                    "description": "Pole PTH 1 [/5V_SYS] na C203",
+                    "pos": {
+                        "x": 103.0,
+                        "y": 72.8
+                    },
+                    "uuid": "50ae9997-c99c-4a56-b44f-dc1e6abc372d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 3 [/5V_SYS] na JP502",
+                    "pos": {
+                        "x": 105.08,
+                        "y": 128.5
+                    },
+                    "uuid": "3bc443a2-8cb9-4d51-a273-04de78e79e4f"
+                },
+                {
+                    "description": "Pole PTH 8 [/5V_SYS] na J402",
+                    "pos": {
+                        "x": 137.43,
+                        "y": 130.4
+                    },
+                    "uuid": "41b142eb-17c5-477a-b423-b530da1efc4a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/5V_SYS] z C401 na F.Cu",
+                    "pos": {
+                        "x": 144.325,
+                        "y": 136.0
+                    },
+                    "uuid": "39cc4268-b295-4b9f-849a-ddb804c7691b"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/5V_SYS] z C402 na F.Cu",
+                    "pos": {
+                        "x": 145.025,
+                        "y": 139.0
+                    },
+                    "uuid": "262d8b23-f29c-42a6-8906-3f762135449a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/5V_SYS] z C401 na F.Cu",
+                    "pos": {
+                        "x": 144.325,
+                        "y": 136.0
+                    },
+                    "uuid": "39cc4268-b295-4b9f-849a-ddb804c7691b"
+                },
+                {
+                    "description": "Pole PTH 1 [/5V_SYS] na C403",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 130.0
+                    },
+                    "uuid": "aab51b56-c1f5-4512-9123-82e02ca0342a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/5V_SYS] z FB301 na F.Cu",
+                    "pos": {
+                        "x": 144.425,
+                        "y": 74.0
+                    },
+                    "uuid": "e1b135f4-6554-49b1-b036-51269801141c"
+                },
+                {
+                    "description": "Pole PTH 1 [/5V_SYS] na C203",
+                    "pos": {
+                        "x": 103.0,
+                        "y": 72.8
+                    },
+                    "uuid": "50ae9997-c99c-4a56-b44f-dc1e6abc372d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 1 [/5V_SYS] na C403",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 130.0
+                    },
+                    "uuid": "aab51b56-c1f5-4512-9123-82e02ca0342a"
+                },
+                {
+                    "description": "Pole PTH 8 [/5V_SYS] na J402",
+                    "pos": {
+                        "x": 137.43,
+                        "y": 130.4
+                    },
+                    "uuid": "41b142eb-17c5-477a-b423-b530da1efc4a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH J3.18 [/DISPLAY_BL] na U201",
+                    "pos": {
+                        "x": 65.3,
+                        "y": 64.91
+                    },
+                    "uuid": "e02e1f9a-d3fe-493e-8ed2-e5891a71dc0f"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/DISPLAY_BL] z R507 na F.Cu",
+                    "pos": {
+                        "x": 133.0,
+                        "y": 88.9625
+                    },
+                    "uuid": "ffe0ad89-9919-4a0f-8426-b60925b1e319"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/BL_BASE] z Q503 na F.Cu",
+                    "pos": {
+                        "x": 101.05,
+                        "y": 143.4375
+                    },
+                    "uuid": "1c32b6cf-96c6-45e4-a90b-7d2323855583"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/BL_BASE] z R508 na F.Cu",
+                    "pos": {
+                        "x": 136.0,
+                        "y": 88.9625
+                    },
+                    "uuid": "808d9f44-e70e-4f28-990b-54fe39b53647"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/BL_BASE] z R508 na F.Cu",
+                    "pos": {
+                        "x": 136.0,
+                        "y": 88.9625
+                    },
+                    "uuid": "808d9f44-e70e-4f28-990b-54fe39b53647"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/BL_BASE] z R507 na F.Cu",
+                    "pos": {
+                        "x": 133.0,
+                        "y": 86.0375
+                    },
+                    "uuid": "100f19b8-3689-41cb-a591-c89bda1f7c4d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/BL_GATE] z Q504 na F.Cu",
+                    "pos": {
+                        "x": 93.55,
+                        "y": 94.9375
+                    },
+                    "uuid": "422f0834-710f-4c9f-90a5-964af2f84417"
+                },
+                {
+                    "description": "Pole lutownicze 3 [/BL_GATE] z Q503 na F.Cu",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 141.5625
+                    },
+                    "uuid": "bd23a0f5-f842-47e7-92dc-d5b4bb546787"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/BL_GATE] z R506 na F.Cu",
+                    "pos": {
+                        "x": 133.0,
+                        "y": 80.5375
+                    },
+                    "uuid": "fada87b5-6b97-479b-9ac3-8b4c471d173a"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/BL_GATE] z Q504 na F.Cu",
+                    "pos": {
+                        "x": 93.55,
+                        "y": 94.9375
+                    },
+                    "uuid": "422f0834-710f-4c9f-90a5-964af2f84417"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH J1.6 [/DAC_DOUT_CPU] na U201",
+                    "pos": {
+                        "x": 90.7,
+                        "y": 95.39
+                    },
+                    "uuid": "e92068ee-ffec-49af-bb17-0efc426d09d3"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/DAC_DOUT_CPU] z R203 na F.Cu",
+                    "pos": {
+                        "x": 96.5375,
+                        "y": 73.5
+                    },
+                    "uuid": "d75a4d44-a805-4090-839f-9ec65197c882"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/AMP_MUTE_BASE] z R609 na F.Cu",
+                    "pos": {
+                        "x": 52.5,
+                        "y": 116.4625
+                    },
+                    "uuid": "994a7c67-a7e9-48f8-9792-7bbdbb764ef7"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/AMP_MUTE_BASE] z R608 na F.Cu",
+                    "pos": {
+                        "x": 72.4625,
+                        "y": 142.5
+                    },
+                    "uuid": "8b735643-97f6-4da6-88dc-b19397af10bd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/AMP_MUTE_BASE] z R608 na F.Cu",
+                    "pos": {
+                        "x": 72.4625,
+                        "y": 142.5
+                    },
+                    "uuid": "8b735643-97f6-4da6-88dc-b19397af10bd"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/AMP_MUTE_BASE] z Q602 na F.Cu",
+                    "pos": {
+                        "x": 80.5625,
+                        "y": 139.05
+                    },
+                    "uuid": "e5195faf-2707-4593-94bc-09a18b221bce"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 3 [/AMP_MUTE_OC] z Q602 na F.Cu",
+                    "pos": {
+                        "x": 82.4375,
+                        "y": 140.0
+                    },
+                    "uuid": "0617c5e6-17a9-4f32-a5cc-da29e0dcea66"
+                },
+                {
+                    "description": "Pole PTH 2 [/AMP_MUTE_OC] na J603",
+                    "pos": {
+                        "x": 114.54,
+                        "y": 147.8
+                    },
+                    "uuid": "a5d46fdf-cd69-4c63-b426-4b1e6b0058ea"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/DISP_RESET_RC] z R504 na F.Cu",
+                    "pos": {
+                        "x": 121.5375,
+                        "y": 81.5
+                    },
+                    "uuid": "7605edf0-57b9-4e52-89cf-4bce81fd0769"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/DISP_RESET_RC] z R503 na F.Cu",
+                    "pos": {
+                        "x": 129.5,
+                        "y": 79.0375
+                    },
+                    "uuid": "a7f3e2ba-2840-4261-b5dd-a016962d4e7a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/DISP_RESET_RC] z R504 na F.Cu",
+                    "pos": {
+                        "x": 121.5375,
+                        "y": 81.5
+                    },
+                    "uuid": "7605edf0-57b9-4e52-89cf-4bce81fd0769"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/DISP_RESET_RC] z U501 na F.Cu",
+                    "pos": {
+                        "x": 97.8625,
+                        "y": 91.5
+                    },
+                    "uuid": "bacc167a-9ed5-4c29-9f7a-2c3986720118"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/DISP_RESET_RC] z C507 na F.Cu",
+                    "pos": {
+                        "x": 122.525,
+                        "y": 74.0
+                    },
+                    "uuid": "95ae46be-9c11-4902-87b7-c77f252302e3"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/DISP_RESET_RC] z R504 na F.Cu",
+                    "pos": {
+                        "x": 121.5375,
+                        "y": 81.5
+                    },
+                    "uuid": "7605edf0-57b9-4e52-89cf-4bce81fd0769"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/DISP_RESET_DISCH] z D501 na F.Cu",
+                    "pos": {
+                        "x": 95.65,
+                        "y": 132.0
+                    },
+                    "uuid": "880568ff-869c-4023-a3dd-1fe46c4d84c6"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/DISP_RESET_DISCH] z R504 na F.Cu",
+                    "pos": {
+                        "x": 124.4625,
+                        "y": 81.5
+                    },
+                    "uuid": "36d0d0f8-f4f0-4586-8aa1-38587bdc0520"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/BT_RST_BASE] z R401 na F.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 86.0375
+                    },
+                    "uuid": "38a9399a-c9be-4291-bcc6-263d7d4b6f03"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/BT_RST_BASE] z R402 na F.Cu",
+                    "pos": {
+                        "x": 143.0,
+                        "y": 88.9625
+                    },
+                    "uuid": "1e8e9502-79c5-441e-8bed-b7037e6ee9b8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/BT_RST_BASE] z R402 na F.Cu",
+                    "pos": {
+                        "x": 143.0,
+                        "y": 88.9625
+                    },
+                    "uuid": "1e8e9502-79c5-441e-8bed-b7037e6ee9b8"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/BT_RST_BASE] z Q401 na F.Cu",
+                    "pos": {
+                        "x": 146.0625,
+                        "y": 87.55
+                    },
+                    "uuid": "b54f8685-dd0a-424c-ad02-84f637c8a25f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 1 [/BT_RST_N] na J401",
+                    "pos": {
+                        "x": 114.57,
+                        "y": 112.62
+                    },
+                    "uuid": "455107be-b27a-4be3-b222-a2c72a124dbc"
+                },
+                {
+                    "description": "Pole lutownicze 3 [/BT_RST_N] z Q401 na F.Cu",
+                    "pos": {
+                        "x": 147.9375,
+                        "y": 88.5
+                    },
+                    "uuid": "4c0eccde-4491-44f0-9b68-0819e550ad99"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH J3.17 [/AMP_EN] na U201",
+                    "pos": {
+                        "x": 65.3,
+                        "y": 67.45
+                    },
+                    "uuid": "a120f80b-3542-4a29-be8f-104c6a9aa493"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/AMP_EN] z R606 na F.Cu",
+                    "pos": {
+                        "x": 75.0375,
+                        "y": 142.5
+                    },
+                    "uuid": "bec6e93d-00c1-4c79-b571-7c274fd1c94b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/AMP_EN_BASE] z R607 na F.Cu",
+                    "pos": {
+                        "x": 52.5,
+                        "y": 110.9625
+                    },
+                    "uuid": "fe3f4743-bb2f-4c99-bc63-c9a7ceecf376"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/AMP_EN_BASE] z R606 na F.Cu",
+                    "pos": {
+                        "x": 77.9625,
+                        "y": 142.5
+                    },
+                    "uuid": "e109c1e0-72fb-4908-9e49-f3a957e8d8a2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/AMP_EN_BASE] z R606 na F.Cu",
+                    "pos": {
+                        "x": 77.9625,
+                        "y": 142.5
+                    },
+                    "uuid": "e109c1e0-72fb-4908-9e49-f3a957e8d8a2"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/AMP_EN_BASE] z Q601 na F.Cu",
+                    "pos": {
+                        "x": 105.5625,
+                        "y": 141.55
+                    },
+                    "uuid": "9d5a9a0c-663c-438d-8ef7-07016671913a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/PU_KEY] z R603 na F.Cu",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 136.0375
+                    },
+                    "uuid": "79b7f642-b292-467a-80a2-71ff1ecc2c09"
+                },
+                {
+                    "description": "Pole PTH 6 [/PU_KEY] na JP601",
+                    "pos": {
+                        "x": 129.08,
+                        "y": 85.46
+                    },
+                    "uuid": "f0bb7a48-fd91-45ad-ae4f-ab6b58bf7c97"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH J1.7 [/DAC_XSMT_CPU] na U201",
+                    "pos": {
+                        "x": 90.7,
+                        "y": 92.85
+                    },
+                    "uuid": "d4ce7e91-eba5-4d47-994a-f83cff64e524"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/DAC_XSMT_CPU] z R204 na F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 62.4625
+                    },
+                    "uuid": "22b2dfad-88b9-435f-afcd-f964e4556aa2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH J3.5 [/BT_UART_RX] na U201",
+                    "pos": {
+                        "x": 65.3,
+                        "y": 97.93
+                    },
+                    "uuid": "898aaf23-fda4-4008-9187-3ab882a1d62e"
+                },
+                {
+                    "description": "Pole PTH 5 [/BT_UART_RX] na J402",
+                    "pos": {
+                        "x": 137.43,
+                        "y": 122.78
+                    },
+                    "uuid": "b2c5f7a9-d903-4e0c-a098-a003bcecb174"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH J3.4 [/BT_UART_TX] na U201",
+                    "pos": {
+                        "x": 65.3,
+                        "y": 100.47
+                    },
+                    "uuid": "6fb2abf5-84fa-460f-bb3f-b568c04db984"
+                },
+                {
+                    "description": "Pole PTH 6 [/BT_UART_TX] na J402",
+                    "pos": {
+                        "x": 137.43,
+                        "y": 125.32
+                    },
+                    "uuid": "8d3cd21c-efed-47d6-8a7d-067d66a9859c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 7 [/DISP_RST_N] na J502",
+                    "pos": {
+                        "x": 89.24,
+                        "y": 147.8
+                    },
+                    "uuid": "5b485a30-798b-4fdc-b7c5-d61afd1d080c"
+                },
+                {
+                    "description": "Pole lutownicze 4 [/DISP_RST_N] z U501 na F.Cu",
+                    "pos": {
+                        "x": 100.1375,
+                        "y": 92.45
+                    },
+                    "uuid": "ba805a6b-6cce-4b08-99f9-73e4c0bb86b4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/I2C_PU_SCL] z R605 na F.Cu",
+                    "pos": {
+                        "x": 55.9625,
+                        "y": 126.5
+                    },
+                    "uuid": "32939fd9-1e92-4890-adfb-81861547a62d"
+                },
+                {
+                    "description": "Pole PTH 3 [/I2C_PU_SCL] na JP602",
+                    "pos": {
+                        "x": 103.54,
+                        "y": 138.0
+                    },
+                    "uuid": "da9949cf-915a-48b7-b192-0e2110a2fed9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH J1.11 [/BT_I2S_DATA_OUT] na U201",
+                    "pos": {
+                        "x": 90.7,
+                        "y": 82.69
+                    },
+                    "uuid": "0b23709a-1a1a-40a4-9394-5568db56ef32"
+                },
+                {
+                    "description": "Pole PTH 3 [/BT_I2S_DATA_OUT] na J401",
+                    "pos": {
+                        "x": 114.57,
+                        "y": 117.7
+                    },
+                    "uuid": "9ec5185b-b06f-4704-b6c3-1c95b878f42f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH J1.8 [/BT_I2S_BCLK] na U201",
+                    "pos": {
+                        "x": 90.7,
+                        "y": 90.31
+                    },
+                    "uuid": "c7b4b6f2-de80-41bf-b42d-56ec84a2b29d"
+                },
+                {
+                    "description": "Pole PTH 4 [/BT_I2S_BCLK] na J401",
+                    "pos": {
+                        "x": 114.57,
+                        "y": 120.24
+                    },
+                    "uuid": "b488bd1d-c76a-4d8a-8277-21d1077b20b0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH J1.9 [/BT_I2S_WS] na U201",
+                    "pos": {
+                        "x": 90.7,
+                        "y": 87.77
+                    },
+                    "uuid": "8275f548-112f-4f67-b26b-0784035b2856"
+                },
+                {
+                    "description": "Pole PTH 5 [/BT_I2S_WS] na J401",
+                    "pos": {
+                        "x": 114.57,
+                        "y": 122.78
+                    },
+                    "uuid": "4b5defee-2d69-4316-b0b0-4487ecee9e59"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH J1.10 [/BT_I2S_DATA_IN] na U201",
+                    "pos": {
+                        "x": 90.7,
+                        "y": 85.23
+                    },
+                    "uuid": "18b30fe6-a793-4628-9dee-7e6f9bc1d007"
+                },
+                {
+                    "description": "Pole PTH 6 [/BT_I2S_DATA_IN] na J401",
+                    "pos": {
+                        "x": 114.57,
+                        "y": 125.32
+                    },
+                    "uuid": "f35272ed-9560-4d86-b5c3-c3d66d15b003"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH J1.4 [/DAC_BCLK_CPU] na U201",
+                    "pos": {
+                        "x": 90.7,
+                        "y": 100.47
+                    },
+                    "uuid": "9feaf747-5eb1-445f-8228-fc37c44cd9a5"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/DAC_BCLK_CPU] z R201 na F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 67.4625
+                    },
+                    "uuid": "5d05e40e-11bb-4392-a457-a02bff292d2d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH J1.5 [/DAC_LRCK_CPU] na U201",
+                    "pos": {
+                        "x": 90.7,
+                        "y": 97.93
+                    },
+                    "uuid": "f0c8ef23-aa36-4aca-9218-a3b9dc3d2f2a"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/DAC_LRCK_CPU] z R202 na F.Cu",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 72.4625
+                    },
+                    "uuid": "ad768c52-d27b-4d27-8e07-cda460279fb3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 3 [/SPI_SCK] na J502",
+                    "pos": {
+                        "x": 79.08,
+                        "y": 147.8
+                    },
+                    "uuid": "14f8db10-83bf-4aab-9b33-4ddeac4841bd"
+                },
+                {
+                    "description": "Pole PTH J1.16 [/SPI_SCK] na U201",
+                    "pos": {
+                        "x": 90.7,
+                        "y": 69.99
+                    },
+                    "uuid": "2ebfe686-bf97-47f2-821b-d05f7ae6beec"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 4 [/SPI_MOSI] na J502",
+                    "pos": {
+                        "x": 81.62,
+                        "y": 147.8
+                    },
+                    "uuid": "e0551c84-c7a1-460f-b434-c46827980319"
+                },
+                {
+                    "description": "Pole PTH J1.17 [/SPI_MOSI] na U201",
+                    "pos": {
+                        "x": 90.7,
+                        "y": 67.45
+                    },
+                    "uuid": "c280c319-1815-4778-a884-a9439efc0505"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 5 [/SPI_CS] na J502",
+                    "pos": {
+                        "x": 84.16,
+                        "y": 147.8
+                    },
+                    "uuid": "d1c3f0fc-fb2a-4c20-86d6-a0fe38f80cca"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/SPI_CS] z R505 na F.Cu",
+                    "pos": {
+                        "x": 120.4625,
+                        "y": 75.5
+                    },
+                    "uuid": "34a11ae8-ea1c-4097-a8d5-e412ff88ef5d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/SPI_CS] z R505 na F.Cu",
+                    "pos": {
+                        "x": 120.4625,
+                        "y": 75.5
+                    },
+                    "uuid": "34a11ae8-ea1c-4097-a8d5-e412ff88ef5d"
+                },
+                {
+                    "description": "Pole PTH J1.18 [/SPI_CS] na U201",
+                    "pos": {
+                        "x": 90.7,
+                        "y": 64.91
+                    },
+                    "uuid": "c832559d-8fc1-473c-afc4-d5719bc6850a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 6 [/SPI_DC] na J502",
+                    "pos": {
+                        "x": 86.7,
+                        "y": 147.8
+                    },
+                    "uuid": "f7e7388d-4e77-470b-955f-87973a58649e"
+                },
+                {
+                    "description": "Pole PTH J1.19 [/SPI_DC] na U201",
+                    "pos": {
+                        "x": 90.7,
+                        "y": 62.37
+                    },
+                    "uuid": "3ebb185c-58ff-4df9-8952-d5fa2413d744"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 1 [/AMP_MUTE] z R608 na F.Cu",
+                    "pos": {
+                        "x": 69.5375,
+                        "y": 142.5
+                    },
+                    "uuid": "ba9974d9-0999-4f40-ba0a-a01966b9c991"
+                },
+                {
+                    "description": "Pole PTH J1.20 [/AMP_MUTE] na U201",
+                    "pos": {
+                        "x": 90.70368,
+                        "y": 59.83272
+                    },
+                    "uuid": "d2b8d07f-2faf-423d-a69b-5f515c4e995c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH J3.6 [/BT_RESET] na U201",
+                    "pos": {
+                        "x": 65.3,
+                        "y": 95.39
+                    },
+                    "uuid": "88a0a9b6-d336-46ba-bea4-4ef9fc8ebaf5"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/BT_RESET] z R401 na F.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 88.9625
+                    },
+                    "uuid": "71afd127-fa1e-4e04-a13f-58b6af1a7d4a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 3 [/INPUT_KEY] na J601",
+                    "pos": {
+                        "x": 103.08,
+                        "y": 147.8
+                    },
+                    "uuid": "78ce2ad1-6352-4e2d-8c5f-96d0b0700a42"
+                },
+                {
+                    "description": "Pole PTH 5 [/INPUT_KEY] na JP601",
+                    "pos": {
+                        "x": 129.08,
+                        "y": 88.0
+                    },
+                    "uuid": "d967a105-fb08-435e-b0f5-05076e98aae9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 5 [/INPUT_KEY] na JP601",
+                    "pos": {
+                        "x": 129.08,
+                        "y": 88.0
+                    },
+                    "uuid": "d967a105-fb08-435e-b0f5-05076e98aae9"
+                },
+                {
+                    "description": "Pole PTH J3.7 [/INPUT_KEY] na U201",
+                    "pos": {
+                        "x": 65.3,
+                        "y": 92.85
+                    },
+                    "uuid": "e9ea4812-5192-4770-b36a-e8550571a17d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 2 [/INPUT_S2] na J601",
+                    "pos": {
+                        "x": 100.54,
+                        "y": 147.8
+                    },
+                    "uuid": "62b06840-d345-446a-9159-199045586c8e"
+                },
+                {
+                    "description": "Pole PTH 3 [/INPUT_S2] na JP601",
+                    "pos": {
+                        "x": 126.54,
+                        "y": 88.0
+                    },
+                    "uuid": "6138a8f2-3883-4483-a70f-5673fb8e99a9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 3 [/INPUT_S2] na JP601",
+                    "pos": {
+                        "x": 126.54,
+                        "y": 88.0
+                    },
+                    "uuid": "6138a8f2-3883-4483-a70f-5673fb8e99a9"
+                },
+                {
+                    "description": "Pole PTH J3.8 [/INPUT_S2] na U201",
+                    "pos": {
+                        "x": 65.3,
+                        "y": 90.31
+                    },
+                    "uuid": "434e66c3-bfca-439c-ad34-0fcec7af02af"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 1 [/INPUT_S1] na J601",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 147.8
+                    },
+                    "uuid": "da6dcd0c-8772-4bd6-8137-70ed23b53967"
+                },
+                {
+                    "description": "Pole PTH 1 [/INPUT_S1] na JP601",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 88.0
+                    },
+                    "uuid": "4b1ecd62-0690-42cf-9bcc-0f2c4340b9e1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 1 [/INPUT_S1] na JP601",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 88.0
+                    },
+                    "uuid": "4b1ecd62-0690-42cf-9bcc-0f2c4340b9e1"
+                },
+                {
+                    "description": "Pole PTH J3.9 [/INPUT_S1] na U201",
+                    "pos": {
+                        "x": 65.3,
+                        "y": 87.77
+                    },
+                    "uuid": "03ed538d-92bf-4168-b17e-68c88e10bb64"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/MAIN_BOOT0] z R205 na F.Cu",
+                    "pos": {
+                        "x": 62.15,
+                        "y": 64.5375
+                    },
+                    "uuid": "7c03696b-9127-495d-b0df-b47f86707730"
+                },
+                {
+                    "description": "Pole PTH J3.14 [/MAIN_BOOT0] na U201",
+                    "pos": {
+                        "x": 65.3,
+                        "y": 75.07
+                    },
+                    "uuid": "447b3de8-cc0c-43dd-9eb3-c1aec256795d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 3 [/AMP_EN_OC] z Q601 na F.Cu",
+                    "pos": {
+                        "x": 107.4375,
+                        "y": 142.5
+                    },
+                    "uuid": "192f70df-c18d-441d-b666-e72f6ebd9355"
+                },
+                {
+                    "description": "Pole PTH 1 [/AMP_EN_OC] na J603",
+                    "pos": {
+                        "x": 112.0,
+                        "y": 147.8
+                    },
+                    "uuid": "0708bc36-3150-4442-b6ce-c3f7fdf50ac7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 8 [/DISP_BL_PWR] na J502",
+                    "pos": {
+                        "x": 91.78,
+                        "y": 147.8
+                    },
+                    "uuid": "b746f836-a876-4ddb-a864-4300c53c1d6e"
+                },
+                {
+                    "description": "Pole lutownicze 3 [/DISP_BL_PWR] z Q504 na F.Cu",
+                    "pos": {
+                        "x": 94.5,
+                        "y": 93.0625
+                    },
+                    "uuid": "5325a501-7e77-460e-ad32-0b544665f667"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/PU_S2] z R602 na F.Cu",
+                    "pos": {
+                        "x": 100.9625,
+                        "y": 132.0
+                    },
+                    "uuid": "e0eb83ab-700d-4d52-bee0-dfa532c9ad99"
+                },
+                {
+                    "description": "Pole PTH 4 [/PU_S2] na JP601",
+                    "pos": {
+                        "x": 126.54,
+                        "y": 85.46
+                    },
+                    "uuid": "d02717fe-95b9-4459-9ed5-5bb0164d7460"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/PU_S1] z R601 na F.Cu",
+                    "pos": {
+                        "x": 106.4625,
+                        "y": 132.0
+                    },
+                    "uuid": "242e2547-0ac6-4cca-acb7-8bfd0c5bd8cc"
+                },
+                {
+                    "description": "Pole PTH 2 [/PU_S1] na JP601",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 85.46
+                    },
+                    "uuid": "490858e4-d17c-4ec8-943c-16747f7390e9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pole PTH 1 [/I2C_PU_SDA] na JP602",
+                    "pos": {
+                        "x": 101.0,
+                        "y": 138.0
+                    },
+                    "uuid": "5170b0af-5577-42be-b213-43d46e57ce37"
+                },
+                {
+                    "description": "Pole lutownicze 2 [/I2C_PU_SDA] z R604 na F.Cu",
+                    "pos": {
+                        "x": 112.9625,
+                        "y": 143.5
+                    },
+                    "uuid": "69bc09b6-4f68-45dc-aafa-3c6d9693eaf6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

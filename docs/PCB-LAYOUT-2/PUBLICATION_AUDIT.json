@@ -1,0 +1,12 @@
+{
+  "secret_pattern_scan": "no_matches",
+  "files_scanned": 39,
+  "new_third_party_assets": 0,
+  "models_YD_and_DAC_remain_ignored_not_staged": true,
+  "unchanged_schematic_symbols_libraries_models_pro": true,
+  "main_not_modified": true,
+  "CAD_changed_file": "VoxOne_M1.kicad_pcb",
+  "branch": "pcb-layout-2",
+  "baseline": "1ca3e40e3600f005977bc504b272e34483b30150",
+  "MCP_checkpoint": "mvdjd8d0-8b1aa98c"
+}

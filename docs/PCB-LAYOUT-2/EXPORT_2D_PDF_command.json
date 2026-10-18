@@ -1,0 +1,19 @@
+{
+  "args": [
+    "pcb",
+    "export",
+    "pdf",
+    "--mode-single",
+    "--black-and-white",
+    "--layers",
+    "F.Cu,F.SilkS,Dwgs.User,Edge.Cuts",
+    "--scale",
+    "1",
+    "-o",
+    "C:\\Users\\piotrek\\Documents\\VoxOnePCB\\docs\\PCB-LAYOUT-2\\previews\\PCB-LAYOUT-2_2D.pdf",
+    "C:\\Users\\piotrek\\Documents\\VoxOnePCB\\VoxOne_M1.kicad_pcb"
+  ],
+  "exit_code": 0,
+  "stdout": "Narysowano w 'C:\\Users\\piotrek\\Documents\\VoxOnePCB\\docs\\PCB-LAYOUT-2\\previews\\PCB-LAYOUT-2_2D.pdf'.\r\nGotowe.\r\n",
+  "stderr": ""
+}

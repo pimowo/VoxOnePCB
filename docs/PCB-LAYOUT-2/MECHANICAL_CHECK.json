@@ -1,0 +1,1640 @@
+{
+  "actual_GEOMETRY_collisions": [],
+  "all_TOP_81_footprints": true,
+  "no_parts_under_modules": true,
+  "screw_head_reservation_diameter_mm": 7,
+  "antenna_15mm_minimum_actual": 15.105331840115257,
+  "antenna_clearances": [
+    {
+      "ref": "F101",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 28.946154321429294
+    },
+    {
+      "ref": "F101",
+      "antenna": "BT",
+      "distance_bbox_mm": 54.29547541001921
+    },
+    {
+      "ref": "C508",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 19.88306440164594
+    },
+    {
+      "ref": "C508",
+      "antenna": "BT",
+      "distance_bbox_mm": 19.993195092330794
+    },
+    {
+      "ref": "R301",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 47.8355207978339
+    },
+    {
+      "ref": "R301",
+      "antenna": "BT",
+      "distance_bbox_mm": 26.845
+    },
+    {
+      "ref": "C506",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 21.82499999999999
+    },
+    {
+      "ref": "C506",
+      "antenna": "BT",
+      "distance_bbox_mm": 34.097446385323344
+    },
+    {
+      "ref": "J501",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 29.60499999999999
+    },
+    {
+      "ref": "J501",
+      "antenna": "BT",
+      "distance_bbox_mm": 53.18541200366882
+    },
+    {
+      "ref": "C103",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 18.85130262874756
+    },
+    {
+      "ref": "C103",
+      "antenna": "BT",
+      "distance_bbox_mm": 25.82452032468367
+    },
+    {
+      "ref": "C106",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 15.275000000000006
+    },
+    {
+      "ref": "C106",
+      "antenna": "BT",
+      "distance_bbox_mm": 36.307201076370525
+    },
+    {
+      "ref": "R507",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 49.18243639755964
+    },
+    {
+      "ref": "R507",
+      "antenna": "BT",
+      "distance_bbox_mm": 15.194999999999993
+    },
+    {
+      "ref": "C503",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 17.96333070452135
+    },
+    {
+      "ref": "C503",
+      "antenna": "BT",
+      "distance_bbox_mm": 49.57767491522772
+    },
+    {
+      "ref": "Q503",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 27.553704832562886
+    },
+    {
+      "ref": "Q503",
+      "antenna": "BT",
+      "distance_bbox_mm": 30.030638521350152
+    },
+    {
+      "ref": "C403",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 58.15165140217966
+    },
+    {
+      "ref": "C403",
+      "antenna": "BT",
+      "distance_bbox_mm": 16.136850770848223
+    },
+    {
+      "ref": "R203",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 36.398791875555425
+    },
+    {
+      "ref": "R203",
+      "antenna": "BT",
+      "distance_bbox_mm": 32.095576798057394
+    },
+    {
+      "ref": "C101",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 41.92534170171205
+    },
+    {
+      "ref": "C101",
+      "antenna": "BT",
+      "distance_bbox_mm": 35.84948883875472
+    },
+    {
+      "ref": "C302",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 68.69815317750545
+    },
+    {
+      "ref": "C302",
+      "antenna": "BT",
+      "distance_bbox_mm": 33.91253234425292
+    },
+    {
+      "ref": "Q602",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 21.875
+    },
+    {
+      "ref": "Q602",
+      "antenna": "BT",
+      "distance_bbox_mm": 38.34734215040204
+    },
+    {
+      "ref": "R504",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 43.39472375761827
+    },
+    {
+      "ref": "R504",
+      "antenna": "BT",
+      "distance_bbox_mm": 22.345
+    },
+    {
+      "ref": "C505",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 25.119937300877165
+    },
+    {
+      "ref": "C505",
+      "antenna": "BT",
+      "distance_bbox_mm": 24.091551423683782
+    },
+    {
+      "ref": "C303",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 71.04494746849085
+    },
+    {
+      "ref": "C303",
+      "antenna": "BT",
+      "distance_bbox_mm": 37.33742027511575
+    },
+    {
+      "ref": "R101",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 15.105331840115257
+    },
+    {
+      "ref": "R101",
+      "antenna": "BT",
+      "distance_bbox_mm": 48.28915043775361
+    },
+    {
+      "ref": "Q401",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 61.32106204233582
+    },
+    {
+      "ref": "Q401",
+      "antenna": "BT",
+      "distance_bbox_mm": 15.257085239324056
+    },
+    {
+      "ref": "FB301",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 66.45066779197934
+    },
+    {
+      "ref": "FB301",
+      "antenna": "BT",
+      "distance_bbox_mm": 29.870367423250762
+    },
+    {
+      "ref": "C201",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 52.12375897803227
+    },
+    {
+      "ref": "C201",
+      "antenna": "BT",
+      "distance_bbox_mm": 67.37253038145444
+    },
+    {
+      "ref": "R606",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 24.944999999999993
+    },
+    {
+      "ref": "R606",
+      "antenna": "BT",
+      "distance_bbox_mm": 43.82718391592141
+    },
+    {
+      "ref": "C502",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 35.05975256615483
+    },
+    {
+      "ref": "C502",
+      "antenna": "BT",
+      "distance_bbox_mm": 21.174999999999997
+    },
+    {
+      "ref": "D501",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 15.134629992173561
+    },
+    {
+      "ref": "D501",
+      "antenna": "BT",
+      "distance_bbox_mm": 24.211646990653072
+    },
+    {
+      "ref": "C603",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 38.438536142790674
+    },
+    {
+      "ref": "C603",
+      "antenna": "BT",
+      "distance_bbox_mm": 22.224999999999994
+    },
+    {
+      "ref": "C102",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 52.253097994281646
+    },
+    {
+      "ref": "C102",
+      "antenna": "BT",
+      "distance_bbox_mm": 48.44801182711217
+    },
+    {
+      "ref": "R603",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 26.615522726409104
+    },
+    {
+      "ref": "R603",
+      "antenna": "BT",
+      "distance_bbox_mm": 23.98687245140558
+    },
+    {
+      "ref": "J301",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 53.989110476095085
+    },
+    {
+      "ref": "J301",
+      "antenna": "BT",
+      "distance_bbox_mm": 47.82494380550802
+    },
+    {
+      "ref": "R508",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 51.93247587011426
+    },
+    {
+      "ref": "R508",
+      "antenna": "BT",
+      "distance_bbox_mm": 15.194999999999993
+    },
+    {
+      "ref": "C504",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 30.4497331679606
+    },
+    {
+      "ref": "C504",
+      "antenna": "BT",
+      "distance_bbox_mm": 28.66317934214556
+    },
+    {
+      "ref": "C601",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 33.247725486114085
+    },
+    {
+      "ref": "C601",
+      "antenna": "BT",
+      "distance_bbox_mm": 17.825000000000003
+    },
+    {
+      "ref": "C203",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 37.21404588056269
+    },
+    {
+      "ref": "C203",
+      "antenna": "BT",
+      "distance_bbox_mm": 29.69361631731642
+    },
+    {
+      "ref": "R204",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 47.19403616983824
+    },
+    {
+      "ref": "R204",
+      "antenna": "BT",
+      "distance_bbox_mm": 44.17894351385058
+    },
+    {
+      "ref": "C401",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 59.404597886022245
+    },
+    {
+      "ref": "C401",
+      "antenna": "BT",
+      "distance_bbox_mm": 23.581154551887398
+    },
+    {
+      "ref": "C202",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 56.2226489059347
+    },
+    {
+      "ref": "C202",
+      "antenna": "BT",
+      "distance_bbox_mm": 52.32408479849409
+    },
+    {
+      "ref": "JP501",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 24.585769257845083
+    },
+    {
+      "ref": "JP501",
+      "antenna": "BT",
+      "distance_bbox_mm": 31.48546093040407
+    },
+    {
+      "ref": "C501",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 39.33651293645638
+    },
+    {
+      "ref": "C501",
+      "antenna": "BT",
+      "distance_bbox_mm": 26.674999999999997
+    },
+    {
+      "ref": "U501",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 19.491183904524632
+    },
+    {
+      "ref": "U501",
+      "antenna": "BT",
+      "distance_bbox_mm": 15.246306110005799
+    },
+    {
+      "ref": "R605",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 15.123856981603598
+    },
+    {
+      "ref": "R605",
+      "antenna": "BT",
+      "distance_bbox_mm": 55.74048842627772
+    },
+    {
+      "ref": "R402",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 58.44494888354339
+    },
+    {
+      "ref": "R402",
+      "antenna": "BT",
+      "distance_bbox_mm": 15.207039488342225
+    },
+    {
+      "ref": "U101",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 15.900000000000006
+    },
+    {
+      "ref": "U101",
+      "antenna": "BT",
+      "distance_bbox_mm": 39.371623347278955
+    },
+    {
+      "ref": "C602",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 37.43776502410367
+    },
+    {
+      "ref": "C602",
+      "antenna": "BT",
+      "distance_bbox_mm": 17.825000000000003
+    },
+    {
+      "ref": "J601",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 31.00303291615192
+    },
+    {
+      "ref": "J601",
+      "antenna": "BT",
+      "distance_bbox_mm": 34.81606023087621
+    },
+    {
+      "ref": "Q601",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 30.032776261944218
+    },
+    {
+      "ref": "Q601",
+      "antenna": "BT",
+      "distance_bbox_mm": 29.515142723693558
+    },
+    {
+      "ref": "Q504",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 15.1859359276931
+    },
+    {
+      "ref": "Q504",
+      "antenna": "BT",
+      "distance_bbox_mm": 17.11952832294162
+    },
+    {
+      "ref": "R602",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 17.680386025197517
+    },
+    {
+      "ref": "R602",
+      "antenna": "BT",
+      "distance_bbox_mm": 21.45336919926565
+    },
+    {
+      "ref": "JP502",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 15.223174767439275
+    },
+    {
+      "ref": "JP502",
+      "antenna": "BT",
+      "distance_bbox_mm": 15.83885254682296
+    },
+    {
+      "ref": "C301",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 74.55924657612898
+    },
+    {
+      "ref": "C301",
+      "antenna": "BT",
+      "distance_bbox_mm": 44.067503332955
+    },
+    {
+      "ref": "R202",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 37.157597473464286
+    },
+    {
+      "ref": "R202",
+      "antenna": "BT",
+      "distance_bbox_mm": 35.32830380870273
+    },
+    {
+      "ref": "R609",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 15.344999999999999
+    },
+    {
+      "ref": "R609",
+      "antenna": "BT",
+      "distance_bbox_mm": 57.12083726627263
+    },
+    {
+      "ref": "R601",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 21.330519215434013
+    },
+    {
+      "ref": "R601",
+      "antenna": "BT",
+      "distance_bbox_mm": 19.798789104387172
+    },
+    {
+      "ref": "R607",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 15.344999999999999
+    },
+    {
+      "ref": "R607",
+      "antenna": "BT",
+      "distance_bbox_mm": 57.105000000000004
+    },
+    {
+      "ref": "JP601",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 40.591058744506775
+    },
+    {
+      "ref": "JP601",
+      "antenna": "BT",
+      "distance_bbox_mm": 15.204999999999998
+    },
+    {
+      "ref": "R608",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 24.944999999999993
+    },
+    {
+      "ref": "R608",
+      "antenna": "BT",
+      "distance_bbox_mm": 47.98517531488241
+    },
+    {
+      "ref": "R401",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 55.63939296937018
+    },
+    {
+      "ref": "R401",
+      "antenna": "BT",
+      "distance_bbox_mm": 15.194999999999993
+    },
+    {
+      "ref": "J603",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 37.61552937285343
+    },
+    {
+      "ref": "J603",
+      "antenna": "BT",
+      "distance_bbox_mm": 34.655
+    },
+    {
+      "ref": "J101",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 17.529042329802277
+    },
+    {
+      "ref": "J101",
+      "antenna": "BT",
+      "distance_bbox_mm": 49.657649209361495
+    },
+    {
+      "ref": "C507",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 49.14403575206253
+    },
+    {
+      "ref": "C507",
+      "antenna": "BT",
+      "distance_bbox_mm": 29.825000000000003
+    },
+    {
+      "ref": "C104",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 25.431501158012676
+    },
+    {
+      "ref": "C104",
+      "antenna": "BT",
+      "distance_bbox_mm": 52.16299391973203
+    },
+    {
+      "ref": "R503",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 49.48714024875553
+    },
+    {
+      "ref": "R503",
+      "antenna": "BT",
+      "distance_bbox_mm": 22.194999999999993
+    },
+    {
+      "ref": "C402",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 61.0574422163261
+    },
+    {
+      "ref": "C402",
+      "antenna": "BT",
+      "distance_bbox_mm": 26.637189228595417
+    },
+    {
+      "ref": "R604",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 34.14324310899595
+    },
+    {
+      "ref": "R604",
+      "antenna": "BT",
+      "distance_bbox_mm": 30.995000000000005
+    },
+    {
+      "ref": "C105",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 15.174999999999983
+    },
+    {
+      "ref": "C105",
+      "antenna": "BT",
+      "distance_bbox_mm": 28.553014726995112
+    },
+    {
+      "ref": "D101",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 15.343696588501745
+    },
+    {
+      "ref": "D101",
+      "antenna": "BT",
+      "distance_bbox_mm": 55.05523249428705
+    },
+    {
+      "ref": "R506",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 51.684688738542285
+    },
+    {
+      "ref": "R506",
+      "antenna": "BT",
+      "distance_bbox_mm": 20.694999999999993
+    },
+    {
+      "ref": "JP602",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 21.135208775879168
+    },
+    {
+      "ref": "JP602",
+      "antenna": "BT",
+      "distance_bbox_mm": 22.952891974651045
+    },
+    {
+      "ref": "R505",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 44.65066684832377
+    },
+    {
+      "ref": "R505",
+      "antenna": "BT",
+      "distance_bbox_mm": 28.345
+    },
+    {
+      "ref": "R205",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 42.08213457038509
+    },
+    {
+      "ref": "R205",
+      "antenna": "BT",
+      "distance_bbox_mm": 59.98749911439883
+    },
+    {
+      "ref": "Q101",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 39.91714074179161
+    },
+    {
+      "ref": "Q101",
+      "antenna": "BT",
+      "distance_bbox_mm": 60.521927637840484
+    },
+    {
+      "ref": "J502",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 29.60499999999999
+    },
+    {
+      "ref": "J502",
+      "antenna": "BT",
+      "distance_bbox_mm": 38.68194992499732
+    },
+    {
+      "ref": "R201",
+      "antenna": "MAIN",
+      "distance_bbox_mm": 42.25313065324272
+    },
+    {
+      "ref": "R201",
+      "antenna": "BT",
+      "distance_bbox_mm": 39.494671159537454
+    }
+  ],
+  "other_module_to_antenna_clearances": [
+    {
+      "antenna": "MAIN",
+      "module": "DAC",
+      "distance_mm": 43.29439917587493
+    },
+    {
+      "antenna": "MAIN",
+      "module": "BT",
+      "distance_mm": 23.760000000000005
+    },
+    {
+      "antenna": "MAIN",
+      "module": "RTC",
+      "distance_mm": 22.830339463091654
+    },
+    {
+      "antenna": "BT",
+      "module": "MAIN",
+      "distance_mm": 18.760000000000005
+    },
+    {
+      "antenna": "BT",
+      "module": "DAC",
+      "distance_mm": 32.55
+    },
+    {
+      "antenna": "BT",
+      "module": "RTC",
+      "distance_mm": 15.630035188699997
+    }
+  ],
+  "all_local_pad_geometry_exact": true,
+  "79_module_pad_mappings": [
+    {
+      "ref": "U301",
+      "symbol_pin_equals_M1_pad": "A1",
+      "original_library_global_pad": 1,
+      "function": "SCK_A1",
+      "net": "/GND",
+      "local_xy_mm": [
+        -14.305,
+        -6.35
+      ]
+    },
+    {
+      "ref": "U301",
+      "symbol_pin_equals_M1_pad": "A2",
+      "original_library_global_pad": 2,
+      "function": "BCK_A2",
+      "net": "/DAC_BCLK",
+      "local_xy_mm": [
+        -14.305,
+        -3.81
+      ]
+    },
+    {
+      "ref": "U301",
+      "symbol_pin_equals_M1_pad": "A3",
+      "original_library_global_pad": 3,
+      "function": "DIN_A3",
+      "net": "/DAC_DOUT",
+      "local_xy_mm": [
+        -14.305,
+        -1.27
+      ]
+    },
+    {
+      "ref": "U301",
+      "symbol_pin_equals_M1_pad": "A4",
+      "original_library_global_pad": 4,
+      "function": "LCK_A4",
+      "net": "/DAC_LRCK",
+      "local_xy_mm": [
+        -14.305,
+        1.27
+      ]
+    },
+    {
+      "ref": "U301",
+      "symbol_pin_equals_M1_pad": "A5",
+      "original_library_global_pad": 5,
+      "function": "GND_A5",
+      "net": "/GND",
+      "local_xy_mm": [
+        -14.305,
+        3.81
+      ]
+    },
+    {
+      "ref": "U301",
+      "symbol_pin_equals_M1_pad": "A6",
+      "original_library_global_pad": 6,
+      "function": "VIN_A6",
+      "net": "/5V_DAC",
+      "local_xy_mm": [
+        -14.305,
+        6.35
+      ]
+    },
+    {
+      "ref": "U301",
+      "symbol_pin_equals_M1_pad": "B1",
+      "original_library_global_pad": 15,
+      "function": "FLT_B1",
+      "net": "unconnected-(U301-FLT-PadB1)",
+      "local_xy_mm": [
+        -7.955,
+        -6.985
+      ]
+    },
+    {
+      "ref": "U301",
+      "symbol_pin_equals_M1_pad": "B2",
+      "original_library_global_pad": 14,
+      "function": "DEMP_B2",
+      "net": "unconnected-(U301-DEMP-PadB2)",
+      "local_xy_mm": [
+        -5.415,
+        -6.985
+      ]
+    },
+    {
+      "ref": "U301",
+      "symbol_pin_equals_M1_pad": "B3",
+      "original_library_global_pad": 13,
+      "function": "XSMT_B3",
+      "net": "/DAC_XSMT",
+      "local_xy_mm": [
+        -2.875,
+        -6.985
+      ]
+    },
+    {
+      "ref": "U301",
+      "symbol_pin_equals_M1_pad": "B4",
+      "original_library_global_pad": 12,
+      "function": "FMT_B4",
+      "net": "unconnected-(U301-FMT-PadB4)",
+      "local_xy_mm": [
+        -0.335,
+        -6.985
+      ]
+    },
+    {
+      "ref": "U301",
+      "symbol_pin_equals_M1_pad": "B5",
+      "original_library_global_pad": 11,
+      "function": "A3V3_B5",
+      "net": "unconnected-(U301-A3V3-PadB5)",
+      "local_xy_mm": [
+        2.205,
+        -6.985
+      ]
+    },
+    {
+      "ref": "U301",
+      "symbol_pin_equals_M1_pad": "B6",
+      "original_library_global_pad": 10,
+      "function": "AGND_B6",
+      "net": "/GND",
+      "local_xy_mm": [
+        4.745,
+        -6.985
+      ]
+    },
+    {
+      "ref": "U301",
+      "symbol_pin_equals_M1_pad": "B7",
+      "original_library_global_pad": 9,
+      "function": "ROUT_B7",
+      "net": "/AUDIO_R",
+      "local_xy_mm": [
+        7.285,
+        -6.985
+      ]
+    },
+    {
+      "ref": "U301",
+      "symbol_pin_equals_M1_pad": "B8",
+      "original_library_global_pad": 8,
+      "function": "AGND_B8",
+      "net": "/GND",
+      "local_xy_mm": [
+        9.825,
+        -6.985
+      ]
+    },
+    {
+      "ref": "U301",
+      "symbol_pin_equals_M1_pad": "B9",
+      "original_library_global_pad": 7,
+      "function": "LROUT_B9",
+      "net": "/AUDIO_L",
+      "local_xy_mm": [
+        12.365,
+        -6.985
+      ]
+    },
+    {
+      "ref": "J402",
+      "symbol_pin_equals_M1_pad": "1",
+      "original_library_global_pad": 21,
+      "function": "TXD_1",
+      "net": "unconnected-(J402-TXD-Pad1)",
+      "local_xy_mm": [
+        11.43,
+        -11.43
+      ]
+    },
+    {
+      "ref": "J402",
+      "symbol_pin_equals_M1_pad": "2",
+      "original_library_global_pad": 23,
+      "function": "RXD_2",
+      "net": "unconnected-(J402-RXD-Pad2)",
+      "local_xy_mm": [
+        11.43,
+        -8.89
+      ]
+    },
+    {
+      "ref": "J402",
+      "symbol_pin_equals_M1_pad": "3",
+      "original_library_global_pad": 25,
+      "function": "IO22_3",
+      "net": "unconnected-(J402-IO22-Pad3)",
+      "local_xy_mm": [
+        11.43,
+        -6.35
+      ]
+    },
+    {
+      "ref": "J402",
+      "symbol_pin_equals_M1_pad": "4",
+      "original_library_global_pad": 27,
+      "function": "IO21_4",
+      "net": "unconnected-(J402-IO21-Pad4)",
+      "local_xy_mm": [
+        11.43,
+        -3.81
+      ]
+    },
+    {
+      "ref": "J402",
+      "symbol_pin_equals_M1_pad": "5",
+      "original_library_global_pad": 29,
+      "function": "IO17_5",
+      "net": "/BT_UART_RX",
+      "local_xy_mm": [
+        11.43,
+        -1.27
+      ]
+    },
+    {
+      "ref": "J402",
+      "symbol_pin_equals_M1_pad": "6",
+      "original_library_global_pad": 31,
+      "function": "IO16_6",
+      "net": "/BT_UART_TX",
+      "local_xy_mm": [
+        11.43,
+        1.27
+      ]
+    },
+    {
+      "ref": "J402",
+      "symbol_pin_equals_M1_pad": "7",
+      "original_library_global_pad": 33,
+      "function": "GND_7",
+      "net": "/GND",
+      "local_xy_mm": [
+        11.43,
+        3.81
+      ]
+    },
+    {
+      "ref": "J402",
+      "symbol_pin_equals_M1_pad": "8",
+      "original_library_global_pad": 35,
+      "function": "VCC_8",
+      "net": "/5V_SYS",
+      "local_xy_mm": [
+        11.43,
+        6.35
+      ]
+    },
+    {
+      "ref": "J402",
+      "symbol_pin_equals_M1_pad": "9",
+      "original_library_global_pad": 37,
+      "function": "TD0/TDO_9",
+      "net": "unconnected-(J402-TD0{slash}TDO-Pad9)",
+      "local_xy_mm": [
+        11.43,
+        8.89
+      ]
+    },
+    {
+      "ref": "J402",
+      "symbol_pin_equals_M1_pad": "10",
+      "original_library_global_pad": 39,
+      "function": "SD0_10",
+      "net": "unconnected-(J402-SD0-Pad10)",
+      "local_xy_mm": [
+        11.43,
+        11.43
+      ]
+    },
+    {
+      "ref": "J401",
+      "symbol_pin_equals_M1_pad": "1",
+      "original_library_global_pad": 2,
+      "function": "RST_1",
+      "net": "/BT_RST_N",
+      "local_xy_mm": [
+        -11.43,
+        -11.43
+      ]
+    },
+    {
+      "ref": "J401",
+      "symbol_pin_equals_M1_pad": "2",
+      "original_library_global_pad": 4,
+      "function": "SVP_2",
+      "net": "unconnected-(J401-SVP-Pad2)",
+      "local_xy_mm": [
+        -11.43,
+        -8.89
+      ]
+    },
+    {
+      "ref": "J401",
+      "symbol_pin_equals_M1_pad": "3",
+      "original_library_global_pad": 6,
+      "function": "IO26_3",
+      "net": "/BT_I2S_DATA_OUT",
+      "local_xy_mm": [
+        -11.43,
+        -6.35
+      ]
+    },
+    {
+      "ref": "J401",
+      "symbol_pin_equals_M1_pad": "4",
+      "original_library_global_pad": 8,
+      "function": "IO18_4",
+      "net": "/BT_I2S_BCLK",
+      "local_xy_mm": [
+        -11.43,
+        -3.81
+      ]
+    },
+    {
+      "ref": "J401",
+      "symbol_pin_equals_M1_pad": "5",
+      "original_library_global_pad": 10,
+      "function": "IO19_5",
+      "net": "/BT_I2S_WS",
+      "local_xy_mm": [
+        -11.43,
+        -1.27
+      ]
+    },
+    {
+      "ref": "J401",
+      "symbol_pin_equals_M1_pad": "6",
+      "original_library_global_pad": 12,
+      "function": "IO23_6",
+      "net": "/BT_I2S_DATA_IN",
+      "local_xy_mm": [
+        -11.43,
+        1.27
+      ]
+    },
+    {
+      "ref": "J401",
+      "symbol_pin_equals_M1_pad": "7",
+      "original_library_global_pad": 14,
+      "function": "IO5_7",
+      "net": "unconnected-(J401-IO5-Pad7)",
+      "local_xy_mm": [
+        -11.43,
+        3.81
+      ]
+    },
+    {
+      "ref": "J401",
+      "symbol_pin_equals_M1_pad": "8",
+      "original_library_global_pad": 16,
+      "function": "3.3V_8",
+      "net": "unconnected-(J401-3.3V-Pad8)",
+      "local_xy_mm": [
+        -11.43,
+        6.35
+      ]
+    },
+    {
+      "ref": "J401",
+      "symbol_pin_equals_M1_pad": "9",
+      "original_library_global_pad": 18,
+      "function": "TCK_9",
+      "net": "unconnected-(J401-TCK-Pad9)",
+      "local_xy_mm": [
+        -11.43,
+        8.89
+      ]
+    },
+    {
+      "ref": "J401",
+      "symbol_pin_equals_M1_pad": "10",
+      "original_library_global_pad": 20,
+      "function": "SD3_10",
+      "net": "unconnected-(J401-SD3-Pad10)",
+      "local_xy_mm": [
+        -11.43,
+        11.43
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.1",
+      "original_library_global_pad": 1,
+      "function": "3V3_J1.1",
+      "net": "/3V3_MAIN",
+      "local_xy_mm": [
+        1.3,
+        1.91
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.2",
+      "original_library_global_pad": 2,
+      "function": "3V3_J1.2",
+      "net": "/3V3_MAIN",
+      "local_xy_mm": [
+        1.3,
+        4.45
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.3",
+      "original_library_global_pad": 3,
+      "function": "EN_J1.3",
+      "net": "unconnected-(U201-EN-PadJ1.3)",
+      "local_xy_mm": [
+        1.3,
+        6.99
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.4",
+      "original_library_global_pad": 4,
+      "function": "GPIO4_J1.4",
+      "net": "/DAC_BCLK_CPU",
+      "local_xy_mm": [
+        1.3,
+        9.53
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.5",
+      "original_library_global_pad": 5,
+      "function": "GPIO5_J1.5",
+      "net": "/DAC_LRCK_CPU",
+      "local_xy_mm": [
+        1.3,
+        12.07
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.6",
+      "original_library_global_pad": 6,
+      "function": "GPIO6_J1.6",
+      "net": "/DAC_DOUT_CPU",
+      "local_xy_mm": [
+        1.3,
+        14.61
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.7",
+      "original_library_global_pad": 7,
+      "function": "GPIO7_J1.7",
+      "net": "/DAC_XSMT_CPU",
+      "local_xy_mm": [
+        1.3,
+        17.15
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.8",
+      "original_library_global_pad": 8,
+      "function": "GPIO15_J1.8",
+      "net": "/BT_I2S_BCLK",
+      "local_xy_mm": [
+        1.3,
+        19.69
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.9",
+      "original_library_global_pad": 9,
+      "function": "GPIO16_J1.9",
+      "net": "/BT_I2S_WS",
+      "local_xy_mm": [
+        1.3,
+        22.23
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.10",
+      "original_library_global_pad": 10,
+      "function": "GPIO17_J1.10",
+      "net": "/BT_I2S_DATA_IN",
+      "local_xy_mm": [
+        1.3,
+        24.77
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.11",
+      "original_library_global_pad": 11,
+      "function": "GPIO18_J1.11",
+      "net": "/BT_I2S_DATA_OUT",
+      "local_xy_mm": [
+        1.3,
+        27.31
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.12",
+      "original_library_global_pad": 12,
+      "function": "GPIO8_J1.12",
+      "net": "/I2C_SDA",
+      "local_xy_mm": [
+        1.3,
+        29.85
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.13",
+      "original_library_global_pad": 13,
+      "function": "GPIO3_J1.13",
+      "net": "unconnected-(U201-GPIO3-PadJ1.13)",
+      "local_xy_mm": [
+        1.3,
+        32.39
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.14",
+      "original_library_global_pad": 14,
+      "function": "GPIO46_J1.14",
+      "net": "unconnected-(U201-GPIO46-PadJ1.14)",
+      "local_xy_mm": [
+        1.3,
+        34.93
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.15",
+      "original_library_global_pad": 15,
+      "function": "GPIO9_J1.15",
+      "net": "/I2C_SCL",
+      "local_xy_mm": [
+        1.3,
+        37.47
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.16",
+      "original_library_global_pad": 16,
+      "function": "GPIO10_J1.16",
+      "net": "/SPI_SCK",
+      "local_xy_mm": [
+        1.3,
+        40.01
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.17",
+      "original_library_global_pad": 17,
+      "function": "GPIO11_J1.17",
+      "net": "/SPI_MOSI",
+      "local_xy_mm": [
+        1.3,
+        42.55
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.18",
+      "original_library_global_pad": 18,
+      "function": "GPIO12_J1.18",
+      "net": "/SPI_CS",
+      "local_xy_mm": [
+        1.3,
+        45.09
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.19",
+      "original_library_global_pad": 19,
+      "function": "GPIO13_J1.19",
+      "net": "/SPI_DC",
+      "local_xy_mm": [
+        1.3,
+        47.63
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.20",
+      "original_library_global_pad": 20,
+      "function": "GPIO14_J1.20",
+      "net": "/AMP_MUTE",
+      "local_xy_mm": [
+        1.29632,
+        50.16728
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.21",
+      "original_library_global_pad": 21,
+      "function": "5V_J1.21",
+      "net": "/5V_SYS",
+      "local_xy_mm": [
+        1.29632,
+        52.70728
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J1.22",
+      "original_library_global_pad": 22,
+      "function": "GND_J1.22",
+      "net": "/GND",
+      "local_xy_mm": [
+        1.29632,
+        55.24728
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.1",
+      "original_library_global_pad": 44,
+      "function": "GND_J3.1",
+      "net": "/GND",
+      "local_xy_mm": [
+        26.7,
+        1.91
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.2",
+      "original_library_global_pad": 43,
+      "function": "GPIO43_J3.2",
+      "net": "unconnected-(U201-GPIO43-PadJ3.2)",
+      "local_xy_mm": [
+        26.7,
+        4.45
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.3",
+      "original_library_global_pad": 42,
+      "function": "GPIO44_J3.3",
+      "net": "unconnected-(U201-GPIO44-PadJ3.3)",
+      "local_xy_mm": [
+        26.7,
+        6.99
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.4",
+      "original_library_global_pad": 41,
+      "function": "GPIO1_J3.4",
+      "net": "/BT_UART_TX",
+      "local_xy_mm": [
+        26.7,
+        9.53
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.5",
+      "original_library_global_pad": 40,
+      "function": "GPIO2_J3.5",
+      "net": "/BT_UART_RX",
+      "local_xy_mm": [
+        26.7,
+        12.07
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.6",
+      "original_library_global_pad": 39,
+      "function": "GPIO42_J3.6",
+      "net": "/BT_RESET",
+      "local_xy_mm": [
+        26.7,
+        14.61
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.7",
+      "original_library_global_pad": 38,
+      "function": "GPIO41_J3.7",
+      "net": "/INPUT_KEY",
+      "local_xy_mm": [
+        26.7,
+        17.15
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.8",
+      "original_library_global_pad": 37,
+      "function": "GPIO40_J3.8",
+      "net": "/INPUT_S2",
+      "local_xy_mm": [
+        26.7,
+        19.69
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.9",
+      "original_library_global_pad": 36,
+      "function": "GPIO39_J3.9",
+      "net": "/INPUT_S1",
+      "local_xy_mm": [
+        26.7,
+        22.23
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.10",
+      "original_library_global_pad": 35,
+      "function": "GPIO38_J3.10",
+      "net": "unconnected-(U201-GPIO38-PadJ3.10)",
+      "local_xy_mm": [
+        26.7,
+        24.77
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.11",
+      "original_library_global_pad": 34,
+      "function": "GPIO37_J3.11",
+      "net": "unconnected-(U201-GPIO37-PadJ3.11)",
+      "local_xy_mm": [
+        26.7,
+        27.31
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.12",
+      "original_library_global_pad": 33,
+      "function": "GPIO36_J3.12",
+      "net": "unconnected-(U201-GPIO36-PadJ3.12)",
+      "local_xy_mm": [
+        26.7,
+        29.85
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.13",
+      "original_library_global_pad": 32,
+      "function": "GPIO35_J3.13",
+      "net": "unconnected-(U201-GPIO35-PadJ3.13)",
+      "local_xy_mm": [
+        26.7,
+        32.39
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.14",
+      "original_library_global_pad": 31,
+      "function": "GPIO0_J3.14",
+      "net": "/MAIN_BOOT0",
+      "local_xy_mm": [
+        26.7,
+        34.93
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.15",
+      "original_library_global_pad": 30,
+      "function": "GPIO45_J3.15",
+      "net": "unconnected-(U201-GPIO45-PadJ3.15)",
+      "local_xy_mm": [
+        26.7,
+        37.47
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.16",
+      "original_library_global_pad": 29,
+      "function": "GPIO48_J3.16",
+      "net": "unconnected-(U201-GPIO48-PadJ3.16)",
+      "local_xy_mm": [
+        26.7,
+        40.01
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.17",
+      "original_library_global_pad": 28,
+      "function": "GPIO47_J3.17",
+      "net": "/AMP_EN",
+      "local_xy_mm": [
+        26.7,
+        42.55
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.18",
+      "original_library_global_pad": 27,
+      "function": "GPIO21_J3.18",
+      "net": "/DISPLAY_BL",
+      "local_xy_mm": [
+        26.7,
+        45.09
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.19",
+      "original_library_global_pad": 26,
+      "function": "GPIO20_J3.19",
+      "net": "unconnected-(U201-GPIO20-PadJ3.19)",
+      "local_xy_mm": [
+        26.7,
+        47.63
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.20",
+      "original_library_global_pad": 25,
+      "function": "GPIO19_J3.20",
+      "net": "unconnected-(U201-GPIO19-PadJ3.20)",
+      "local_xy_mm": [
+        26.7,
+        50.17
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.21",
+      "original_library_global_pad": 24,
+      "function": "GND_J3.21",
+      "net": "/GND",
+      "local_xy_mm": [
+        26.7,
+        52.71
+      ]
+    },
+    {
+      "ref": "U201",
+      "symbol_pin_equals_M1_pad": "J3.22",
+      "original_library_global_pad": 23,
+      "function": "GND_J3.22",
+      "net": "/GND",
+      "local_xy_mm": [
+        26.7,
+        55.25
+      ]
+    }
+  ],
+  "immutable_libraries_schematic_project_models": true,
+  "actual_module_measurements": "PROVISIONAL",
+  "tracks_vias_pours": [
+    0,
+    0,
+    0
+  ]
+}

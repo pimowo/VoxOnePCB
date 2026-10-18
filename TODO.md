@@ -4,10 +4,10 @@
 **Utworzono:** 2026-10-17  
 **Projekt:** VoxOne_M1 — samodzielna rewizja sprzętowa M1  
 **Środowisko:** Windows 10 (laptop), KiCad 10.0.4, lokalny Codex CLI + KiCad Copilot MCP  
-**Ostatni etap wykonany przez Codexa:** `FOOTPRINT-2 + PCB-PREVIEW-1`  
+**Ostatni etap wykonany przez Codexa:** `PCB-LAYOUT-3` na gałęzi `pcb-layout-3` (wciąż PROVISIONAL; niezatwierdzony do trasowania). `main` jest chronionym punktem odniesienia CAD.  
 **Bieżące źródła CAD:** GitHub `pimowo/VoxOnePCB`, `main`, bazowy commit `8d90e6df444f770a445944372fa62b5ebb39af9` (KiCad + biblioteki). Archiwalna kopia ostatniej rewizji pozostaje lokalnie w `%USERPROFILE%\Documents\VoxOne_M1_FOOTPRINT-2`.  
 **Kanoniczne dokumenty projektu:** `TODO.md` i `AGENTS.md` w głównym katalogu `pimowo/VoxOnePCB` na gałęzi `main`.  
-**Stan:** schemat zatwierdzony na potrzeby wstępnego PCB; pierwsze rozmieszczenie PCB **ODRZUCONE ESTETYCZNIE I FUNKCJONALNIE**; **NIE WOLNO** trasować ani produkować PCB bez kolejnego zatwierdzenia.
+**Stan:** PCB-LAYOUT-3 jest wariantem roboczym na osobnej gałęzi, a jego rozmieszczenie nie otrzymało zgody na trasowanie. Użytkownik wybrał nowy cel: **PCB prostokątna pozioma (szerokość większa niż wysokość), oba wymiary ≤100 mm**. Najpierw sprawdzić wykonalność mechaniczną — dokładnych wymiarów NIE zatwierdzono. **NIE WOLNO** trasować ani produkować PCB bez kolejnej decyzji.
 
 > **To jest kanoniczna lista decyzji, zadań, ryzyk i wytycznych VoxOne_M1.** Nie mylić z `docs/TODO.md` repozytorium firmware VoxOne — to osobny projekt. Nie wykreślać pomysłów bez decyzji użytkownika. Nie traktować założeń referencyjnych jako pomiarów rzeczywistego sprzętu.
 >
@@ -28,6 +28,8 @@
 | Status | Decyzja / wymaganie |
 |---|---|
 | APPROVED | Laminat M1 **maksymalnie 100 × 100 mm**, cztery otwory M3 przy narożnikach. |
+| APPROVED — 2026-10-18 | **Wybór prostokątnej PCB poziomej, szerszej niż wyższej**, na wzór wcześniej dostarczonej wizualizacji. Wymiary każdego boku ≤100 mm. **Nie ustalać docelowej długości/wysokości przed analizą wykonalności footprintów, RF, USB, jack, M3, kabli, złącz i możliwości montażu.** |
+| PENDING | Konkretne wymiary prostokąta pozostają **niezatwierdzone**. Nie domniemywać 100×75, 100×80 lub 100×90 mm; rozpatrywać je wyłącznie jako warianty kontrolne. Jeżeli kształt wymaga mechanicznych kompromisów, przedstawić je użytkownikowi zamiast ukrywać. |
 | APPROVED | **2 warstwy miedzi F.Cu/B.Cu (TOP + BOTTOM)**, dopuszczone przelotki i ścieżki na obu stronach. |
 | APPROVED | **WSZYSTKIE elementy wyłącznie po górnej stronie PCB (TOP/F.Cu)**: SMD, THT, podstawki, moduły, złącza, zworki. Brak elementów montowanych po stronie BOTTOM. Nóżki THT są oczywiście lutowane od spodu. |
 | APPROVED | **Rozmieszczenie ma nawiązywać do wcześniejszej estetycznej wizualizacji VoxOne_M1** udostępnionej w rozmowie (zielona PCB, moduły MAIN po lewej, DAC u góry, BT po prawej, RTC bliżej środka, uporządkowany dół). To inspiracja, nie gwarantowany układ mechaniczny. |
@@ -56,7 +58,9 @@
 - [ ] **M1-P0-11** — Uporządkować silkscreen: sekcje, `VoxOne_M1`, opis zasilania, numerację i funkcje złączy, JP501/JP502, JP601, JP602, logo, czytelny pin1; usunąć kolizje napisów.
 - [ ] **M1-P0-12** — Przygotować faktyczny KiCad `.kicad_pcb`, widok 2D z góry, 3D z góry/pod kątem/z dołu (jeśli model dostępny); wyraźnie ujawnić brakujące / tymczasowe modele 3D. Nie przedstawiać grafiki AI jako dowodu technicznego.
 - [ ] **M1-P0-13** — Zrobić ERC, DRC, porównanie netlisty oraz osobne zestawienie niepołączeń. Nie deklarować DRC PASS, dopóki płytka nie jest trasowana. **Bez ścieżek i Gerberów do akceptacji rozmieszczenia.**
-- [ ] **M1-P0-14** — Pokazać użytkownikowi rezultat i **poczekać na wyraźną akceptację nowego rozmieszczenia** przed trasowaniem.
+- [ ] **M1-P0-14** — Pokazać użytkownikowi rezultat i **poczekać na wyraźną akceptację nowego rozmieszczenia** przed trasowaniem. Dotychczasowe PCB-LAYOUT-2/3 nie mają zgody na routing.
+- [ ] **M1-P0-15 [APPROVED — WYMAGANA ANALIZA PRZED PROJEKTEM]** — Sprawdzić fizyczną wykonalność PCB **prostokątnej poziomej ≤100×100 mm** według wizualizacji. Zacząć od pełnych obrysów MAIN/BT/DAC/RTC i ANT keepout, złącz, korytarzy wtyków USB/jack, 4×M3, elementów TOP only i miejsca do wyjmowania modułów. Porównać kilka szerokości/wysokości i realne konflikty; dokładny wymiar dopiero po raporcie i zgodzie użytkownika.
+- [ ] **M1-P0-16 [PENDING]** — Zatwierdzić konkretny wymiar prostokąta i rozłożenie modułów **dopiero po** niezależnej analizie mechaniki i dostępu. Zachować elektryczną mapę padów, 77 TOP / 0 BOTTOM, 2 warstwy Cu; bez trasowania i Gerberów przed odrębną akceptacją.
 
 ### P1 — do zamknięcia przed zamawianiem / produkcją PCB
 
@@ -221,6 +225,7 @@
 | 2026-10-17 | Założono kanoniczny notatnik `TODO.md` i plik wskazówek `AGENTS.md` dla Codexa; brak zgody na nowy prompt na tym etapie. | Użytkownik / przygotowanie notatnika |
 | 2026-10-17 | Utworzono publiczne repozytorium `pimowo/VoxOnePCB`. Pierwszy zapis był blokowany HTTP 403; po instalacji ChatGPT Codex Connector zapis działa. Dokumenty TODO, AGENTS, README i `.gitignore` publikowane na `main`. Źródła KiCad pozostają na laptopie do osobnego importu. | Użytkownik / ChatGPT |
 | 2026-10-17 | Użytkownik wykonał pierwszą publikację KiCad na GitHub: 60 plików, commit `8d90e6d`, push do `main`, lokalnie czyste drzewo. Model YD-ESP32-S3.step i PCM5102-I2S.step wyłączono. | Użytkownik / ChatGPT |
+| 2026-10-18 | Zatwierdzono **prostokątną poziomą PCB** o wymiarach obu boków nie większych niż 100 mm. Dokładny rozmiar PENDING, wymagana analiza mechanicznej wykonalności wobec modułów, RF, USB/jack i 4×M3. Wizualizacja VoxOne_M1 pozostaje wzorcem kompozycji, a układy PCB-LAYOUT-2/3 nie mają akceptacji do trasowania. | Użytkownik |
 
 ### Miejsce na nowe pomysły
 

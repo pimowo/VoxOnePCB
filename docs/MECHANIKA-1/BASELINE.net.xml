@@ -1,0 +1,3309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\piotrek\Documents\VoxOnePCB\VoxOne_M1.kicad_sch</source>
+    <date>2026-10-18T12:31:42</date>
+    <tool>Eeschema 10.0.4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>VoxOne_M1 / FOOTPRINT-2 / PCB-PREVIEW-1</title>
+        <company>VoxOne_M1</company>
+        <rev>FOOTPRINT-2</rev>
+        <date>2026-10-17</date>
+        <source>VoxOne_M1.kicad_sch</source>
+        <comment number="1" value="PROTOTYPE / PROVISIONAL - NOT FOR MANUFACTURING"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C101">
+      <value>470u 16V radial</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Nichicon UPW1C471MPD: 470u/16V, D10 x H12.5, P5; pad1=+, pad2=-.</field>
+        <field name="FP1_Reference_MPN">UPW1C471MPD</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Nichicon UPW1C471MPD: 470u/16V, D10 x H12.5, P5; pad1=+, pad2=-."/>
+      <property name="FP1_Reference_MPN" value="UPW1C471MPD"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be663b79-e082-49f1-92e6-bb788d6b7b5f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C102">
+      <value>100n X7R 25V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane.</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7561180c-96aa-463f-87e3-c0cbf3f49606</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C103">
+      <value>10u 16V radial</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Nichicon UPW1C100MDD: 10u/16V, D5 x H11, P2; pad1=+, pad2=-. Referencja wymiarowa EOL; zakup/zamiennik wymaga decyzji.</field>
+        <field name="FP1_Reference_MPN">UPW1C100MDD</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Nichicon UPW1C100MDD: 10u/16V, D5 x H11, P2; pad1=+, pad2=-. Referencja wymiarowa EOL; zakup/zamiennik wymaga decyzji."/>
+      <property name="FP1_Reference_MPN" value="UPW1C100MDD"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9e5bc5f-1c58-42cf-8dc1-82c8a70c0db7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C104">
+      <value>100n X7R 25V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane.</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98df6c81-6b69-4efa-8fdf-eb384916dbf2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C105">
+      <value>22u 16V solid tantalum</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_HandSolder</footprint>
+      <fields>
+        <field name="Technology">Solid tantalum; do not substitute ceramic-only</field>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">KEMET T491D226K016AT, 22u/16V MnO2, D 7.3 x 4.3 x Hmax3.1; pad1=+, pad2=-; nie polymer.</field>
+        <field name="FP1_Reference_MPN">T491D226K016AT</field>
+        <field name="Footprint">Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Technology" value="Solid tantalum; do not substitute ceramic-only"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="KEMET T491D226K016AT, 22u/16V MnO2, D 7.3 x 4.3 x Hmax3.1; pad1=+, pad2=-; nie polymer."/>
+      <property name="FP1_Reference_MPN" value="T491D226K016AT"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>960cf7ff-026c-4b4f-9b14-76b4c7ff6797</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C106">
+      <value>100n X7R 25V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane.</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e93cc8a-34bf-4a91-a229-c151e6f9911e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C201">
+      <value>100n X7R 25V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane.</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dadd4f9c-4a11-445c-8610-6aac3eadfe01</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C202">
+      <value>10n X7R 25V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane.</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d63dfee1-cc25-4573-871b-4a9b17c44c9a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C203">
+      <value>100u 16V radial</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Panasonic EEUFR1C101: 100u/16V, D5 x H11, P2; pad1=+, pad2=-.</field>
+        <field name="FP1_Reference_MPN">EEUFR1C101</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Panasonic EEUFR1C101: 100u/16V, D5 x H11, P2; pad1=+, pad2=-."/>
+      <property name="FP1_Reference_MPN" value="EEUFR1C101"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39046ef2-4d39-46bf-a81e-635b21de315c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C301">
+      <value>100n X7R 25V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane.</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afb4f546-543b-4ffc-8558-6a467305cceb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C302">
+      <value>10n X7R 25V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane.</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08004e78-3548-4cb6-b08c-9a21ead72cb9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C303">
+      <value>10u 16V radial THT</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Nichicon UPW1C100MDD: 10u/16V, D5 x H11, P2; pad1=+, pad2=-. Referencja wymiarowa EOL; zakup/zamiennik wymaga decyzji.</field>
+        <field name="FP1_Reference_MPN">UPW1C100MDD</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Nichicon UPW1C100MDD: 10u/16V, D5 x H11, P2; pad1=+, pad2=-. Referencja wymiarowa EOL; zakup/zamiennik wymaga decyzji."/>
+      <property name="FP1_Reference_MPN" value="UPW1C100MDD"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12b54fda-54cc-4803-877f-2f3689f7544e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C401">
+      <value>100n X7R 25V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane.</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ee533a0-e4fe-47ab-8cfc-18ce00cb27ed</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C402">
+      <value>10n X7R 25V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane.</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>950c0343-b283-44e2-9d3f-2c4e995d6f32</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C403">
+      <value>100u 16V radial</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Panasonic EEUFR1C101: 100u/16V, D5 x H11, P2; pad1=+, pad2=-.</field>
+        <field name="FP1_Reference_MPN">EEUFR1C101</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Panasonic EEUFR1C101: 100u/16V, D5 x H11, P2; pad1=+, pad2=-."/>
+      <property name="FP1_Reference_MPN" value="EEUFR1C101"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f653aca-edd9-4806-bd5d-a156aeab1766</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C501">
+      <value>100n X7R 25V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane.</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26df5810-4fac-4ad9-9ef1-64f155346748</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C502">
+      <value>10n X7R 25V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane.</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0fb726c-f54e-4157-ab52-8ad68c4b0648</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C503">
+      <value>10u 16V radial THT</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Nichicon UPW1C100MDD: 10u/16V, D5 x H11, P2; pad1=+, pad2=-. Referencja wymiarowa EOL; zakup/zamiennik wymaga decyzji.</field>
+        <field name="FP1_Reference_MPN">UPW1C100MDD</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Nichicon UPW1C100MDD: 10u/16V, D5 x H11, P2; pad1=+, pad2=-. Referencja wymiarowa EOL; zakup/zamiennik wymaga decyzji."/>
+      <property name="FP1_Reference_MPN" value="UPW1C100MDD"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b2ee547-07cd-49e3-8c4c-0c7cc3ce36ea</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C504">
+      <value>100n X7R 25V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane.</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e297e22b-c5b4-4aec-b985-8411aebdc5e0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C505">
+      <value>10n X7R 25V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane.</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8ac5b99-39d9-40a3-ae5d-de9e1641c821</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C506">
+      <value>10u 16V radial THT</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Nichicon UPW1C100MDD: 10u/16V, D5 x H11, P2; pad1=+, pad2=-. Referencja wymiarowa EOL; zakup/zamiennik wymaga decyzji.</field>
+        <field name="FP1_Reference_MPN">UPW1C100MDD</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Nichicon UPW1C100MDD: 10u/16V, D5 x H11, P2; pad1=+, pad2=-. Referencja wymiarowa EOL; zakup/zamiennik wymaga decyzji."/>
+      <property name="FP1_Reference_MPN" value="UPW1C100MDD"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81f37572-e2b9-4107-8c13-81b12b81ee07</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C507">
+      <value>1u X7R 25V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane.</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e875170-c489-4a8b-b966-dfbc61ff2ed3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C508">
+      <value>100n X7R 25V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane.</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b31502e6-2b17-405b-a810-95e87f04c4d5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C601">
+      <value>100n X7R 25V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane.</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ce96941-1e3e-4ea9-930b-cb61bca81277</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C602">
+      <value>10n X7R 25V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane.</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm, X7R; niepolarny, pad1/2; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71a5cc65-e22b-4a14-9a3b-ba023921c29c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C603">
+      <value>10u 16V radial</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Nichicon UPW1C100MDD: 10u/16V, D5 x H11, P2; pad1=+, pad2=-. Referencja wymiarowa EOL; zakup/zamiennik wymaga decyzji.</field>
+        <field name="FP1_Reference_MPN">UPW1C100MDD</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Nichicon UPW1C100MDD: 10u/16V, D5 x H11, P2; pad1=+, pad2=-. Referencja wymiarowa EOL; zakup/zamiennik wymaga decyzji."/>
+      <property name="FP1_Reference_MPN" value="UPW1C100MDD"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4129827d-12c0-4c87-b6cb-39d764d51ebd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D101">
+      <value>SMBJ5.0A TVS unidir.</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">SMBJ5.0A: SMB/DO-214AA; pad1=K (pasek), pad2=A.</field>
+        <field name="FP1_Reference_MPN">SMBJ5.0A</field>
+        <field name="Footprint">Diode_SMD:D_SMB</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="SMBJ5.0A: SMB/DO-214AA; pad1=K (pasek), pad2=A."/>
+      <property name="FP1_Reference_MPN" value="SMBJ5.0A"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a14f6f3b-83df-4a95-a5be-ba42a5012ece</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D501">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Vishay 1N4148W: SOD-123; pad1=K (pasek), pad2=A.</field>
+        <field name="FP1_Reference_MPN">1N4148W</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Vishay 1N4148W: SOD-123; pad1=K (pasek), pad2=A."/>
+      <property name="FP1_Reference_MPN" value="1N4148W"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18ec9a30-70e8-40a0-8d81-50a0edde7b98</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F101">
+      <value>T3.15A / &gt;=16V</value>
+      <footprint>Fuse:Fuse_Littelfuse_372_D8.50mm</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Littelfuse 37213150411, T3.15A; TR5 D8.5/H8/P5.08; niepolarny. Koordynacja ze źródłem i ocena DC pozostają do sprawdzenia.</field>
+        <field name="FP1_Reference_MPN">37213150411</field>
+        <field name="Footprint">Fuse:Fuse_Littelfuse_372_D8.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Littelfuse 37213150411, T3.15A; TR5 D8.5/H8/P5.08; niepolarny. Koordynacja ze źródłem i ocena DC pozostają do sprawdzenia."/>
+      <property name="FP1_Reference_MPN" value="37213150411"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc0c89a3-e97d-4833-aab5-f982962f7a11</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="FB301">
+      <value>600R@100MHz / &gt;=0.5A</value>
+      <footprint>Inductor_SMD:L_1206_3216Metric</footprint>
+      <fields>
+        <field name="DCR">&lt;=0.3 ohm</field>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Ferryt 1206/3216, dwa niepolarne pady; 600ohm@100MHz, &gt;=0.5A i DCR&lt;=0.3ohm zachowane; MPN do zatwierdzenia zakupowego.</field>
+        <field name="Footprint">Inductor_SMD:L_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="DCR" value="&lt;=0.3 ohm"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Ferryt 1206/3216, dwa niepolarne pady; 600ohm@100MHz, &gt;=0.5A i DCR&lt;=0.3ohm zachowane; MPN do zatwierdzenia zakupowego."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="L ferrite bead inductor filter"/>
+      <property name="ki_fp_filters" value="Inductor_* L_* *Ferrite*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44f72173-81af-4e9b-9ba5-be3193758a95</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J101">
+      <value>ARK 5V / GND</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Phoenix Contact 1715721; ARK 2-pin/P5.08; pad1=5V_IN, pad2=GND; przewód od krawędzi.</field>
+        <field name="FP1_Reference_MPN">1715721</field>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="VoxOne_M1" part="ARK_2PIN_MKDS_1715721" description="Project-local passive 2-pin ARK connector; Phoenix 1715721 MKDS1.5/2-5.08; 1=5V_IN,2=GND; standard pin geometry retained."/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Phoenix Contact 1715721; ARK 2-pin/P5.08; pad1=5V_IN, pad2=GND; przewód od krawędzi."/>
+      <property name="FP1_Reference_MPN" value="1715721"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_* TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c78f5517-bcea-4ee5-bb87-edf6269d349b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J301">
+      <value>AUDIO OUT: 1=L 2=GND 3=R</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Goldpin pionowy P2.54, standardowa numeracja. Pin1 zgodnie ze schematem; kierunek kabla ustalić przy PCB.</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Goldpin pionowy P2.54, standardowa numeracja. Pin1 zgodnie ze schematem; kierunek kabla ustalić przy PCB."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e06cc988-e9ac-4e2d-96ea-71a445bb0921</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J401">
+      <value>BT LEFT INNER / USB DOWN</value>
+      <footprint>Connector_VoxOne_M1_Modules:Socket_Wemos_INNER_LEFT_1x10_P2.54mm_PROVISIONAL</footprint>
+      <datasheet>references/Wemos_D1_mini_ESP32_przod_tyl.png</datasheet>
+      <fields>
+        <field name="FP1_Status">SUPERSEDED: FP2 PROVISIONAL</field>
+        <field name="FP1_Assembly">FP2: verified logical pad mapping; reference geometry and socket height PROVISIONAL; physical clone unmeasured.</field>
+        <field name="Footprint">Connector_VoxOne_M1_Modules:Socket_Wemos_INNER_LEFT_1x10_P2.54mm_PROVISIONAL</field>
+        <field name="Datasheet">references/Wemos_D1_mini_ESP32_przod_tyl.png</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="VoxOne_M1" part="Wemos_ESP32_INNER_LEFT_TOP" description="Module interface from supplied reference photographs; not IC package pinout. USB bottom; antenna top. Left inner socket 1..10 top to bottom."/>
+      <property name="FP1_Status" value="SUPERSEDED: FP2 PROVISIONAL"/>
+      <property name="FP1_Assembly" value="FP2: verified logical pad mapping; reference geometry and socket height PROVISIONAL; physical clone unmeasured."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x10_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9fe0883-cacd-4cfd-8f3b-23af63801ef5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J402">
+      <value>BT RIGHT INNER / USB DOWN</value>
+      <footprint>Connector_VoxOne_M1_Modules:Socket_Wemos_INNER_RIGHT_1x10_P2.54mm_PROVISIONAL</footprint>
+      <datasheet>references/Wemos_D1_mini_ESP32_spod_powiekszenie.png</datasheet>
+      <fields>
+        <field name="FP1_Status">SUPERSEDED: FP2 PROVISIONAL</field>
+        <field name="FP1_Assembly">FP2: verified logical pad mapping; reference geometry and socket height PROVISIONAL; physical clone unmeasured.</field>
+        <field name="Footprint">Connector_VoxOne_M1_Modules:Socket_Wemos_INNER_RIGHT_1x10_P2.54mm_PROVISIONAL</field>
+        <field name="Datasheet">references/Wemos_D1_mini_ESP32_spod_powiekszenie.png</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="VoxOne_M1" part="Wemos_ESP32_INNER_RIGHT_TOP" description="Module interface from supplied reference photographs; not IC package pinout. USB bottom; antenna top. Right inner socket 1..10 top to bottom. VCC voltage UNCONFIRMED."/>
+      <property name="FP1_Status" value="SUPERSEDED: FP2 PROVISIONAL"/>
+      <property name="FP1_Assembly" value="FP2: verified logical pad mapping; reference geometry and socket height PROVISIONAL; physical clone unmeasured."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x10_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c4a8922-bf21-4ed5-ad51-a690d672338c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J501">
+      <value>I2C: VCC GND SDA SCL</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Goldpin pionowy P2.54, standardowa numeracja. Pin1 zgodnie ze schematem; kierunek kabla ustalić przy PCB.</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Goldpin pionowy P2.54, standardowa numeracja. Pin1 zgodnie ze schematem; kierunek kabla ustalić przy PCB."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b68b182a-f753-4a42-b1b0-f2c313705fcb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J502">
+      <value>SPI: VCC GND SCK MOSI CS DC RST BL</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Goldpin pionowy P2.54, standardowa numeracja. Pin1 zgodnie ze schematem; kierunek kabla ustalić przy PCB.</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Goldpin pionowy P2.54, standardowa numeracja. Pin1 zgodnie ze schematem; kierunek kabla ustalić przy PCB."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>035edd3b-996d-47e8-bda6-486857eee192</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J601">
+      <value>INPUT: S1 S2 KEY GND</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Goldpin pionowy P2.54, standardowa numeracja. Pin1 zgodnie ze schematem; kierunek kabla ustalić przy PCB.</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Goldpin pionowy P2.54, standardowa numeracja. Pin1 zgodnie ze schematem; kierunek kabla ustalić przy PCB."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9992576b-da8f-4d93-9af3-85a15bf146e6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J603">
+      <value>AMP: EN_OC MUTE_OC GND</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Goldpin pionowy P2.54, standardowa numeracja. Pin1 zgodnie ze schematem; kierunek kabla ustalić przy PCB.</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Goldpin pionowy P2.54, standardowa numeracja. Pin1 zgodnie ze schematem; kierunek kabla ustalić przy PCB."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a676637d-184a-42e9-a175-3ca4434c8254</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP501">
+      <value>I2C VCC SELECT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Goldpin pionowy P2.54, standardowa numeracja. Pin1 zgodnie ze schematem; kierunek kabla ustalić przy PCB.</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Goldpin pionowy P2.54, standardowa numeracja. Pin1 zgodnie ze schematem; kierunek kabla ustalić przy PCB."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49a59eb2-e96c-4211-8a9d-37e517b5dc4b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP502">
+      <value>SPI VCC SELECT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Goldpin pionowy P2.54, standardowa numeracja. Pin1 zgodnie ze schematem; kierunek kabla ustalić przy PCB.</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Goldpin pionowy P2.54, standardowa numeracja. Pin1 zgodnie ze schematem; kierunek kabla ustalić przy PCB."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b078c3a-75ca-44bf-b2d3-e9e0b133c779</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP601">
+      <value>PULL-UP ENABLE 2x3</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Goldpin pionowy P2.54, standardowa numeracja. Zworki 1-2 / 3-4 / 5-6.</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Goldpin pionowy P2.54, standardowa numeracja. Zworki 1-2 / 3-4 / 5-6."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9077632-52e4-42ad-83ef-495598c71432</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP602">
+      <value>I2C PULL-UP / 2x2 / 2.54mm</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">Goldpin pionowy P2.54, standardowa numeracja. Zworki SDA1-2, SCL3-4.</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="Goldpin pionowy P2.54, standardowa numeracja. Zworki SDA1-2, SCL3-4."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a29950f-9522-4873-bc87-367969e9543a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q101">
+      <value>FDD6685 DPAK</value>
+      <footprint>VoxOne_M1_Custom:TO-252_FDD6685_369AS_HandSolder</footprint>
+      <datasheet>https://www.onsemi.com/download/data-sheet/pdf/fdd6685-d.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Pinout_confirmed">Rev4 p1+p7: 1G 2D/tab 3S; D=input S=SYS</field>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">FDD6685: pad1=G, pad2=D/tab, pad3=S. Lokalny land pattern wg onsemi CASE369AS (Rev4 str7); e1=4.572, tab center offset6.40.</field>
+        <field name="FP1_Reference_MPN">FDD6685</field>
+        <field name="Footprint">VoxOne_M1_Custom:TO-252_FDD6685_369AS_HandSolder</field>
+        <field name="Datasheet">https://www.onsemi.com/download/data-sheet/pdf/fdd6685-d.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="VoxOne_M1" part="FDD6685" description="P-MOS -30V; RDSon max30mR @VGS=-4.5V; G1 D2/tab S3; DPAK3 CASE369AS"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Pinout_confirmed" value="Rev4 p1+p7: 1G 2D/tab 3S; D=input S=SYS"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="FDD6685: pad1=G, pad2=D/tab, pad3=S. Lokalny land pattern wg onsemi CASE369AS (Rev4 str7); e1=4.572, tab center offset6.40."/>
+      <property name="FP1_Reference_MPN" value="FDD6685"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="transistor PMOS P-MOS P-MOSFET"/>
+      <property name="ki_fp_filters" value="TO?252*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>983e5d40-557b-4355-81b8-0f89428cba9a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q401">
+      <value>MMBT3904 / reset OC</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf</datasheet>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">onsemi MMBT3904 SOT-23: pad1=B,2=E,3=C; poprawiono link datasheet z PZT3904.</field>
+        <field name="FP1_Reference_MPN">MMBT3904</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="onsemi MMBT3904 SOT-23: pad1=B,2=E,3=C; poprawiono link datasheet z PZT3904."/>
+      <property name="FP1_Reference_MPN" value="MMBT3904"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e08b0fe7-d5b5-4709-9479-5044d152fb16</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q503">
+      <value>MMBT3904 BL drive</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf</datasheet>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">onsemi MMBT3904 SOT-23: pad1=B,2=E,3=C; poprawiono link datasheet z PZT3904.</field>
+        <field name="FP1_Reference_MPN">MMBT3904</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="onsemi MMBT3904 SOT-23: pad1=B,2=E,3=C; poprawiono link datasheet z PZT3904."/>
+      <property name="FP1_Reference_MPN" value="MMBT3904"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>907396a4-77c8-4faf-98a2-7c18e44c308d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q504">
+      <value>AO3401A BL high-side</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">AOS AO3401A SOT-23: 1=G,2=S,3=D.</field>
+        <field name="FP1_Reference_MPN">AO3401A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="AOS AO3401A SOT-23: 1=G,2=S,3=D."/>
+      <property name="FP1_Reference_MPN" value="AO3401A"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>baff2651-01bf-42c9-8519-a4b970b7da76</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q601">
+      <value>MMBT3904 EN OC</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf</datasheet>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">onsemi MMBT3904 SOT-23: pad1=B,2=E,3=C; poprawiono link datasheet z PZT3904.</field>
+        <field name="FP1_Reference_MPN">MMBT3904</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="onsemi MMBT3904 SOT-23: pad1=B,2=E,3=C; poprawiono link datasheet z PZT3904."/>
+      <property name="FP1_Reference_MPN" value="MMBT3904"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d4dbe21-bbc7-4a94-9d7d-04fe5a02ce13</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q602">
+      <value>MMBT3904 MUTE OC</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf</datasheet>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">onsemi MMBT3904 SOT-23: pad1=B,2=E,3=C; poprawiono link datasheet z PZT3904.</field>
+        <field name="FP1_Reference_MPN">MMBT3904</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="onsemi MMBT3904 SOT-23: pad1=B,2=E,3=C; poprawiono link datasheet z PZT3904."/>
+      <property name="FP1_Reference_MPN" value="MMBT3904"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46e630b4-2fff-414e-b043-b47dd646230e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R101">
+      <value>300R 1% / 0.125W</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c709147b-c9a3-46cd-8fdf-448d9b7cdd18</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R201">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf22fbe3-6d3e-4bff-9eca-f52569f34196</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R202">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb0c3ad0-b046-4f05-ab6b-f2fac646ed76</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R203">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>452c0cc5-220d-40b1-bad2-1bb7bf967f33</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R204">
+      <value>100R 1%</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f16edf19-c21e-4bb5-b0db-656613f5942a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R205">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4576d20-ccf9-48be-9809-15f8f6b33695</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R301">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53be9626-aca8-47d3-9c7d-4d2cf0143706</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R401">
+      <value>6k8 1%</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe7c4114-3d93-47e6-8893-152b9cb2ebe6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R402">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06c6fff1-6cbc-4cbc-af57-aa3618359515</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R503">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e89edac5-6689-4c7a-a533-b52986f04280</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R504">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b020b056-af54-4d72-9618-7a3701b4abec</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R505">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d35ff64-6195-45b5-9dd7-96dd8eeda04a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R506">
+      <value>10k 1%</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba2930ed-425b-4b68-9d74-9b4e9295e870</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R507">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>678bf971-bfc3-4ffd-b113-3ad7d9b808f5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R508">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39ed8d27-047e-47a3-b199-39843689c2b9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R601">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd3b7e95-83e1-43ff-874f-d68ed89a343d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R602">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42ba6981-da69-4ef0-bdd8-1ca737a97a86</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R603">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bfaab53b-d898-479d-b197-5e8f021891c5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R604">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e871339a-67ee-4cac-90a1-3d2609f27e18</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R605">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd90a7f0-9e1d-47bb-89a4-f32b2c7bb923</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R606">
+      <value>6k8 1%</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b6d84da-09ae-4ff7-8fc4-79cf5bf7f432</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R607">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9792516d-7699-44f9-8e8a-f9457b0f749b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R608">
+      <value>6k8 1%</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>512a02c5-f1a2-42e0-ae88-efc8fb64ed83</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R609">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane.</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="1206 / 3.2 x 1.6 mm; piny 1/2, niepolarny; wartości zachowane."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43c321e5-b26d-469a-affe-4ee69f7a5a8a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U101">
+      <value>AMS1117-3.3 (UMW)</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://www.umw-ic.com/static/pdf/b2e919b537132c8a7a35b159d67758d4.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">UMW / UTD Semiconductor</field>
+        <field name="Datasheet_URL">https://www.umw-ic.com/static/pdf/b2e919b537132c8a7a35b159d67758d4.pdf</field>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">UMW AMS1117-3.3 SOT-223: 1=GND,2=OUT/tab,3=IN; duży pad2 wymaga pola termicznego.</field>
+        <field name="FP1_Reference_MPN">AMS1117-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">https://www.umw-ic.com/static/pdf/b2e919b537132c8a7a35b159d67758d4.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AMS1117-3.3" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <property name="Manufacturer" value="UMW / UTD Semiconductor"/>
+      <property name="Datasheet_URL" value="https://www.umw-ic.com/static/pdf/b2e919b537132c8a7a35b159d67758d4.pdf"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="UMW AMS1117-3.3 SOT-223: 1=GND,2=OUT/tab,3=IN; duży pad2 wymaga pola termicznego."/>
+      <property name="FP1_Reference_MPN" value="AMS1117-3.3"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
+      <property name="ki_fp_filters" value="SOT?223*TabPin2*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1c544f2-0e86-4a8c-89ac-616e869a0737</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U201">
+      <value>ESP32-S3 DevKitC-1 N16R8 (*)</value>
+      <footprint>Connector_VoxOne_M1_Modules:Socket_YD_ESP32S3_44_PROVISIONAL</footprint>
+      <datasheet>https://documentation.espressif.com/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html</datasheet>
+      <fields>
+        <field name="FP1_Status">SUPERSEDED: FP2 PROVISIONAL</field>
+        <field name="FP1_Assembly">FP2: verified logical pad mapping; reference geometry and socket height PROVISIONAL; physical clone unmeasured.</field>
+        <field name="Footprint">Connector_VoxOne_M1_Modules:Socket_YD_ESP32S3_44_PROVISIONAL</field>
+        <field name="Datasheet">https://documentation.espressif.com/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="VoxOne_M1" part="ESP32_S3_DevKitC_1_44" description=""/>
+      <property name="FP1_Status" value="SUPERSEDED: FP2 PROVISIONAL"/>
+      <property name="FP1_Assembly" value="FP2: verified logical pad mapping; reference geometry and socket height PROVISIONAL; physical clone unmeasured."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2f4d489-5611-4b90-8c51-9f89210ba883</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="J1.1"/>
+            <pin num="J1.2"/>
+            <pin num="J1.3"/>
+            <pin num="J1.4"/>
+            <pin num="J1.5"/>
+            <pin num="J1.6"/>
+            <pin num="J1.7"/>
+            <pin num="J1.8"/>
+            <pin num="J1.9"/>
+            <pin num="J1.10"/>
+            <pin num="J1.11"/>
+            <pin num="J1.12"/>
+            <pin num="J1.13"/>
+            <pin num="J1.14"/>
+            <pin num="J1.15"/>
+            <pin num="J1.16"/>
+            <pin num="J1.17"/>
+            <pin num="J1.18"/>
+            <pin num="J1.19"/>
+            <pin num="J1.20"/>
+            <pin num="J1.21"/>
+            <pin num="J1.22"/>
+            <pin num="J3.1"/>
+            <pin num="J3.2"/>
+            <pin num="J3.3"/>
+            <pin num="J3.4"/>
+            <pin num="J3.5"/>
+            <pin num="J3.6"/>
+            <pin num="J3.7"/>
+            <pin num="J3.8"/>
+            <pin num="J3.9"/>
+            <pin num="J3.10"/>
+            <pin num="J3.11"/>
+            <pin num="J3.12"/>
+            <pin num="J3.13"/>
+            <pin num="J3.14"/>
+            <pin num="J3.15"/>
+            <pin num="J3.16"/>
+            <pin num="J3.17"/>
+            <pin num="J3.18"/>
+            <pin num="J3.19"/>
+            <pin num="J3.20"/>
+            <pin num="J3.21"/>
+            <pin num="J3.22"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U301">
+      <value>PCM5102A MODULE / JACK RIGHT</value>
+      <footprint>Connector_VoxOne_M1_Modules:Socket_GY_PCM5102A_6_9_PROVISIONAL</footprint>
+      <datasheet>references/PCM5102A_modul_powiekszenie.png</datasheet>
+      <fields>
+        <field name="FP1_Status">SUPERSEDED: FP2 PROVISIONAL</field>
+        <field name="FP1_Assembly">FP2: verified logical pad mapping; reference geometry and socket height PROVISIONAL; physical clone unmeasured.</field>
+        <field name="Footprint">Connector_VoxOne_M1_Modules:Socket_GY_PCM5102A_6_9_PROVISIONAL</field>
+        <field name="Datasheet">references/PCM5102A_modul_powiekszenie.png</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="VoxOne_M1" part="PCM5102A_PURPLE_MODULE_6_9" description="Module interface from supplied reference photographs; not IC package pinout. A: left edge top-bottom. B: top edge left-right. Jack right, elements side. Internal bridges NOT assumed."/>
+      <property name="FP1_Status" value="SUPERSEDED: FP2 PROVISIONAL"/>
+      <property name="FP1_Assembly" value="FP2: verified logical pad mapping; reference geometry and socket height PROVISIONAL; physical clone unmeasured."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86c1d454-8d0e-448f-93ff-f56e1a049732</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="A1"/>
+            <pin num="A2"/>
+            <pin num="A3"/>
+            <pin num="A4"/>
+            <pin num="A5"/>
+            <pin num="A6"/>
+            <pin num="B1"/>
+            <pin num="B2"/>
+            <pin num="B3"/>
+            <pin num="B4"/>
+            <pin num="B5"/>
+            <pin num="B6"/>
+            <pin num="B7"/>
+            <pin num="B8"/>
+            <pin num="B9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U501">
+      <value>SN74LVC1G17DBV</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf</datasheet>
+      <fields>
+        <field name="FP1_Status">VERIFIED</field>
+        <field name="FP1_Assembly">TI SN74LVC1G17DBV: SOT-23-5/DBV; 1=NC,2=A,3=GND,4=Y,5=VCC.</field>
+        <field name="FP1_Reference_MPN">SN74LVC1G17DBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="74xGxx" part="74LVC1G17" description="Single Schmitt Buffer Gate, Low-Voltage CMOS"/>
+      <property name="FP1_Status" value="VERIFIED"/>
+      <property name="FP1_Assembly" value="TI SN74LVC1G17DBV: SOT-23-5/DBV; 1=NC,2=A,3=GND,4=Y,5=VCC."/>
+      <property name="FP1_Reference_MPN" value="SN74LVC1G17DBV"/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <property name="ki_keywords" value="Single Gate Buff Schmitt LVC CMOS"/>
+      <property name="ki_fp_filters" value="SOT?23* SOT?553* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f31f5f76-8113-4681-be9d-632adab49efb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="5"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U601">
+      <value>DS3231 for Pi / 5 POS</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>references/DS3231_for_Pi_zlacze.png</datasheet>
+      <fields>
+        <field name="FP1_Status">VERIFIED_HEADER</field>
+        <field name="FP1_Assembly">Zatwierdzone: pionowy męski 1x5/P2.54; 1=3V3_AUX,2=SDA,3=SCL,4=NC,5=GND. Obrys/bateria RTC do kontroli przestrzennej.</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet">references/DS3231_for_Pi_zlacze.png</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="VoxOne_M1" part="DS3231_FOR_PI_5POS_PHOTO" description="Module interface from supplied reference photographs; not IC package pinout. Pin 4 presence/function unresolved. Battery and onboard pull-ups unverified."/>
+      <property name="FP1_Status" value="VERIFIED_HEADER"/>
+      <property name="FP1_Assembly" value="Zatwierdzone: pionowy męski 1x5/P2.54; 1=3V3_AUX,2=SDA,3=SCL,4=NC,5=GND. Obrys/bateria RTC do kontroli przestrzennej."/>
+      <property name="Sheetname" value="VoxOne_M1"/>
+      <property name="Sheetfile" value="VoxOne_M1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a57531f-23dd-4f3b-b852-ccc95556fa10</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xGxx" part="74LVC1G17">
+      <description>Single Schmitt Buffer Gate, Low-Voltage CMOS</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+        <fp>SOT?553*</fp>
+        <fp>Texas?R-PDSO-G5?DCK*</fp>
+        <fp>Texas?R-PDSO-N5?DRL*</fp>
+        <fp>Texas?X2SON*0.8x0.8mm*P0.48mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G17</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf</field>
+        <field name="Description">Single Schmitt Buffer Gate, Low-Voltage CMOS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x02_Odd_Even">
+      <description>Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x02_Odd_Even</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Diode</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead">
+      <description>Ferrite bead</description>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Ferrite bead</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AMS1117-3.3">
+      <description>1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.advanced-monolithic.com/pdf/ds1117.pdf</field>
+        <field name="Description">1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="MMBT3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBT3904</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</field>
+        <field name="Description">0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23</field>
+        <field name="Sim.Device">NPN</field>
+        <field name="Sim.Pins">1=B 2=E 3=C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="AO3401A">
+      <description>-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3401A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</field>
+        <field name="Description">-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="VoxOne_M1" part="ARK_2PIN_MKDS_1715721">
+      <description>Project-local passive 2-pin ARK connector; Phoenix 1715721 MKDS1.5/2-5.08; 1=5V_IN,2=GND; standard pin geometry retained.</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+        <fp>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Project-local passive 2-pin ARK connector; Phoenix 1715721 MKDS1.5/2-5.08; 1=5V_IN,2=GND; standard pin geometry retained.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="VoxOne_M1" part="DS3231_FOR_PI_5POS_PHOTO">
+      <description>Module interface from supplied reference photographs; not IC package pinout. Pin 4 presence/function unresolved. Battery and onboard pull-ups unverified.</description>
+      <docs>references/DS3231_for_Pi_zlacze.png</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS3231_FOR_PI_5POS_PHOTO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">references/DS3231_for_Pi_zlacze.png</field>
+        <field name="Description">Module interface from supplied reference photographs; not IC package pinout. Pin 4 presence/function unresolved. Battery and onboard pull-ups unverified.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3.3V" type="power_in"/>
+        <pin num="2" name="SDA" type="bidirectional"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="NC" type="unspecified"/>
+        <pin num="5" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="VoxOne_M1" part="ESP32_S3_DevKitC_1_44">
+      <docs>https://documentation.espressif.com/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-S3-DevKitC-1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://documentation.espressif.com/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="J1.1" name="3V3" type="power_out"/>
+        <pin num="J1.2" name="3V3" type="passive"/>
+        <pin num="J1.3" name="EN" type="input"/>
+        <pin num="J1.4" name="GPIO4" type="output"/>
+        <pin num="J1.5" name="GPIO5" type="output"/>
+        <pin num="J1.6" name="GPIO6" type="output"/>
+        <pin num="J1.7" name="GPIO7" type="output"/>
+        <pin num="J1.8" name="GPIO15" type="input"/>
+        <pin num="J1.9" name="GPIO16" type="input"/>
+        <pin num="J1.10" name="GPIO17" type="input"/>
+        <pin num="J1.11" name="GPIO18" type="output"/>
+        <pin num="J1.12" name="GPIO8" type="bidirectional"/>
+        <pin num="J1.13" name="GPIO3" type="bidirectional"/>
+        <pin num="J1.14" name="GPIO46" type="bidirectional"/>
+        <pin num="J1.15" name="GPIO9" type="bidirectional"/>
+        <pin num="J1.16" name="GPIO10" type="output"/>
+        <pin num="J1.17" name="GPIO11" type="output"/>
+        <pin num="J1.18" name="GPIO12" type="output"/>
+        <pin num="J1.19" name="GPIO13" type="output"/>
+        <pin num="J1.20" name="GPIO14" type="output"/>
+        <pin num="J1.21" name="5V" type="power_in"/>
+        <pin num="J1.22" name="GND" type="power_in"/>
+        <pin num="J3.1" name="GND" type="power_in"/>
+        <pin num="J3.2" name="GPIO43" type="bidirectional"/>
+        <pin num="J3.3" name="GPIO44" type="bidirectional"/>
+        <pin num="J3.4" name="GPIO1" type="output"/>
+        <pin num="J3.5" name="GPIO2" type="input"/>
+        <pin num="J3.6" name="GPIO42" type="output"/>
+        <pin num="J3.7" name="GPIO41" type="input"/>
+        <pin num="J3.8" name="GPIO40" type="input"/>
+        <pin num="J3.9" name="GPIO39" type="input"/>
+        <pin num="J3.10" name="GPIO38" type="bidirectional"/>
+        <pin num="J3.11" name="GPIO37" type="bidirectional"/>
+        <pin num="J3.12" name="GPIO36" type="bidirectional"/>
+        <pin num="J3.13" name="GPIO35" type="bidirectional"/>
+        <pin num="J3.14" name="GPIO0" type="bidirectional"/>
+        <pin num="J3.15" name="GPIO45" type="bidirectional"/>
+        <pin num="J3.16" name="GPIO48" type="bidirectional"/>
+        <pin num="J3.17" name="GPIO47" type="output"/>
+        <pin num="J3.18" name="GPIO21" type="output"/>
+        <pin num="J3.19" name="GPIO20" type="bidirectional"/>
+        <pin num="J3.20" name="GPIO19" type="bidirectional"/>
+        <pin num="J3.21" name="GND" type="power_in"/>
+        <pin num="J3.22" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="VoxOne_M1" part="FDD6685">
+      <description>P-MOS -30V; RDSon max30mR @VGS=-4.5V; G1 D2/tab S3; DPAK3 CASE369AS</description>
+      <docs>https://www.onsemi.com/download/data-sheet/pdf/fdd6685-d.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">FDD6685</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet">https://www.onsemi.com/download/data-sheet/pdf/fdd6685-d.pdf</field>
+        <field name="Description">P-MOS -30V; RDSon max30mR @VGS=-4.5V; G1 D2/tab S3; DPAK3 CASE369AS</field>
+        <field name="Manufacturer">onsemi</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="VoxOne_M1" part="PCM5102A_PURPLE_MODULE_6_9">
+      <description>Module interface from supplied reference photographs; not IC package pinout. A: left edge top-bottom. B: top edge left-right. Jack right, elements side. Internal bridges NOT assumed.</description>
+      <docs>references/PCM5102A_modul_powiekszenie.png</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCM5102A_PURPLE_MODULE_6_9</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">references/PCM5102A_modul_powiekszenie.png</field>
+        <field name="Description">Module interface from supplied reference photographs; not IC package pinout. A: left edge top-bottom. B: top edge left-right. Jack right, elements side. Internal bridges NOT assumed.</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="SCK" type="input"/>
+        <pin num="A2" name="BCK" type="input"/>
+        <pin num="A3" name="DIN" type="input"/>
+        <pin num="A4" name="LCK" type="input"/>
+        <pin num="A5" name="GND" type="power_in"/>
+        <pin num="A6" name="VIN" type="power_in"/>
+        <pin num="B1" name="FLT" type="input"/>
+        <pin num="B2" name="DEMP" type="input"/>
+        <pin num="B3" name="XSMT" type="input"/>
+        <pin num="B4" name="FMT" type="input"/>
+        <pin num="B5" name="A3V3" type="power_out"/>
+        <pin num="B6" name="AGND" type="power_in"/>
+        <pin num="B7" name="ROUT" type="output"/>
+        <pin num="B8" name="AGND" type="power_in"/>
+        <pin num="B9" name="LROUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="VoxOne_M1" part="Wemos_ESP32_INNER_LEFT_TOP">
+      <description>Module interface from supplied reference photographs; not IC package pinout. USB bottom; antenna top. Left inner socket 1..10 top to bottom.</description>
+      <docs>references/Wemos_D1_mini_ESP32_przod_tyl.png</docs>
+      <footprints>
+        <fp>Connector*:*_1x10_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Wemos_ESP32_INNER_LEFT_TOP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">references/Wemos_D1_mini_ESP32_przod_tyl.png</field>
+        <field name="Description">Module interface from supplied reference photographs; not IC package pinout. USB bottom; antenna top. Left inner socket 1..10 top to bottom.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RST" type="input"/>
+        <pin num="2" name="SVP" type="passive"/>
+        <pin num="3" name="IO26" type="input"/>
+        <pin num="4" name="IO18" type="output"/>
+        <pin num="5" name="IO19" type="output"/>
+        <pin num="6" name="IO23" type="output"/>
+        <pin num="7" name="IO5" type="passive"/>
+        <pin num="8" name="3.3V" type="power_out"/>
+        <pin num="9" name="TCK" type="passive"/>
+        <pin num="10" name="SD3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="VoxOne_M1" part="Wemos_ESP32_INNER_RIGHT_TOP">
+      <description>Module interface from supplied reference photographs; not IC package pinout. USB bottom; antenna top. Right inner socket 1..10 top to bottom. VCC voltage UNCONFIRMED.</description>
+      <docs>references/Wemos_D1_mini_ESP32_spod_powiekszenie.png</docs>
+      <footprints>
+        <fp>Connector*:*_1x10_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Wemos_ESP32_INNER_RIGHT_TOP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">references/Wemos_D1_mini_ESP32_spod_powiekszenie.png</field>
+        <field name="Description">Module interface from supplied reference photographs; not IC package pinout. USB bottom; antenna top. Right inner socket 1..10 top to bottom. VCC voltage UNCONFIRMED.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="passive"/>
+        <pin num="2" name="RXD" type="passive"/>
+        <pin num="3" name="IO22" type="passive"/>
+        <pin num="4" name="IO21" type="passive"/>
+        <pin num="5" name="IO17" type="output"/>
+        <pin num="6" name="IO16" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="TD0/TDO" type="passive"/>
+        <pin num="10" name="SD0" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xGxx">
+      <uri>C:/Program Files/KiCad/10.0/share/kicad/symbols/74xGxx.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:/Program Files/KiCad/10.0/share/kicad/symbols/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:/Program Files/KiCad/10.0/share/kicad/symbols/Device.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:/Program Files/KiCad/10.0/share/kicad/symbols/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:/Program Files/KiCad/10.0/share/kicad/symbols/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:/Program Files/KiCad/10.0/share/kicad/symbols/Transistor_FET.kicad_sym</uri>
+    </library>
+    <library logical="VoxOne_M1">
+      <uri>${KIPRJMOD}/VoxOne_M1.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3V3_AUX" class="Default">
+      <node ref="C105" pin="1" pintype="passive"/>
+      <node ref="C106" pin="1" pintype="passive"/>
+      <node ref="C601" pin="1" pintype="passive"/>
+      <node ref="C602" pin="1" pintype="passive"/>
+      <node ref="C603" pin="1" pintype="passive"/>
+      <node ref="JP501" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP502" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R101" pin="1" pintype="passive"/>
+      <node ref="U101" pin="2" pinfunction="VO_2" pintype="power_out"/>
+      <node ref="U601" pin="1" pinfunction="3.3V_1" pintype="power_in"/>
+    </net>
+    <net code="2" name="/3V3_MAIN" class="Default">
+      <node ref="C508" pin="1" pintype="passive"/>
+      <node ref="D501" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R205" pin="1" pintype="passive"/>
+      <node ref="R503" pin="1" pintype="passive"/>
+      <node ref="R505" pin="1" pintype="passive"/>
+      <node ref="R601" pin="1" pintype="passive"/>
+      <node ref="R602" pin="1" pintype="passive"/>
+      <node ref="R603" pin="1" pintype="passive"/>
+      <node ref="R604" pin="1" pintype="passive"/>
+      <node ref="R605" pin="1" pintype="passive"/>
+      <node ref="U201" pin="J1.1" pinfunction="3V3_J1.1" pintype="power_out"/>
+      <node ref="U201" pin="J1.2" pinfunction="3V3_J1.2" pintype="passive"/>
+      <node ref="U501" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+    </net>
+    <net code="3" name="/5V_DAC" class="Default">
+      <node ref="C301" pin="1" pintype="passive"/>
+      <node ref="C302" pin="1" pintype="passive"/>
+      <node ref="C303" pin="1" pintype="passive"/>
+      <node ref="FB301" pin="2" pintype="passive"/>
+      <node ref="U301" pin="A6" pinfunction="VIN_A6" pintype="power_in"/>
+    </net>
+    <net code="4" name="/5V_FUSED" class="Default">
+      <node ref="F101" pin="2" pintype="passive"/>
+      <node ref="Q101" pin="2" pinfunction="D_2" pintype="passive"/>
+    </net>
+    <net code="5" name="/5V_IN" class="Default">
+      <node ref="F101" pin="1" pintype="passive"/>
+      <node ref="J101" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="6" name="/5V_SYS" class="Default">
+      <node ref="C101" pin="1" pintype="passive"/>
+      <node ref="C102" pin="1" pintype="passive"/>
+      <node ref="C103" pin="1" pintype="passive"/>
+      <node ref="C104" pin="1" pintype="passive"/>
+      <node ref="C201" pin="1" pintype="passive"/>
+      <node ref="C202" pin="1" pintype="passive"/>
+      <node ref="C203" pin="1" pintype="passive"/>
+      <node ref="C401" pin="1" pintype="passive"/>
+      <node ref="C402" pin="1" pintype="passive"/>
+      <node ref="C403" pin="1" pintype="passive"/>
+      <node ref="D101" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="FB301" pin="1" pintype="passive"/>
+      <node ref="J402" pin="8" pinfunction="VCC_8" pintype="power_in"/>
+      <node ref="JP501" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="JP502" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="Q101" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="U101" pin="3" pinfunction="VI_3" pintype="power_in"/>
+      <node ref="U201" pin="J1.21" pinfunction="5V_J1.21" pintype="power_in"/>
+    </net>
+    <net code="7" name="/AMP_EN" class="Default">
+      <node ref="R606" pin="1" pintype="passive"/>
+      <node ref="U201" pin="J3.17" pinfunction="GPIO47_J3.17" pintype="output"/>
+    </net>
+    <net code="8" name="/AMP_EN_BASE" class="Default">
+      <node ref="Q601" pin="1" pinfunction="B_1" pintype="input"/>
+      <node ref="R606" pin="2" pintype="passive"/>
+      <node ref="R607" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/AMP_EN_OC" class="Default">
+      <node ref="J603" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="Q601" pin="3" pinfunction="C_3" pintype="passive"/>
+    </net>
+    <net code="10" name="/AMP_MUTE" class="Default">
+      <node ref="R608" pin="1" pintype="passive"/>
+      <node ref="U201" pin="J1.20" pinfunction="GPIO14_J1.20" pintype="output"/>
+    </net>
+    <net code="11" name="/AMP_MUTE_BASE" class="Default">
+      <node ref="Q602" pin="1" pinfunction="B_1" pintype="input"/>
+      <node ref="R608" pin="2" pintype="passive"/>
+      <node ref="R609" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/AMP_MUTE_OC" class="Default">
+      <node ref="J603" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="Q602" pin="3" pinfunction="C_3" pintype="passive"/>
+    </net>
+    <net code="13" name="/AUDIO_L" class="Default">
+      <node ref="J301" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U301" pin="B9" pinfunction="LROUT_B9" pintype="output"/>
+    </net>
+    <net code="14" name="/AUDIO_R" class="Default">
+      <node ref="J301" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U301" pin="B7" pinfunction="ROUT_B7" pintype="output"/>
+    </net>
+    <net code="15" name="/BL_BASE" class="Default">
+      <node ref="Q503" pin="1" pinfunction="B_1" pintype="input"/>
+      <node ref="R507" pin="2" pintype="passive"/>
+      <node ref="R508" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="/BL_GATE" class="Default">
+      <node ref="Q503" pin="3" pinfunction="C_3" pintype="passive"/>
+      <node ref="Q504" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R506" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="/BT_I2S_BCLK" class="Default">
+      <node ref="J401" pin="4" pinfunction="IO18_4" pintype="output"/>
+      <node ref="U201" pin="J1.8" pinfunction="GPIO15_J1.8" pintype="input"/>
+    </net>
+    <net code="18" name="/BT_I2S_DATA_IN" class="Default">
+      <node ref="J401" pin="6" pinfunction="IO23_6" pintype="output"/>
+      <node ref="U201" pin="J1.10" pinfunction="GPIO17_J1.10" pintype="input"/>
+    </net>
+    <net code="19" name="/BT_I2S_DATA_OUT" class="Default">
+      <node ref="J401" pin="3" pinfunction="IO26_3" pintype="input"/>
+      <node ref="U201" pin="J1.11" pinfunction="GPIO18_J1.11" pintype="output"/>
+    </net>
+    <net code="20" name="/BT_I2S_WS" class="Default">
+      <node ref="J401" pin="5" pinfunction="IO19_5" pintype="output"/>
+      <node ref="U201" pin="J1.9" pinfunction="GPIO16_J1.9" pintype="input"/>
+    </net>
+    <net code="21" name="/BT_RESET" class="Default">
+      <node ref="R401" pin="1" pintype="passive"/>
+      <node ref="U201" pin="J3.6" pinfunction="GPIO42_J3.6" pintype="output"/>
+    </net>
+    <net code="22" name="/BT_RST_BASE" class="Default">
+      <node ref="Q401" pin="1" pinfunction="B_1" pintype="input"/>
+      <node ref="R401" pin="2" pintype="passive"/>
+      <node ref="R402" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="/BT_RST_N" class="Default">
+      <node ref="J401" pin="1" pinfunction="RST_1" pintype="input"/>
+      <node ref="Q401" pin="3" pinfunction="C_3" pintype="passive"/>
+    </net>
+    <net code="24" name="/BT_UART_RX" class="Default">
+      <node ref="J402" pin="5" pinfunction="IO17_5" pintype="output"/>
+      <node ref="U201" pin="J3.5" pinfunction="GPIO2_J3.5" pintype="input"/>
+    </net>
+    <net code="25" name="/BT_UART_TX" class="Default">
+      <node ref="J402" pin="6" pinfunction="IO16_6" pintype="input"/>
+      <node ref="U201" pin="J3.4" pinfunction="GPIO1_J3.4" pintype="output"/>
+    </net>
+    <net code="26" name="/DAC_BCLK" class="Default">
+      <node ref="R201" pin="2" pintype="passive"/>
+      <node ref="U301" pin="A2" pinfunction="BCK_A2" pintype="input"/>
+    </net>
+    <net code="27" name="/DAC_BCLK_CPU" class="Default">
+      <node ref="R201" pin="1" pintype="passive"/>
+      <node ref="U201" pin="J1.4" pinfunction="GPIO4_J1.4" pintype="output"/>
+    </net>
+    <net code="28" name="/DAC_DOUT" class="Default">
+      <node ref="R203" pin="2" pintype="passive"/>
+      <node ref="U301" pin="A3" pinfunction="DIN_A3" pintype="input"/>
+    </net>
+    <net code="29" name="/DAC_DOUT_CPU" class="Default">
+      <node ref="R203" pin="1" pintype="passive"/>
+      <node ref="U201" pin="J1.6" pinfunction="GPIO6_J1.6" pintype="output"/>
+    </net>
+    <net code="30" name="/DAC_LRCK" class="Default">
+      <node ref="R202" pin="2" pintype="passive"/>
+      <node ref="U301" pin="A4" pinfunction="LCK_A4" pintype="input"/>
+    </net>
+    <net code="31" name="/DAC_LRCK_CPU" class="Default">
+      <node ref="R202" pin="1" pintype="passive"/>
+      <node ref="U201" pin="J1.5" pinfunction="GPIO5_J1.5" pintype="output"/>
+    </net>
+    <net code="32" name="/DAC_XSMT" class="Default">
+      <node ref="R204" pin="2" pintype="passive"/>
+      <node ref="R301" pin="1" pintype="passive"/>
+      <node ref="U301" pin="B3" pinfunction="XSMT_B3" pintype="input"/>
+    </net>
+    <net code="33" name="/DAC_XSMT_CPU" class="Default">
+      <node ref="R204" pin="1" pintype="passive"/>
+      <node ref="U201" pin="J1.7" pinfunction="GPIO7_J1.7" pintype="output"/>
+    </net>
+    <net code="34" name="/DISPLAY_BL" class="Default">
+      <node ref="R507" pin="1" pintype="passive"/>
+      <node ref="U201" pin="J3.18" pinfunction="GPIO21_J3.18" pintype="output"/>
+    </net>
+    <net code="35" name="/DISP_BL_PWR" class="Default">
+      <node ref="J502" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="Q504" pin="3" pinfunction="D_3" pintype="passive"/>
+    </net>
+    <net code="36" name="/DISP_RESET_DISCH" class="Default">
+      <node ref="D501" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R504" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="/DISP_RESET_RC" class="Default">
+      <node ref="C507" pin="1" pintype="passive"/>
+      <node ref="R503" pin="2" pintype="passive"/>
+      <node ref="R504" pin="1" pintype="passive"/>
+      <node ref="U501" pin="2" pintype="input"/>
+    </net>
+    <net code="38" name="/DISP_RST_N" class="Default">
+      <node ref="J502" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="U501" pin="4" pintype="output"/>
+    </net>
+    <net code="39" name="/GND" class="Default">
+      <node ref="C101" pin="2" pintype="passive"/>
+      <node ref="C102" pin="2" pintype="passive"/>
+      <node ref="C103" pin="2" pintype="passive"/>
+      <node ref="C104" pin="2" pintype="passive"/>
+      <node ref="C105" pin="2" pintype="passive"/>
+      <node ref="C106" pin="2" pintype="passive"/>
+      <node ref="C201" pin="2" pintype="passive"/>
+      <node ref="C202" pin="2" pintype="passive"/>
+      <node ref="C203" pin="2" pintype="passive"/>
+      <node ref="C301" pin="2" pintype="passive"/>
+      <node ref="C302" pin="2" pintype="passive"/>
+      <node ref="C303" pin="2" pintype="passive"/>
+      <node ref="C401" pin="2" pintype="passive"/>
+      <node ref="C402" pin="2" pintype="passive"/>
+      <node ref="C403" pin="2" pintype="passive"/>
+      <node ref="C501" pin="2" pintype="passive"/>
+      <node ref="C502" pin="2" pintype="passive"/>
+      <node ref="C503" pin="2" pintype="passive"/>
+      <node ref="C504" pin="2" pintype="passive"/>
+      <node ref="C505" pin="2" pintype="passive"/>
+      <node ref="C506" pin="2" pintype="passive"/>
+      <node ref="C507" pin="2" pintype="passive"/>
+      <node ref="C508" pin="2" pintype="passive"/>
+      <node ref="C601" pin="2" pintype="passive"/>
+      <node ref="C602" pin="2" pintype="passive"/>
+      <node ref="C603" pin="2" pintype="passive"/>
+      <node ref="D101" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="J101" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J301" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J402" pin="7" pinfunction="GND_7" pintype="power_in"/>
+      <node ref="J501" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J502" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J601" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J603" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="Q101" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="Q401" pin="2" pinfunction="E_2" pintype="passive"/>
+      <node ref="Q503" pin="2" pinfunction="E_2" pintype="passive"/>
+      <node ref="Q601" pin="2" pinfunction="E_2" pintype="passive"/>
+      <node ref="Q602" pin="2" pinfunction="E_2" pintype="passive"/>
+      <node ref="R101" pin="2" pintype="passive"/>
+      <node ref="R301" pin="2" pintype="passive"/>
+      <node ref="R402" pin="2" pintype="passive"/>
+      <node ref="R508" pin="2" pintype="passive"/>
+      <node ref="R607" pin="2" pintype="passive"/>
+      <node ref="R609" pin="2" pintype="passive"/>
+      <node ref="U101" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="U201" pin="J1.22" pinfunction="GND_J1.22" pintype="power_in"/>
+      <node ref="U201" pin="J3.1" pinfunction="GND_J3.1" pintype="power_in"/>
+      <node ref="U201" pin="J3.21" pinfunction="GND_J3.21" pintype="power_in"/>
+      <node ref="U201" pin="J3.22" pinfunction="GND_J3.22" pintype="power_in"/>
+      <node ref="U301" pin="A1" pinfunction="SCK_A1" pintype="input"/>
+      <node ref="U301" pin="A5" pinfunction="GND_A5" pintype="power_in"/>
+      <node ref="U301" pin="B6" pinfunction="AGND_B6" pintype="power_in"/>
+      <node ref="U301" pin="B8" pinfunction="AGND_B8" pintype="power_in"/>
+      <node ref="U501" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U601" pin="5" pinfunction="GND_5" pintype="power_in"/>
+    </net>
+    <net code="40" name="/I2C_PU_SCL" class="Default">
+      <node ref="JP602" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R605" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="/I2C_PU_SDA" class="Default">
+      <node ref="JP602" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R604" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="/I2C_SCL" class="Default">
+      <node ref="J501" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="JP602" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U201" pin="J1.15" pinfunction="GPIO9_J1.15" pintype="bidirectional"/>
+      <node ref="U601" pin="3" pinfunction="SCL_3" pintype="input"/>
+    </net>
+    <net code="43" name="/I2C_SDA" class="Default">
+      <node ref="J501" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="JP602" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U201" pin="J1.12" pinfunction="GPIO8_J1.12" pintype="bidirectional"/>
+      <node ref="U601" pin="2" pinfunction="SDA_2" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/INPUT_KEY" class="Default">
+      <node ref="J601" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="JP601" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="U201" pin="J3.7" pinfunction="GPIO41_J3.7" pintype="input"/>
+    </net>
+    <net code="45" name="/INPUT_S1" class="Default">
+      <node ref="J601" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP601" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U201" pin="J3.9" pinfunction="GPIO39_J3.9" pintype="input"/>
+    </net>
+    <net code="46" name="/INPUT_S2" class="Default">
+      <node ref="J601" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="JP601" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U201" pin="J3.8" pinfunction="GPIO40_J3.8" pintype="input"/>
+    </net>
+    <net code="47" name="/MAIN_BOOT0" class="Default">
+      <node ref="R205" pin="2" pintype="passive"/>
+      <node ref="U201" pin="J3.14" pinfunction="GPIO0_J3.14" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/PU_KEY" class="Default">
+      <node ref="JP601" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="R603" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="/PU_S1" class="Default">
+      <node ref="JP601" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R601" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="/PU_S2" class="Default">
+      <node ref="JP601" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="R602" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="/SPI_CS" class="Default">
+      <node ref="J502" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="R505" pin="2" pintype="passive"/>
+      <node ref="U201" pin="J1.18" pinfunction="GPIO12_J1.18" pintype="output"/>
+    </net>
+    <net code="52" name="/SPI_DC" class="Default">
+      <node ref="J502" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="U201" pin="J1.19" pinfunction="GPIO13_J1.19" pintype="output"/>
+    </net>
+    <net code="53" name="/SPI_MOSI" class="Default">
+      <node ref="J502" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U201" pin="J1.17" pinfunction="GPIO11_J1.17" pintype="output"/>
+    </net>
+    <net code="54" name="/SPI_SCK" class="Default">
+      <node ref="J502" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U201" pin="J1.16" pinfunction="GPIO10_J1.16" pintype="output"/>
+    </net>
+    <net code="55" name="/VCC_DISP_I2C" class="Default">
+      <node ref="C501" pin="1" pintype="passive"/>
+      <node ref="C502" pin="1" pintype="passive"/>
+      <node ref="C503" pin="1" pintype="passive"/>
+      <node ref="J501" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP501" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="56" name="/VCC_DISP_SPI" class="Default">
+      <node ref="C504" pin="1" pintype="passive"/>
+      <node ref="C505" pin="1" pintype="passive"/>
+      <node ref="C506" pin="1" pintype="passive"/>
+      <node ref="J502" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP502" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="Q504" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="R506" pin="1" pintype="passive"/>
+    </net>
+    <net code="57" name="unconnected-(J401-3.3V-Pad8)" class="Default">
+      <node ref="J401" pin="8" pinfunction="3.3V_8" pintype="power_out+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(J401-IO5-Pad7)" class="Default">
+      <node ref="J401" pin="7" pinfunction="IO5_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(J401-SD3-Pad10)" class="Default">
+      <node ref="J401" pin="10" pinfunction="SD3_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(J401-SVP-Pad2)" class="Default">
+      <node ref="J401" pin="2" pinfunction="SVP_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(J401-TCK-Pad9)" class="Default">
+      <node ref="J401" pin="9" pinfunction="TCK_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(J402-IO21-Pad4)" class="Default">
+      <node ref="J402" pin="4" pinfunction="IO21_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(J402-IO22-Pad3)" class="Default">
+      <node ref="J402" pin="3" pinfunction="IO22_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(J402-RXD-Pad2)" class="Default">
+      <node ref="J402" pin="2" pinfunction="RXD_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(J402-SD0-Pad10)" class="Default">
+      <node ref="J402" pin="10" pinfunction="SD0_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(J402-TD0/TDO-Pad9)" class="Default">
+      <node ref="J402" pin="9" pinfunction="TD0/TDO_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(J402-TXD-Pad1)" class="Default">
+      <node ref="J402" pin="1" pinfunction="TXD_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U201-EN-PadJ1.3)" class="Default">
+      <node ref="U201" pin="J1.3" pinfunction="EN_J1.3" pintype="input+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U201-GPIO3-PadJ1.13)" class="Default">
+      <node ref="U201" pin="J1.13" pinfunction="GPIO3_J1.13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U201-GPIO19-PadJ3.20)" class="Default">
+      <node ref="U201" pin="J3.20" pinfunction="GPIO19_J3.20" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U201-GPIO20-PadJ3.19)" class="Default">
+      <node ref="U201" pin="J3.19" pinfunction="GPIO20_J3.19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U201-GPIO35-PadJ3.13)" class="Default">
+      <node ref="U201" pin="J3.13" pinfunction="GPIO35_J3.13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U201-GPIO36-PadJ3.12)" class="Default">
+      <node ref="U201" pin="J3.12" pinfunction="GPIO36_J3.12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U201-GPIO37-PadJ3.11)" class="Default">
+      <node ref="U201" pin="J3.11" pinfunction="GPIO37_J3.11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U201-GPIO38-PadJ3.10)" class="Default">
+      <node ref="U201" pin="J3.10" pinfunction="GPIO38_J3.10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U201-GPIO43-PadJ3.2)" class="Default">
+      <node ref="U201" pin="J3.2" pinfunction="GPIO43_J3.2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U201-GPIO44-PadJ3.3)" class="Default">
+      <node ref="U201" pin="J3.3" pinfunction="GPIO44_J3.3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U201-GPIO45-PadJ3.15)" class="Default">
+      <node ref="U201" pin="J3.15" pinfunction="GPIO45_J3.15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U201-GPIO46-PadJ1.14)" class="Default">
+      <node ref="U201" pin="J1.14" pinfunction="GPIO46_J1.14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U201-GPIO48-PadJ3.16)" class="Default">
+      <node ref="U201" pin="J3.16" pinfunction="GPIO48_J3.16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U301-A3V3-PadB5)" class="Default">
+      <node ref="U301" pin="B5" pinfunction="A3V3_B5" pintype="power_out+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U301-DEMP-PadB2)" class="Default">
+      <node ref="U301" pin="B2" pinfunction="DEMP_B2" pintype="input+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U301-FLT-PadB1)" class="Default">
+      <node ref="U301" pin="B1" pinfunction="FLT_B1" pintype="input+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U301-FMT-PadB4)" class="Default">
+      <node ref="U301" pin="B4" pinfunction="FMT_B4" pintype="input+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U501-NC-Pad1)" class="Default">
+      <node ref="U501" pin="1" pinfunction="NC_1" pintype="no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U601-NC-Pad4)" class="Default">
+      <node ref="U601" pin="4" pinfunction="NC_4" pintype="unspecified+no_connect"/>
+    </net>
+  </nets>
+</export>

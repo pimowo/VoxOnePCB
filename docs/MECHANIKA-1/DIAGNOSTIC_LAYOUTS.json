@@ -1,0 +1,484 @@
+{
+  "75": {
+    "placement": {
+      "H": 75,
+      "MAIN_x": 17,
+      "DAC_top": 39.0,
+      "BT_x": 60,
+      "BT_top": 1,
+      "body": {
+        "MAIN": [
+          17,
+          0.5,
+          45,
+          63.9
+        ],
+        "DAC": [
+          81.5,
+          39.0,
+          100.0,
+          70.9
+        ],
+        "BT": [
+          60,
+          1,
+          90.48,
+          37.83
+        ],
+        "RTC": [
+          47,
+          40,
+          60.4,
+          53.4
+        ]
+      },
+      "ant": {
+        "MAIN": [
+          22,
+          0.5,
+          40,
+          6.9
+        ],
+        "BT": [
+          60,
+          1,
+          90.48,
+          7.35
+        ]
+      },
+      "cables": {
+        "MAIN1": [
+          22,
+          63.9,
+          31,
+          81.9
+        ],
+        "MAIN2": [
+          35,
+          63.9,
+          44,
+          81.9
+        ],
+        "MAIN1_CABLE": [
+          24.5,
+          81.9,
+          28.5,
+          81.9
+        ],
+        "MAIN2_CABLE": [
+          37.5,
+          81.9,
+          41.5,
+          81.9
+        ],
+        "BT": [
+          70.24,
+          37.83,
+          80.24,
+          62.18
+        ],
+        "JACK": [
+          100,
+          44.4,
+          118,
+          53.4
+        ]
+      }
+    },
+    "reason": "No 4 M3 with circular 7mm heads in tested corner windows 3.5..11.5mm and 15mm RF reserve",
+    "found_holes": [
+      [
+        3.5,
+        3.5
+      ],
+      [
+        3.5,
+        71.5
+      ]
+    ],
+    "missing_corners": [
+      1,
+      3
+    ],
+    "RTC_minimum_to_other_module_mm": 2.0,
+    "RTC_minimum_RF_mm": 32.65,
+    "missing_corner_diagnostics": [
+      {
+        "corner": 1,
+        "best_tested_M3_site_and_signed_margin": [
+          -11.18816712444821,
+          96.5,
+          11.5,
+          "RF BT"
+        ]
+      },
+      {
+        "corner": 3,
+        "best_tested_M3_site_and_signed_margin": [
+          -3.100000000000006,
+          96.5,
+          71.5,
+          "module DAC"
+        ]
+      }
+    ],
+    "not_a_validated_candidate": true
+  },
+  "80": {
+    "placement": {
+      "H": 80,
+      "MAIN_x": 17,
+      "DAC_top": 39.0,
+      "BT_x": 60,
+      "BT_top": 1,
+      "body": {
+        "MAIN": [
+          17,
+          0.5,
+          45,
+          63.9
+        ],
+        "DAC": [
+          81.5,
+          39.0,
+          100.0,
+          70.9
+        ],
+        "BT": [
+          60,
+          1,
+          90.48,
+          37.83
+        ],
+        "RTC": [
+          47,
+          40,
+          60.4,
+          53.4
+        ]
+      },
+      "ant": {
+        "MAIN": [
+          22,
+          0.5,
+          40,
+          6.9
+        ],
+        "BT": [
+          60,
+          1,
+          90.48,
+          7.35
+        ]
+      },
+      "cables": {
+        "MAIN1": [
+          22,
+          63.9,
+          31,
+          81.9
+        ],
+        "MAIN2": [
+          35,
+          63.9,
+          44,
+          81.9
+        ],
+        "MAIN1_CABLE": [
+          24.5,
+          81.9,
+          28.5,
+          85.0
+        ],
+        "MAIN2_CABLE": [
+          37.5,
+          81.9,
+          41.5,
+          85.0
+        ],
+        "BT": [
+          70.24,
+          37.83,
+          80.24,
+          62.18
+        ],
+        "JACK": [
+          100,
+          44.4,
+          118,
+          53.4
+        ]
+      }
+    },
+    "reason": "No 4 M3 with circular 7mm heads in tested corner windows 3.5..11.5mm and 15mm RF reserve",
+    "found_holes": [
+      [
+        3.5,
+        3.5
+      ],
+      [
+        3.5,
+        76.5
+      ],
+      [
+        96.5,
+        76.5
+      ]
+    ],
+    "missing_corners": [
+      1
+    ],
+    "RTC_minimum_to_other_module_mm": 2.0,
+    "RTC_minimum_RF_mm": 32.65,
+    "missing_corner_diagnostics": [
+      {
+        "corner": 1,
+        "best_tested_M3_site_and_signed_margin": [
+          -11.18816712444821,
+          96.5,
+          11.5,
+          "RF BT"
+        ]
+      }
+    ],
+    "not_a_validated_candidate": true
+  },
+  "85": {
+    "placement": {
+      "H": 85,
+      "MAIN_x": 17,
+      "DAC_top": 0.5,
+      "BT_x": 60,
+      "BT_top": 48,
+      "body": {
+        "MAIN": [
+          17,
+          0.5,
+          45,
+          63.9
+        ],
+        "DAC": [
+          81.5,
+          0.5,
+          100.0,
+          32.4
+        ],
+        "BT": [
+          60,
+          48,
+          90.48,
+          84.83
+        ],
+        "RTC": [
+          49,
+          19,
+          62.4,
+          32.4
+        ]
+      },
+      "ant": {
+        "MAIN": [
+          22,
+          0.5,
+          40,
+          6.9
+        ],
+        "BT": [
+          60,
+          48,
+          90.48,
+          54.35
+        ]
+      },
+      "cables": {
+        "MAIN1": [
+          22,
+          63.9,
+          31,
+          81.9
+        ],
+        "MAIN2": [
+          35,
+          63.9,
+          44,
+          81.9
+        ],
+        "MAIN1_CABLE": [
+          24.5,
+          81.9,
+          28.5,
+          90.0
+        ],
+        "MAIN2_CABLE": [
+          37.5,
+          81.9,
+          41.5,
+          90.0
+        ],
+        "BT": [
+          70.24,
+          84.83,
+          80.24,
+          109.18
+        ],
+        "JACK": [
+          100,
+          5.9,
+          118,
+          14.9
+        ]
+      }
+    },
+    "reason": "No 4 M3 with circular 7mm heads in tested corner windows 3.5..11.5mm and 15mm RF reserve",
+    "found_holes": [
+      [
+        3.5,
+        3.5
+      ],
+      [
+        3.5,
+        81.5
+      ],
+      [
+        96.5,
+        81.5
+      ]
+    ],
+    "missing_corners": [
+      1
+    ],
+    "RTC_minimum_to_other_module_mm": 4.0,
+    "RTC_minimum_RF_mm": 15.080119362922828,
+    "missing_corner_diagnostics": [
+      {
+        "corner": 1,
+        "best_tested_M3_site_and_signed_margin": [
+          -3.7,
+          96.5,
+          11.5,
+          "module DAC"
+        ]
+      }
+    ],
+    "not_a_validated_candidate": true
+  },
+  "90": {
+    "placement": {
+      "H": 90,
+      "MAIN_x": 17,
+      "DAC_top": 0.5,
+      "BT_x": 60,
+      "BT_top": 48,
+      "body": {
+        "MAIN": [
+          17,
+          0.5,
+          45,
+          63.9
+        ],
+        "DAC": [
+          81.5,
+          0.5,
+          100.0,
+          32.4
+        ],
+        "BT": [
+          60,
+          48,
+          90.48,
+          84.83
+        ],
+        "RTC": [
+          49,
+          19,
+          62.4,
+          32.4
+        ]
+      },
+      "ant": {
+        "MAIN": [
+          22,
+          0.5,
+          40,
+          6.9
+        ],
+        "BT": [
+          60,
+          48,
+          90.48,
+          54.35
+        ]
+      },
+      "cables": {
+        "MAIN1": [
+          22,
+          63.9,
+          31,
+          81.9
+        ],
+        "MAIN2": [
+          35,
+          63.9,
+          44,
+          81.9
+        ],
+        "MAIN1_CABLE": [
+          24.5,
+          81.9,
+          28.5,
+          95.0
+        ],
+        "MAIN2_CABLE": [
+          37.5,
+          81.9,
+          41.5,
+          95.0
+        ],
+        "BT": [
+          70.24,
+          84.83,
+          80.24,
+          109.18
+        ],
+        "JACK": [
+          100,
+          5.9,
+          118,
+          14.9
+        ]
+      }
+    },
+    "reason": "No 4 M3 with circular 7mm heads in tested corner windows 3.5..11.5mm and 15mm RF reserve",
+    "found_holes": [
+      [
+        3.5,
+        3.5
+      ],
+      [
+        3.5,
+        86.5
+      ],
+      [
+        96.5,
+        86.5
+      ]
+    ],
+    "missing_corners": [
+      1
+    ],
+    "RTC_minimum_to_other_module_mm": 4.0,
+    "RTC_minimum_RF_mm": 15.080119362922828,
+    "missing_corner_diagnostics": [
+      {
+        "corner": 1,
+        "best_tested_M3_site_and_signed_margin": [
+          -3.7,
+          96.5,
+          11.5,
+          "module DAC"
+        ]
+      }
+    ],
+    "not_a_validated_candidate": true
+  }
+}

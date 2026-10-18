@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1590" viewBox="-18 -22 150 159">
+<rect x="-18" y="-22" width="150" height="159" fill="white"/>
+<text x="-3" y="-16" font-family="Arial" font-size="2" fill="black">MECHANIKA-1 100 x 95 mm</text>
+<text x="-3" y="-12" font-family="Arial" font-size="1.15" fill="#8c2020">PROVISIONAL: full 77-part candidate</text>
+<text x="-3" y="-8" font-family="Arial" font-size="1.1" fill="black">Reference geometry only / NOT FOR MANUFACTURING</text>
+<rect x="0" y="0" width="100" height="95" fill="#e9f2eb" stroke="#005030" stroke-width="0.3"/>
+<rect x="6.5" y="-14.5" width="48.0" height="36.4" rx="15" fill="none" stroke="#eaa0a0" stroke-width=".15" stroke-dasharray="1,1"/>
+<rect x="44.5" y="39.4" width="60.480000000000004" height="36.35" rx="15" fill="none" stroke="#eaa0a0" stroke-width=".15" stroke-dasharray="1,1"/>
+<rect x="16.5" y="0.5" width="28.0" height="63.4" fill="#bcd4ef" stroke="#334466" stroke-width="0.2"/>
+<text x="17.2" y="32.2" font-family="Arial" font-size="1.7" fill="black">MAIN</text>
+<rect x="81.5" y="7.5" width="18.5" height="31.9" fill="#d5b8ec" stroke="#334466" stroke-width="0.2"/>
+<text x="82.2" y="23.45" font-family="Arial" font-size="1.7" fill="black">DAC</text>
+<rect x="59.5" y="54.4" width="30.480000000000004" height="36.82999999999999" fill="#acd8e5" stroke="#334466" stroke-width="0.2"/>
+<text x="60.2" y="72.815" font-family="Arial" font-size="1.7" fill="black">BT</text>
+<rect x="47" y="25" width="13.399999999999999" height="13.399999999999999" fill="#f5d992" stroke="#334466" stroke-width="0.2"/>
+<text x="47.7" y="31.7" font-family="Arial" font-size="1.7" fill="black">RTC</text>
+<rect x="21.5" y="0.5" width="18.0" height="6.4" fill="#f1b7b7" stroke="#b00020" stroke-width="0.15"/>
+<text x="21.9" y="3.8" font-family="Arial" font-size="1.1" fill="#990022">MAIN ANT</text>
+<rect x="59.5" y="54.4" width="30.480000000000004" height="6.350000000000001" fill="#f1b7b7" stroke="#b00020" stroke-width="0.15"/>
+<text x="59.9" y="57.699999999999996" font-family="Arial" font-size="1.1" fill="#990022">BT ANT</text>
+<rect x="21.5" y="63.9" width="9.0" height="18.000000000000007" fill="none" stroke="#287ab8" stroke-width="0.15" stroke-dasharray=".8,.7"/>
+<rect x="34.5" y="63.9" width="9.0" height="18.000000000000007" fill="none" stroke="#287ab8" stroke-width="0.15" stroke-dasharray=".8,.7"/>
+<rect x="24.0" y="81.9" width="4.0" height="18.099999999999994" fill="none" stroke="#287ab8" stroke-width="0.15" stroke-dasharray=".8,.7"/>
+<rect x="37.0" y="81.9" width="4.0" height="18.099999999999994" fill="none" stroke="#287ab8" stroke-width="0.15" stroke-dasharray=".8,.7"/>
+<rect x="69.74" y="91.22999999999999" width="10.0" height="24.349999999999994" fill="none" stroke="#287ab8" stroke-width="0.15" stroke-dasharray=".8,.7"/>
+<rect x="100" y="12.9" width="18" height="8.999999999999998" fill="none" stroke="#287ab8" stroke-width="0.15" stroke-dasharray=".8,.7"/>
+<circle cx="3.5" cy="11.5" r="3.5" fill="none" stroke="#444" stroke-width=".15"/><circle cx="3.5" cy="11.5" r="1.6" fill="white" stroke="#444" stroke-width=".15"/>
+<circle cx="96.5" cy="3.5" r="3.5" fill="none" stroke="#444" stroke-width=".15"/><circle cx="96.5" cy="3.5" r="1.6" fill="white" stroke="#444" stroke-width=".15"/>
+<circle cx="3.5" cy="91.5" r="3.5" fill="none" stroke="#444" stroke-width=".15"/><circle cx="3.5" cy="91.5" r="1.6" fill="white" stroke="#444" stroke-width=".15"/>
+<circle cx="96.5" cy="91.5" r="3.5" fill="none" stroke="#444" stroke-width=".15"/><circle cx="96.5" cy="91.5" r="1.6" fill="white" stroke="#444" stroke-width=".15"/>
+<rect x="1.0150000000000006" y="23.474999999999994" width="9.049999999999997" height="9.050000000000011" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="1.1150000000000007" y="24.674999999999994" font-family="Arial" font-size="0.8" fill="black">F101</text>
+<rect x="61.175" y="14.825000000000003" width="4.650000000000006" height="2.3499999999999943" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="61.275" y="16.025000000000002" font-family="Arial" font-size="0.8" fill="black">C508</text>
+<rect x="73.695" y="16.345" width="4.610000000000014" height="2.3100000000000023" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="73.79499999999999" y="17.544999999999998" font-family="Arial" font-size="0.8" fill="black">R301</text>
+<rect x="41.724999999999994" y="82.725" width="5.550000000000011" height="5.639775000000014" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="41.824999999999996" y="83.925" font-family="Arial" font-size="0.8" fill="black">C506</text>
+<rect x="8.73" y="91.23" width="10.160000000000004" height="2.539999999999992" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="8.83" y="92.43" font-family="Arial" font-size="0.8" fill="black">J501</text>
+<rect x="28.635225000000005" y="82.225" width="5.639775" height="5.550000000000011" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="28.735225000000007" y="83.425" font-family="Arial" font-size="0.8" fill="black">C103</text>
+<rect x="12.325000000000003" y="68.175" width="2.3499999999999943" height="4.650000000000006" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="12.425000000000002" y="69.375" font-family="Arial" font-size="0.8" fill="black">C106</text>
+<rect x="61.19499999999999" y="8.844999999999999" width="4.610000000000014" height="2.3100000000000023" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="61.294999999999995" y="10.044999999999998" font-family="Arial" font-size="0.8" fill="black">R507</text>
+<rect x="46.724999999999994" y="76.225" width="5.550000000000011" height="5.639775000000014" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="46.824999999999996" y="77.425" font-family="Arial" font-size="0.8" fill="black">C503</text>
+<rect x="64.775" y="18.045" width="3.4499999999999886" height="3.9099999999999966" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="64.875" y="19.245" font-family="Arial" font-size="0.8" fill="black">Q503</text>
+<rect x="53.224999999999994" y="76.225" width="5.550000000000011" height="5.639775000000014" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="53.324999999999996" y="77.425" font-family="Arial" font-size="0.8" fill="black">C403</text>
+<rect x="1.1950000000000003" y="85.345" width="4.609999999999999" height="2.3100000000000023" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="1.2950000000000004" y="86.545" font-family="Arial" font-size="0.8" fill="black">R203</text>
+<rect x="0.9603540000000024" y="63.724999999999994" width="10.814645999999996" height="10.550000000000011" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="1.0603540000000025" y="64.925" font-family="Arial" font-size="0.8" fill="black">C101</text>
+<rect x="73.675" y="24.825000000000003" width="4.6499999999999915" height="2.3499999999999943" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="73.77499999999999" y="26.025000000000002" font-family="Arial" font-size="0.8" fill="black">C302</text>
+<rect x="50.545" y="86.275" width="3.9099999999999966" height="3.4499999999999886" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="50.645" y="87.47500000000001" font-family="Arial" font-size="0.8" fill="black">Q602</text>
+<rect x="66.695" y="11.844999999999999" width="4.610000000000014" height="2.3100000000000023" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="66.79499999999999" y="13.044999999999998" font-family="Arial" font-size="0.8" fill="black">R504</text>
+<rect x="31.825000000000003" y="76.675" width="2.3499999999999943" height="4.6499999999999915" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="31.925000000000004" y="77.875" font-family="Arial" font-size="0.8" fill="black">C505</text>
+<rect x="74.135225" y="31.224999999999994" width="5.639775" height="5.550000000000011" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="74.235225" y="32.425" font-family="Arial" font-size="0.8" fill="black">C303</text>
+<rect x="12.344999999999999" y="73.695" width="2.3100000000000023" height="4.610000000000014" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="12.444999999999999" y="74.895" font-family="Arial" font-size="0.8" fill="black">R101</text>
+<rect x="60.775000000000006" y="18.045" width="3.4499999999999886" height="3.9099999999999966" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="60.87500000000001" y="19.245" font-family="Arial" font-size="0.8" fill="black">Q401</text>
+<rect x="73.625" y="27.775000000000006" width="4.75" height="2.4499999999999886" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="73.725" y="28.975000000000005" font-family="Arial" font-size="0.8" fill="black">FB301</text>
+<rect x="11.174999999999997" y="48.325" width="4.650000000000006" height="2.3499999999999943" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="11.274999999999997" y="49.525000000000006" font-family="Arial" font-size="0.8" fill="black">C201</text>
+<rect x="31.845" y="65.695" width="2.3100000000000023" height="4.610000000000014" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="31.945" y="66.895" font-family="Arial" font-size="0.8" fill="black">R606</text>
+<rect x="43.825" y="67.675" width="2.3499999999999943" height="4.650000000000006" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="43.925000000000004" y="68.875" font-family="Arial" font-size="0.8" fill="black">C502</text>
+<rect x="73.08" y="19.325000000000003" width="4.795000000000002" height="2.3499999999999943" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="73.17999999999999" y="20.525000000000002" font-family="Arial" font-size="0.8" fill="black">D501</text>
+<rect x="62.724999999999994" y="27.224999999999994" width="5.550000000000011" height="5.639775" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="62.824999999999996" y="28.424999999999994" font-family="Arial" font-size="0.8" fill="black">C603</text>
+<rect x="5.674999999999997" y="60.825" width="4.650000000000006" height="2.3499999999999943" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="5.774999999999997" y="62.025000000000006" font-family="Arial" font-size="0.8" fill="black">C102</text>
+<rect x="31.345" y="88.695" width="2.3100000000000023" height="4.610000000000014" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="31.445" y="89.895" font-family="Arial" font-size="0.8" fill="black">R603</text>
+<rect x="70.73" y="31.23" width="2.539999999999992" height="7.620000000000001" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="70.83" y="32.43" font-family="Arial" font-size="0.8" fill="black">J301</text>
+<rect x="66.695" y="8.844999999999999" width="4.610000000000014" height="2.3100000000000023" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="66.79499999999999" y="10.044999999999998" font-family="Arial" font-size="0.8" fill="black">R508</text>
+<rect x="34.325" y="88.67500000000001" width="2.3499999999999943" height="4.649999999999977" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="34.425000000000004" y="89.87500000000001" font-family="Arial" font-size="0.8" fill="black">C504</text>
+<rect x="62.675" y="24.325000000000003" width="4.650000000000006" height="2.3499999999999943" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="62.775" y="25.525000000000002" font-family="Arial" font-size="0.8" fill="black">C601</text>
+<rect x="62.635225000000005" y="33.724999999999994" width="5.639775" height="5.550000000000011" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="62.73522500000001" y="34.925" font-family="Arial" font-size="0.8" fill="black">C203</text>
+<rect x="15.694999999999993" y="64.845" width="4.610000000000014" height="2.3100000000000023" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="15.794999999999993" y="66.045" font-family="Arial" font-size="0.8" fill="black">R204</text>
+<rect x="46.175" y="73.325" width="4.650000000000006" height="2.3499999999999943" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="46.275" y="74.525" font-family="Arial" font-size="0.8" fill="black">C401</text>
+<rect x="5.674999999999997" y="48.325" width="4.650000000000006" height="2.3499999999999943" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="5.774999999999997" y="49.525000000000006" font-family="Arial" font-size="0.8" fill="black">C202</text>
+<rect x="14.930000000000003" y="79.73" width="2.539999999999999" height="7.6200000000000045" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="15.030000000000003" y="80.93" font-family="Arial" font-size="0.8" fill="black">JP501</text>
+<rect x="42.325" y="89.17500000000001" width="2.3499999999999943" height="4.649999999999977" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="42.425000000000004" y="90.37500000000001" font-family="Arial" font-size="0.8" fill="black">C501</text>
+<rect x="55.925" y="18.099999999999994" width="4.150000000000006" height="3.625" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="56.025" y="19.299999999999994" font-family="Arial" font-size="0.8" fill="black">U501</text>
+<rect x="31.845" y="71.195" width="2.3100000000000023" height="4.610000000000014" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="31.945" y="72.395" font-family="Arial" font-size="0.8" fill="black">R605</text>
+<rect x="55.69499999999999" y="11.844999999999999" width="4.610000000000014" height="2.3100000000000023" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="55.794999999999995" y="13.044999999999998" font-family="Arial" font-size="0.8" fill="black">R402</text>
+<rect x="2.575000000000003" y="77.3" width="8.849999999999994" height="7.325000000000003" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="2.675000000000003" y="78.5" font-family="Arial" font-size="0.8" fill="black">U101</text>
+<rect x="52.825" y="18.174999999999997" width="2.3499999999999943" height="4.650000000000006" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="52.925000000000004" y="19.374999999999996" font-family="Arial" font-size="0.8" fill="black">C602</text>
+<rect x="80.73" y="92.13000000000001" width="10.159999999999997" height="2.539999999999992" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="80.83" y="93.33000000000001" font-family="Arial" font-size="0.8" fill="black">J601</text>
+<rect x="55.045" y="86.275" width="3.9099999999999966" height="3.4499999999999886" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="55.145" y="87.47500000000001" font-family="Arial" font-size="0.8" fill="black">Q601</text>
+<rect x="68.775" y="18.045" width="3.4499999999999886" height="3.9099999999999966" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="68.875" y="19.245" font-family="Arial" font-size="0.8" fill="black">Q504</text>
+<rect x="94.195" y="75.845" width="4.610000000000014" height="2.3100000000000023" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="94.29499999999999" y="77.045" font-family="Arial" font-size="0.8" fill="black">R602</text>
+<rect x="48.23" y="82.73" width="7.6200000000000045" height="2.539999999999992" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="48.33" y="83.93" font-family="Arial" font-size="0.8" fill="black">JP502</text>
+<rect x="70.325" y="25.674999999999997" width="2.3499999999999943" height="4.650000000000006" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="70.425" y="26.874999999999996" font-family="Arial" font-size="0.8" fill="black">C301</text>
+<rect x="12.844999999999999" y="37.19499999999999" width="2.3100000000000023" height="4.610000000000014" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="12.944999999999999" y="38.394999999999996" font-family="Arial" font-size="0.8" fill="black">R202</text>
+<rect x="78.345" y="10.695" width="2.3100000000000023" height="4.6100000000000065" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="78.445" y="11.895" font-family="Arial" font-size="0.8" fill="black">R609</text>
+<rect x="91.345" y="84.195" width="2.3100000000000023" height="4.610000000000014" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="91.445" y="85.395" font-family="Arial" font-size="0.8" fill="black">R601</text>
+<rect x="28.345" y="88.695" width="2.3100000000000023" height="4.610000000000014" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="28.445" y="89.895" font-family="Arial" font-size="0.8" fill="black">R607</text>
+<rect x="94.33" y="78.73" width="5.079999999999984" height="7.6200000000000045" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="94.42999999999999" y="79.93" font-family="Arial" font-size="0.8" fill="black">JP601</text>
+<rect x="18.845" y="79.695" width="2.3100000000000023" height="4.610000000000014" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="18.945" y="80.895" font-family="Arial" font-size="0.8" fill="black">R608</text>
+<rect x="66.695" y="14.844999999999999" width="4.610000000000014" height="2.3100000000000023" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="66.79499999999999" y="16.044999999999998" font-family="Arial" font-size="0.8" fill="black">R401</text>
+<rect x="90.63000000000001" y="75.93" width="2.539999999999992" height="7.61999999999999" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="90.73" y="77.13000000000001" font-family="Arial" font-size="0.8" fill="black">J603</text>
+<rect x="0.365000000000002" y="35.845" width="11.125" height="11.219999999999999" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="0.46500000000000197" y="37.045" font-family="Arial" font-size="0.8" fill="black">J101</text>
+<rect x="55.675" y="14.825000000000003" width="4.650000000000006" height="2.3499999999999943" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="55.775" y="16.025000000000002" font-family="Arial" font-size="0.8" fill="black">C507</text>
+<rect x="12.325000000000003" y="62.675" width="2.3499999999999943" height="4.650000000000006" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="12.425000000000002" y="63.875" font-family="Arial" font-size="0.8" fill="black">C104</text>
+<rect x="61.19499999999999" y="11.844999999999999" width="4.610000000000014" height="2.3100000000000023" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="61.294999999999995" y="13.044999999999998" font-family="Arial" font-size="0.8" fill="black">R503</text>
+<rect x="43.825" y="77.175" width="2.3499999999999943" height="4.6499999999999915" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="43.925000000000004" y="78.375" font-family="Arial" font-size="0.8" fill="black">C402</text>
+<rect x="18.845" y="85.195" width="2.3100000000000023" height="4.610000000000014" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="18.945" y="86.395" font-family="Arial" font-size="0.8" fill="black">R604</text>
+<rect x="11.075000000000003" y="25.894999999999996" width="4.849999999999994" height="9.25500000000001" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="11.175000000000002" y="27.094999999999995" font-family="Arial" font-size="0.8" fill="black">C105</text>
+<rect x="6.780000000000001" y="85.225" width="7.394999999999996" height="4.550000000000011" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="6.880000000000001" y="86.425" font-family="Arial" font-size="0.8" fill="black">D101</text>
+<rect x="55.69499999999999" y="8.844999999999999" width="4.610000000000014" height="2.3100000000000023" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="55.794999999999995" y="10.044999999999998" font-family="Arial" font-size="0.8" fill="black">R506</text>
+<rect x="15.73" y="70.73" width="5.080000000000005" height="5.079999999999998" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="15.83" y="71.93" font-family="Arial" font-size="0.8" fill="black">JP602</text>
+<rect x="72.195" y="13.344999999999999" width="4.610000000000014" height="2.3100000000000023" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="72.29499999999999" y="14.544999999999998" font-family="Arial" font-size="0.8" fill="black">R505</text>
+<rect x="15.694999999999993" y="67.845" width="4.610000000000014" height="2.3100000000000023" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="15.794999999999993" y="69.045" font-family="Arial" font-size="0.8" fill="black">R205</text>
+<rect x="0.8250000000000028" y="51.275000000000006" width="12.125" height="7.849999999999994" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="0.9250000000000028" y="52.47500000000001" font-family="Arial" font-size="0.8" fill="black">Q101</text>
+<rect x="45.23" y="92.13000000000001" width="20.32" height="2.539999999999992" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="45.33" y="93.33000000000001" font-family="Arial" font-size="0.8" fill="black">J502</text>
+<rect x="12.844999999999999" y="42.69499999999999" width="2.3100000000000023" height="4.610000000000014" fill="#f7f7f0" stroke="#555" stroke-width="0.08"/>
+<text x="12.944999999999999" y="43.894999999999996" font-family="Arial" font-size="0.8" fill="black">R201</text>
+<text x="46.5" y="43" font-family="Arial" font-size="1.1" fill="#804300">RTC min 2.175 mm</text>
+<text x="6" y="66" font-family="Arial" font-size="1.1" fill="#115588">USB-C x2</text>
+<text x="103" y="23" font-family="Arial" font-size="1.1" fill="#115588">JACK</text>
+<text x="61" y="103" font-family="Arial" font-size="1.1" fill="#115588">BT USB: housing +2.58 mm</text>
+<text x="61" y="107" font-family="Arial" font-size="1.1" fill="#115588">plug reserve to +20.58 mm</text>
+<text x="2" y="120" font-family="Arial" font-size="1.1" fill="black">2D envelopes from native pcbnew; actual KiCad SVG/3D are separate files.</text>
+<text x="2" y="126" font-family="Arial" font-size="1.05" fill="black">Red: antenna projection; dashed red SVG: 15 mm other-part reserve.</text>
+<text x="2" y="130" font-family="Arial" font-size="1.05" fill="black">Blue: plug/cable corridors. Circles: M3 / 7 mm head. Units: mm.</text>
+<text x="2" y="134" font-family="Arial" font-size="1.05" fill="black">Module/socket heights, hand grip and actual cable tolerances remain unverified.</text>
+</svg>

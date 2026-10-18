@@ -1,13 +1,13 @@
 # VoxOne_M1 — TODO / notatnik główny projektu PCB
 
-**Wersja notatnika:** 1.2 — propozycja PCB-LAYOUT-3 na GitHub
+**Wersja notatnika:** 1.3 — MECHANIKA-1 na pcb-feasibility-1
 **Utworzono:** 2026-10-17  
 **Projekt:** VoxOne_M1 — samodzielna rewizja sprzętowa M1  
 **Środowisko:** Windows 10 (laptop), KiCad 10.0.4, lokalny Codex CLI + KiCad Copilot MCP  
-**Ostatni etap wykonany przez Codexa:** `PCB-LAYOUT-3` — propozycja na `pcb-layout-3`; akceptacja wyglądu i kompromisów PENDING
+**Ostatni etap wykonany przez Codexa:** `MECHANIKA-1` — analiza na `pcb-feasibility-1`; dokładny wymiar PENDING, serwis/Z BLOCKED. CAD źródłowy nadal PCB-LAYOUT-3.
 **Bieżące źródła CAD:** zatwierdzony `main` = `1ca3e40e3600f005977bc504b272e34483b30150`; propozycja `pcb-layout-3` bazuje na `origin/pcb-layout-2` = `1d2da877b73ca1ea3dc309bd2993f96a8883545e`. Historyczny import KiCad i bibliotek: `8d90e6df444f770a445944372fa62b5ebb39af9`. Archiwalna kopia ostatniej rewizji pozostaje lokalnie w `%USERPROFILE%\Documents\VoxOne_M1_FOOTPRINT-2`.
 **Kanoniczne dokumenty projektu:** `TODO.md` i `AGENTS.md` w głównym katalogu `pimowo/VoxOnePCB` na gałęzi `main`.  
-**Stan:** schemat zatwierdzony na potrzeby wstępnego PCB; rozmieszczenia PCB-PREVIEW-1 i PCB-LAYOUT-2 **ODRZUCONE**; PCB-LAYOUT-3 **PENDING — OCENA UŻYTKOWNIKA**; **NIE WOLNO** trasować ani produkować PCB bez kolejnego zatwierdzenia.
+**Stan:** PCB-LAYOUT-3 jest wariantem roboczym na osobnej gałęzi, a jego rozmieszczenie nie otrzymało zgody na trasowanie. Użytkownik wybrał nowy cel: **PCB prostokątna pozioma (szerokość większa niż wysokość), oba wymiary ≤100 mm**. Najpierw sprawdzić wykonalność mechaniczną — dokładnych wymiarów NIE zatwierdzono. **NIE WOLNO** trasować ani produkować PCB bez kolejnej decyzji.
 
 > **To jest kanoniczna lista decyzji, zadań, ryzyk i wytycznych VoxOne_M1.** Nie mylić z `docs/TODO.md` repozytorium firmware VoxOne — to osobny projekt. Nie wykreślać pomysłów bez decyzji użytkownika. Nie traktować założeń referencyjnych jako pomiarów rzeczywistego sprzętu.
 >
@@ -27,6 +27,8 @@
 
 | Status | Decyzja / wymaganie |
 |---|---|
+| APPROVED — 2026-10-18 | **Wybór prostokątnej PCB poziomej, szerszej niż wyższej**, na wzór wcześniej dostarczonej wizualizacji. Wymiary każdego boku ≤100 mm. **Nie ustalać docelowej długości/wysokości przed analizą wykonalności footprintów, RF, USB, jack, M3, kabli, złącz i możliwości montażu.** |
+| PENDING | Konkretne wymiary prostokąta pozostają **niezatwierdzone**. Nie domniemywać 100×75, 100×80 lub 100×90 mm; rozpatrywać je wyłącznie jako warianty kontrolne. Jeżeli kształt wymaga mechanicznych kompromisów, przedstawić je użytkownikowi zamiast ukrywać. |
 | APPROVED | Laminat M1 **maksymalnie 100 × 100 mm**, cztery otwory M3 przy narożnikach. |
 | APPROVED | **2 warstwy miedzi F.Cu/B.Cu (TOP + BOTTOM)**, dopuszczone przelotki i ścieżki na obu stronach. |
 | APPROVED | **WSZYSTKIE elementy wyłącznie po górnej stronie PCB (TOP/F.Cu)**: SMD, THT, podstawki, moduły, złącza, zworki. Brak elementów montowanych po stronie BOTTOM. Nóżki THT są oczywiście lutowane od spodu. |
@@ -62,6 +64,9 @@
 - [x] **M1-P0-12 [DONE — PODGLĄDY NATYWNE]** — Przygotować faktyczny KiCad `.kicad_pcb`, widok 2D z góry, 3D z góry/pod kątem/z dołu (jeśli model dostępny); wyraźnie ujawnić brakujące / tymczasowe modele 3D. Nie przedstawiać grafiki AI jako dowodu technicznego. **2026-10-18 PCB-LAYOUT-2:** PrawdziwePCB, natywne2D/3D TOP/ANGLE/BOTTOM. BrakiBT/DAC/RTC/F101 i lokalny niepublikowanySTEPMAIN jawne. **2026-10-18 PCB-LAYOUT-3:** 2D/PDF/SVG,3DTOP/ANGLE/BOTTOM,4zbliżenia;brakiBT/DAC/RTC/F101/MAINredystrybucja jawne.
 - [x] **M1-P0-13 [DONE]** — Zrobić ERC, DRC, porównanie netlisty oraz osobne zestawienie niepołączeń. Nie deklarować DRC PASS, dopóki płytka nie jest trasowana. **Bez ścieżek i Gerberów do akceptacji rozmieszczenia.** **2026-10-18 PCB-LAYOUT-2:** ERC0/0; DRC173 niepołączenia,0 innych naruszeń,0 ostrzeżeń,0 wykluczeń;258 przypisań identycznych. Nie jest DRC PASS. **2026-10-18 PCB-LAYOUT-3:** ERC0/0,DRC173niepołączenia/0inne/0warnings,258/258par,77bibliotek,padUUIDi lokalna geometria identyczne;reguły bez zmian.
 - [ ] **M1-P0-14 [PENDING — AKCEPTACJA UŻYTKOWNIKA]** — Pokazać użytkownikowi rezultat i **poczekać na wyraźną akceptację nowego rozmieszczenia** przed trasowaniem. **2026-10-18 PCB-LAYOUT-3:** Nie rozpoczynać routingu,Gerberów ani kolejnego etapu;użytkownik ocenia nowy wygląd oraz wskazane kompromisy.
+
+- [ ] **M1-P0-15 [BLOCKED — ANALIZA XY WYKONANA; SERWIS/POMIARY OTWARTE]** — Sprawdzić fizyczną wykonalność PCB **prostokątnej poziomej ≤100×100 mm** według wizualizacji. Zacząć od pełnych obrysów MAIN/BT/DAC/RTC i ANT keepout, złącz, korytarzy wtyków USB/jack, 4×M3, elementów TOP only i miejsca do wyjmowania modułów. Porównać kilka szerokości/wysokości i realne konflikty; dokładny wymiar dopiero po raporcie i zgodzie użytkownika. **2026-10-18 MECHANIKA-1:** 75–90 mm BLOCKED w badanej rodzinie; 100×95 mm: 77 TOP, 258 par, ERC 0/0, DRC 173 niepołączenia i 0 innych naruszeń, RTC 2.175 mm, RF 15 mm. Brama wygody/Z niezamknięta; raport docs/MECHANIKA-1/.
+- [ ] **M1-P0-16 [PENDING]** — Zatwierdzić konkretny wymiar prostokąta i rozłożenie modułów **dopiero po** niezależnej analizie mechaniki i dostępu. Zachować elektryczną mapę padów, 77 TOP / 0 BOTTOM, 2 warstwy Cu; bez trasowania i Gerberów przed odrębną akceptacją.
 
 ### P1 — do zamknięcia przed zamawianiem / produkcją PCB
 
@@ -226,6 +231,7 @@
 | 2026-10-17 | Założono kanoniczny notatnik `TODO.md` i plik wskazówek `AGENTS.md` dla Codexa; brak zgody na nowy prompt na tym etapie. | Użytkownik / przygotowanie notatnika |
 | 2026-10-17 | Utworzono publiczne repozytorium `pimowo/VoxOnePCB`. Pierwszy zapis był blokowany HTTP 403; po instalacji ChatGPT Codex Connector zapis działa. Dokumenty TODO, AGENTS, README i `.gitignore` publikowane na `main`. Źródła KiCad pozostają na laptopie do osobnego importu. | Użytkownik / ChatGPT |
 | 2026-10-17 | Użytkownik wykonał pierwszą publikację KiCad na GitHub: 60 plików, commit `8d90e6d`, push do `main`, lokalnie czyste drzewo. Model YD-ESP32-S3.step i PCM5102-I2S.step wyłączono. | Użytkownik / ChatGPT |
+| 2026-10-18 | Zatwierdzono **prostokątną poziomą PCB** o wymiarach obu boków nie większych niż 100 mm. Dokładny rozmiar PENDING, wymagana analiza mechanicznej wykonalności wobec modułów, RF, USB/jack i 4×M3. Wizualizacja VoxOne_M1 pozostaje wzorcem kompozycji, a układy PCB-LAYOUT-2/3 nie mają akceptacji do trasowania. | Użytkownik |
 
 ### Miejsce na nowe pomysły
 
@@ -254,3 +260,13 @@ MAIN0° antenąUP0,5mm od krawędzi,USBdown36,1mm od dołu;DAC90°jackRIGHTfacen
 Do oceny: zmienioneH901(53,5;61,5)/H904(146,5;141,5),wystawanieUSBhousingBT1,68mm,korytarzeUSB9×18/Ø4mm,odstępINPUTodBT0,4mm,JP601około32mm odJ601,C303około20,5mm odVIN. Nie deklarować pełnego spełnienia preferencji bliskości ani potwierdzenia fizycznych klonów. P1 fizyka/Z/RF/licencje pozostająBLOCKED. Siedem referencji wyłącznieF.Fab ujawniono w dokumentacji. Brakujące modele nie zostały zastąpione fikcyjnymi bryłami.
 
 Raporty,niezależne wyniki i prawdziwe podglądy w `docs/PCB-LAYOUT-3/`;pełna końcowa odpowiedź w `PCB-LAYOUT-3_ODPOWIEDZ_CODEX.md`. Checkpointy pozaGit,CRC/SHA sprawdzone,bez zagnieżdżonychZIP. Nie publikowano wstrzymanychSTEP ani historycznych archiwów. AkceptacjaM1-P0-14PENDING;żadnego routingu/Gerberów/produkcji.
+
+## MECHANIKA-1 — analiza 2026-10-18
+
+Na wyraźne polecenie użytkownika przeanalizowano poziomą prostokątną PCB. Dokładny wymiar pozostaje PENDING. CAD źródłowy: origin/pcb-layout-3 `8ed4cac3a92b1daa9433e69b296bed1a4cbf3cc8`; nowsze decyzje origin/main `fb697a86297372d1b7ff51638d4cad441b283bcf` uzgodniono bez cofania historii layoutów 2/3 i bez merge. Osobna gałąź pcb-feasibility-1.
+
+100×75/80/85/90 mm: BLOCKED w badanej rodzinie położeń, a nie udowodnione globalnie INFEASIBLE. Dodatkowo zbadano 100×95 mm: pełny osobny kandydat 77 TOP/0 BOTTOM, 81 footprintów z 4 M3, 2 Cu, 86 sieci, 258 niezmienionych par pin–sieć, 0 tras/przelotek/wypełnień. Referencyjne pakowanie XY: PROVISIONAL FEASIBLE; ERC 0/0; DRC 173 niepołączenia, 0 innych naruszeń, 0 ostrzeżeń i wykluczeń. RTC minimum 2.175 mm, RF 15 mm, łby M3 do RF 15.078 mm.
+
+Brama serwisu, Z i tolerancji pozostaje BLOCKED: 0.325 mm przy rezerwach USB, INPUT–BT 0.9 mm, AMP–BT 0.65 mm, courtyard JP601–AMP 0.11 mm. Referencyjna obudowa USB BT wystaje 2.58 mm, a rezerwa końca wtyku 20.58 mm. Kondensatory DAC są 20.694–26.193 mm od VIN; nie jest to docelowy layout odsprzęgania. Samego upakowania części nie uznano za potwierdzenie wygody lub routowalności.
+
+M1-P0-15: analiza referencyjna wykonana, domknięcie bramy mechanicznej BLOCKED. M1-P0-16 PENDING: najbardziej obiecujący 100×95 mm przedstawiono do rozważenia, bez wyboru za użytkownika. Główny CAD i wszystkie biblioteki pozostają identyczne SHA-256. Pomiary klonów, podstawek, wtyków, obudowy, RF oraz prawa do modeli i wcześniejsze P1 pozostają otwarte. Kandydat, raporty i podglądy: docs/MECHANIKA-1/. Checkpointy poza Git, CRC/SHA-256 sprawdzone. Nie opublikowano nowych STEP ani ZIP. Bez trasowania, Gerberów, produkcji, merge i force-push. Czekamy na decyzję użytkownika i wskazane pomiary.

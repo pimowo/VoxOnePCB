@@ -1,0 +1,15 @@
+{
+  "args": [
+    "sch",
+    "export",
+    "netlist",
+    "--format",
+    "kicadxml",
+    "-o",
+    "C:\\Users\\piotrek\\Documents\\VoxOnePCB\\docs\\MECHANIKA-1\\candidates\\100x95_PROVISIONAL\\NETLIST.xml",
+    "C:\\Users\\piotrek\\Documents\\VoxOnePCB\\docs\\MECHANIKA-1\\candidates\\100x95_PROVISIONAL\\VoxOne_M1.kicad_sch"
+  ],
+  "exit": 0,
+  "stdout": "",
+  "stderr": ""
+}

@@ -1,0 +1,71 @@
+# Pliki MECHANIKA-1
+
+Katalog bazowy: `C:\Users\piotrek\Documents\VoxOnePCB`. Główne CAD i biblioteki są niezmienione; zmieniono istniejący TODO i dodano poniższe pliki. Kandydat jest analityczny i PROVISIONAL.
+
+- `MECHANIKA-1_ODPOWIEDZ_CODEX.md`
+- `docs/MECHANIKA-1/ANALIZA_GEOMETRII.md`
+- `docs/MECHANIKA-1/BASELINE.net.xml`
+- `docs/MECHANIKA-1/BASELINE_DRC.json`
+- `docs/MECHANIKA-1/BASELINE_DRC.rpt`
+- `docs/MECHANIKA-1/BASELINE_DRC_json_command.json`
+- `docs/MECHANIKA-1/BASELINE_DRC_rpt_command.json`
+- `docs/MECHANIKA-1/BASELINE_ERC.json`
+- `docs/MECHANIKA-1/BASELINE_ERC.rpt`
+- `docs/MECHANIKA-1/BASELINE_ERC_json_command.json`
+- `docs/MECHANIKA-1/BASELINE_ERC_rpt_command.json`
+- `docs/MECHANIKA-1/BASELINE_NETLIST_command.json`
+- `docs/MECHANIKA-1/BASELINE_STATE.json`
+- `docs/MECHANIKA-1/DIAGNOSTIC_LAYOUTS.json`
+- `docs/MECHANIKA-1/KONTROLE_KICAD.md`
+- `docs/MECHANIKA-1/MACRO_SEARCH.json`
+- `docs/MECHANIKA-1/MODULY_I_STREFY_RF.md`
+- `docs/MECHANIKA-1/NETLIST_COMPARISON.md`
+- `docs/MECHANIKA-1/ODSTEPY_I_KOLIZJE.md`
+- `docs/MECHANIKA-1/POROWNANIE_WYMIAROW.md`
+- `docs/MECHANIKA-1/PUBLICATION_REVIEW.json`
+- `docs/MECHANIKA-1/REKOMENDACJA_WARIANTU.md`
+- `docs/MECHANIKA-1/ROZMIESZCZENIE_77.md`
+- `docs/MECHANIKA-1/SOURCE_MANIFEST.json`
+- `docs/MECHANIKA-1/SOURCE_UNCHANGED.json`
+- `docs/MECHANIKA-1/USB_JACK_ZLACZA.md`
+- `docs/MECHANIKA-1/WYKAZ_PLIKOW.md`
+- `docs/MECHANIKA-1/analysis_tools/macro_scan.py`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/3D_command.json`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/DETAIL_METRICS.json`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/DRC.json`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/DRC.rpt`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/DRC_json_command.json`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/DRC_rpt_command.json`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/ERC.json`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/ERC.rpt`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/ERC_json_command.json`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/ERC_rpt_command.json`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/EXTRA_NATIVE_CHECK.json`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/ITERATION1_DRC.json`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/NATIVE_CHECK.json`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/NETLIST.xml`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/NETLIST_command.json`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/PLACEMENT.json`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/README.md`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/SVG_command.json`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/VoxOne_M1.kicad_pcb`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/VoxOne_M1.kicad_prl`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/VoxOne_M1.kicad_pro`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/VoxOne_M1.kicad_sch`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/VoxOne_M1.kicad_sym`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/fp-lib-table`
+- `docs/MECHANIKA-1/candidates/100x95_PROVISIONAL/sym-lib-table`
+- `docs/MECHANIKA-1/previews/100x75_GEOMETRIA_PROVISIONAL.png`
+- `docs/MECHANIKA-1/previews/100x75_GEOMETRIA_PROVISIONAL.svg`
+- `docs/MECHANIKA-1/previews/100x80_GEOMETRIA_PROVISIONAL.png`
+- `docs/MECHANIKA-1/previews/100x80_GEOMETRIA_PROVISIONAL.svg`
+- `docs/MECHANIKA-1/previews/100x85_GEOMETRIA_PROVISIONAL.png`
+- `docs/MECHANIKA-1/previews/100x85_GEOMETRIA_PROVISIONAL.svg`
+- `docs/MECHANIKA-1/previews/100x90_GEOMETRIA_PROVISIONAL.png`
+- `docs/MECHANIKA-1/previews/100x90_GEOMETRIA_PROVISIONAL.svg`
+- `docs/MECHANIKA-1/previews/100x95_GEOMETRIA_PROVISIONAL.png`
+- `docs/MECHANIKA-1/previews/100x95_GEOMETRIA_PROVISIONAL.svg`
+- `docs/MECHANIKA-1/previews/100x95_KICAD_3D_TOP.png`
+- `docs/MECHANIKA-1/previews/100x95_KICAD_TOP.svg`
+
+Checkpointy poza repo: `C:\Users\piotrek\.codex\attachments\MECHANIKA-1_CHECKPOINT\LAYOUT-3_BEFORE.zip`, `MECHANIKA-1_FINAL.zip`; potwierdzenie CRC/SHA i końcowego HEAD: `PUBLICATION_RECEIPT.json` w tym samym katalogu. ZIP nie publikowano.
